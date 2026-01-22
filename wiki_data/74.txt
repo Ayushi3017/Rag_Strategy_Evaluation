@@ -1,0 +1,86 @@
+TITLE: List of Formula One constructors
+
+Formula One (F1) is the highest class of open-wheel racing defined by the Fédération Internationale de l'Automobile (FIA), motorsport's world governing body. The formula in the name alludes to a series of rules established by the FIA to which all participants and vehicles are required to conform. Each year, the F1 World Championship season is held, consisting of a series of races, known as Grands Prix, held usually on purpose-built circuits, and in a few cases on closed city streets. Constructors are awarded points based on the finishing position of each of their two drivers at each Grand Prix, and the constructor who accumulates the most points over each championship is crowned that year's World Constructors' Champion. As of the 2025 Abu Dhabi Grand Prix, there have been 172 Formula One constructors who have raced at least one of the 1,149 FIA World Championship races since the first such event, the 1950 British Grand Prix.
+Constructors are people or corporate entities which design key parts of Formula One cars that have competed or are intended to compete in the FIA World Championship. Since 1981, it has been a requirement that each competitor must have the exclusive rights to the use of certain key parts of their car; in 2018, these parts were the survival cell, the front impact structure, the roll structures and bodywork.
+Ferrari holds the record for the most Constructors' and Drivers' Championships won with sixteen and fifteen, respectively. Ferrari also holds the record for the most wins by a constructor with 248, the most pole positions with 254, the most points with 10722, and the most podiums with 836. Ferrari has also entered more Grands Prix than any other constructor with 1124 entries and also maintains the record for the most Grand Prix starts with 1122. The most recent constructor to make their debut was Racing Bulls, which debuted at the 2024 Bahrain Grand Prix.
+
+
+== Terminology ==
+In Formula One racing the terms "constructor" and "entrant" have specific and differing meanings. An entrant is the person or corporate entity that registers a car and driver for a race, and is then responsible for preparing and maintaining that car during the race weekend. As a result of this preparation role and active involvement in the running of the race, the term "team" has become commonly applied to an entrant organisation. Statisticians do not always agree on how to count statistics related to these entities.
+
+
+=== Constructors ===
+
+Under Article 6.3 of the FIA Sporting Regulations, "A constructor is the person (including any corporate or unincorporated body) which designs the Listed Parts set out in Appendix 6. The make of an engine or chassis is the name attributed to it by its constructor." These "listed parts" include the survival cell, the front impact structure, the roll structures and bodywork. However, if the chassis and engine are made by different entities, the constructor comprises both (e.g. McLaren-Mercedes, Lotus-Climax etc.), with the name of the chassis constructor being placed before that of the engine constructor. As both chassis and engine are included in the constructor name, chassis run with different engines are counted as two separate constructors and score points separately. This occurred for the last time in the 1985 season when the Tyrrell team ran their chassis powered by both Ford and Renault engines, scored points with both engines and thus finishing 9th as Tyrrell-Ford and 10th as Tyrrell-Renault in the World Constructors' Championship.
+Under article 6.2 of the FIA sporting regulations, "The title of Formula One World Champion Constructor will be awarded to the competitor which has scored the highest number of points". From the inaugural season of the World Constructors' Championship in 1958 up until the 1978 season only the highest-scoring driver in each race for each constructor contributed points towards the World Constructors' Championship (then officially as the International Cup for Formula One Constructors); since the 1979 season points from all cars entered by each constructor have counted towards their championship total.
+
+
+=== Teams ===
+Since the 1981 season the FIA have required that Formula One entrants own the intellectual rights to the chassis that they enter, and so the distinction between the terms "entrant" and "constructor", and hence also "team", have become less pronounced, though the intellectual rights of engines may still be owned by a different entity. That season also saw the International Cup for Formula One Constructors be officially renamed to the World Constructors' Championship.
+Before this time, constructors were free to sell their chassis to as many other teams as they liked. Brabham and Lotus chassis were used extensively by other teams during the 1960s and 1970s and several quite competitive privateer teams never built their own chassis. Rob Walker Racing Team was the most successful example, being responsible for the first victories in Formula One for both Cooper and Lotus. The concept of a "works" or "factory" team (i.e. the official team of the company producing the cars, as opposed to a customer team which buys them off the shelf) therefore applied to chassis in the same way as it does in rallying and sports car racing.
+There have been some recent exceptions where a specialist company, not itself entered in the championship, has been commissioned to design and build a chassis for a team, e.g. Lola built cars for the Larrousse team (1987-1991) and the Scuderia Italia team (1993) and Dallara built cars for the Scuderia Italia team (1988-1992). Larousse had their points from the 1990 season erased after the FIA decided that they had falsely nominated themselves and not Lola as the chassis constructor. In 1978, the new Arrows team which had been established by former Shadow personnel was sued by Shadow on the grounds that the Arrows FA/1 car was a copy of Shadow's DN9 – a view upheld by the UK High Court, which placed a ban on Arrows racing the FA/1. There have been more recent cases with Ligier (1995), Sauber (2004), Scuderia Toro Rosso (2006–2007) and Super Aguri (2007–2008) where teams have been accused of using a chassis produced by another constructor (respectively Benetton, Ferrari, Red Bull Racing and Honda). No action was taken against any of these teams, the sporting authorities being satisfied in each case that the team owned the intellectual property to the chassis they raced.
+From the middle of the 1973 season (the 1973 Belgian Grand Prix) until the end of the 2013 season, each team had permanent racing numbers from race to race throughout the season. Between the 1974 and 1995 seasons the numbers were based on the teams' finishing positions in the 1973 Constructors' Championship (with slight modifications, e.g. Ferrari's traditional numbers were 11–12 until 1980 and 27–28 from 1981 onwards) and each team only changed numbers if they had the driver who had won the World Drivers' Championship in the previous season – the winning driver taking the number 1 and his teammate the number 2, and the team that had previously had those numbers switching to the newly vacated ones. Between 1996 and 2013 the numbers were based on the teams' finishing positions in the Constructors' Championship from the previous season, with numbers 1 and 2 assigned to the defending champion and his teammate. During the period of 1974–1995 Tyrrell was the only team to keep the same numbers (3 and 4) every season. Since 2014, racing numbers have been assigned to drivers instead of teams.
+The number of cars entered by one team into a single race was not strictly limited in the 1950s and early 1960s. Since the 1963 season teams were generally allowed to enter only two regular cars, with the third car reserved for an occasional driver. This rule was further promoted in the 1974 season when the permanent racing numbers were assigned to each team in pairs, with the third car having the racing number out of the pair. Entering more than three cars was exceptionally tolerated, most notably regarding the BRM team in the 1971 and 1972 seasons. However, many teams during this period entered only two cars, e.g. Ferrari have entered no more than two cars (with one exception at the 1976 Italian Grand Prix in connection with Lauda's comeback) every season since 1973. Since the 1985 season the FIA have required that teams enter no more than two cars for a race; during this season Renault became the last team to have entered three cars for a race at the 1985 German Grand Prix, but only two of their cars were eligible for championship points.
+
+
+==== Team's nationality ====
+Unlike drivers who are required to compete in the FIA Formula One World Championship under the nationality of their passport and in case of a multiple citizenship they can choose their "official" nationality, the FIA's International Sporting Code states that teams competing in the FIA Formula One World Championship shall compete under the nationality of their parent National Automobile Club that issued their FIA racing licence. On the basis of this regulation, despite the fact that most current teams are based in the UK, only the teams licensed by the British National Sporting Authority - Aston Martin, Williams, and McLaren - represent Great Britain in Formula One.
+Teams take the nationality of their parent National Automobile Club that issued their licence for the period of validity of that licence and the change of the nationality is allowed. Several teams changed their nationality during their competition in Formula One, some of them even twice (e.g. Shadow in 1976 from American to British, Benetton in 1996 from British to Italian, Red Bull in 2007 from British to Austrian, Renault in 2011 from French to British and in 2016 back to French). At the 1997 German Grand Prix Benetton became the only team to have achieved victories while racing under two different nationalities. The team's nationality, determined by a racing licence that a team holds (and not by a team's base nor by a team's ownership), subsequently  determines a national anthem played after a race on the podium in honour of a winning team following a national anthem played in honour of a winning driver, e.g. both in 2000 and 2001 Benetton was owned by the French company Renault and was based in Britain, yet in case of win an Italian anthem would have been played for a winning team because the French-owned British-based team held an Italian licence in both seasons.
+Before the arrival of sponsorship liveries in the 1968 season the team's nationality also determined the colour of a car entered by the team; thus, Italian teams' cars were rosso corsa red, French were bleu de France blue, and British (with several exceptions, such as cars entered by teams Rob Walker, Brabham and McLaren) were British racing green. Since the licence is given to a team and not to a constructor, privateer teams entering cars built by constructors from another country before the 1968 season painted cars in the national colour of their home country, e.g. the French Guy Ligier's privateer team entered cars painted in bleu de France blue in 1966 and 1967 seasons despite the fact that they were built by the British constructor Cooper.
+The fact that most teams are based in the UK has led to several mistakes occurred on official entry lists issued by or podium ceremonies organized by the FIA or race organisers, e.g. Wolf racing under a Canadian licence, and Shadow (in 1973) and Penske, both holding American licences, were all identified as British teams by official entry lists; the British national anthem was also played on the podium in honour of the Irish-licensed Jordan team and the Austrian-licensed Red Bull team when they achieved their maiden victories at the 1998 Belgian Grand Prix and 2009 Chinese Grand Prix respectively.
+
+
+== Constructors for the 2026 season ==
+Correct as of the 2025 Abu Dhabi Grand Prix
+Note: Until 1965 a works team of every constructor was licensed in the country where it was in fact based. In 1965 Japanese-licensed Honda moved their works team from Tokyo, Japan to Amsterdam, Netherlands, followed in 1966 by the American-licensed Anglo American Racers team which was based in Rye, East Sussex, United Kingdom. Since the early 2000s most teams have been based in the United Kingdom, and either licensed there or in another country, with the rest based in Italy (Maranello and Faenza), Switzerland (Hinwil), and the United States (Kannapolis).
+Key: Licensed in = Country in which the works team of respective constructor is licensed; Races Entered = Number of individual races entered; Races Started = Number of individual races started; Drivers = Number of drivers; Total Entries = Total number of race entries; Wins = Number of races won; Points = Number of World Constructors' Championship points scored; Poles = Number of pole positions; FL = Number of fastest laps; Podiums = Number of podium finishes; WCC = World Constructors' Championships won; WDC = World Drivers' Championships won.
+
+
+== Former constructors ==
+Key: Licensed in = Country in which the works team of respective constructor was licensed; Races Entered = Number of individual races entered; Races Started = Number of individual races started; Drivers = Number of drivers; Total Entries = Total number of race entries; Wins = Number of races won; Points = Number of Constructors' Championship points scored; Poles = Number of pole positions; FL = Number of fastest laps; Podiums. = Number of podium finishes; WCC = Constructors' Championships won; WDC = Drivers' Championships won.
+
+
+=== Indianapolis 500 only ===
+The following are constructors whose only participation was in the Indianapolis 500 from 1950 to 1960 when the race was part of the Formula One World Drivers' Championship. All were based in the United States.
+
+
+== Privateer teams ==
+
+From the inaugural 1950 British Grand Prix until the 1981 Spanish Grand Prix numerous privateer teams entered cars, built by another companies as their constructors, in World Championship events. Some of them, such as Tyrrell and Williams, later began to build their own chassis and thus became constructors as well as works teams. At the 1981 Spanish Grand Prix the Equipe Banco Occidental team became the last privateer team to have entered a car for a race alongside a works team when they entered a Williams car alongside the Williams works team. During the period of the 1950–1981 seasons, privateer teams won 20 World Championship races in total. Only once (the Matra International team in 1969) a privateer team helped a constructor (Matra) to win the World Constructors' Championship and a driver (Jackie Stewart) to win the World Drivers' Championship. The following are privateer teams which never built their own chassis, and thus were not constructors:
+
+
+=== Privateer teams by number of wins ===
+
+* All constructor's wins
+** First win for the constructor
+*** Team's only championship race
+
+
+== See also ==
+
+List of Formula One World Constructors' Champions
+List of Formula One Grand Prix winners (constructors)
+List of automobile manufacturers
+
+
+== Notes ==
+
+
+== Bibliography ==
+Mansell, Nigel, ed. (2001). The Official 2001–2002 Formula One Record Book. Holborn, London: European Press Ltd. ISBN 0-9541368-0-2.
+Hughes, Mark; Tremayne, David (2002). The Concise Encyclopedia of Formula 1. Parragon. pp. 82–83. ISBN 0-75258-766-8.
+Hayhoe, David; Holland, David (2006). Grand Prix Data Book (4th ed.). Haynes Publishing. ISBN 1-84425-223-X.
+
+
+== References ==
+General
+"Constructors". StatsF1. Retrieved 26 June 2021.
+"Data Search". ChicaneF1. Retrieved 26 June 2021.
+"Results". Formula One. Retrieved 26 June 2021.
+"Teams – F1 World Championship". Motor Sport. Retrieved 26 June 2021.
+Specific
+
+
+== External links ==
+Formula One official website
+FIA official website

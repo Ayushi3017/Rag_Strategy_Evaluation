@@ -1,0 +1,87 @@
+TITLE: 2026 Formula One World Championship
+
+The 2026 FIA Formula One World Championship is a planned motor racing championship for Formula One cars which will be the 77th running of the Formula One World Championship. It is recognised by the Fédération Internationale de l'Automobile (FIA), the governing body of international motorsport, as the highest class of competition for open-wheel racing cars. The championship will be contested over twenty-four Grands Prix held around the world. Drivers and teams are scheduled to compete for the titles of World Drivers' Champion and World Constructors' Champion, respectively. Lando Norris is the reigning World Drivers' Champion, while McLaren-Mercedes are the reigning World Constructors' Champions.
+The 2026 season will feature a major set of regulation changes with a revised power unit configuration and new active aerodynamics. Audi, who acquired Sauber in 2024, will enter as a works team with its own power unit, while Cadillac is set to make its series debut using Ferrari power units, marking the first time an eleventh team has competed since 2016. Honda, through its Honda Racing Corporation subsidiary, will enter into an exclusive works team agreement with Aston Martin, and will supply them with their own power unit after ending its current relationship with Red Bull Racing. Ford will return to the sport for the first time since 2004, supporting Red Bull Powertrains in supplying power units to Red Bull Racing and Racing Bulls. Renault will no longer be an engine supplier as Alpine will switch to Mercedes power units.
+
+
+== Entries ==
+Each team is required to enter at least two drivers, one for each of the two mandatory cars. All teams are due to compete with tyres supplied by Pirelli.
+
+
+=== Team changes ===
+
+Cadillac will become the eleventh team, marking Cadillac's first appearance in the series and the first new team on the grid since Haas in 2016. The team will use Ferrari power units and gearboxes, with plans to develop their own engine for use in a future season. Cadillac had previously tried to enter Formula One in conjunction with Andretti Global.
+Three new engine manufacturers will enter Formula One, coinciding with the engine regulation changes. Audi will enter the sport for the first time, having purchased the existing Sauber team in 2024. Audi's predecessor company Auto Union did compete in Grand Prix racing prior to World War II and the inception of the World Championship in 1950. The team raced in 2024 and 2025 as Kick Sauber, using Ferrari engines, before it becomes the Audi factory team in 2026. Thus, Ferrari will supply Haas and Cadillac as customer teams.
+Ford will return to Formula One as an engine supplier for the first time since it provided engines for its former customer team Jordan in 2004. It will form a partnership with Red Bull Powertrains, which will supply Red Bull Racing and their second team Racing Bulls. Honda, which partially withdrew from Formula One in 2021 whilst remaining as partners of Red Bull Powertrains, will split from the two Red Bull-owned teams and relaunch a fully-independent engine program supplying Aston Martin under the Honda Racing Corporation subsidiary. Aston Martin had used Mercedes power units since they re-joined the sport, who had supplied engines to Aston Martin's predecessors since 2009. Honda had previously collaborated with Aston Martin's predecessor Jordan from 1998 to 2002.
+Renault will cease to provide engines for Alpine from 2026 after achieving poor results since the beginning of the hybrid power unit regulations in 2014. It will thus be the first season without any Renault engine since the 2000 championship. Alpine will become a customer team, as opposed to a full works outfit, as had been the case since Renault reacquired Team Enstone ahead of the 2016 season. Alpine will become a customer team of Mercedes, utilising their engines and gearboxes from this season onwards; up until this point, 2015 marked the last time a rendition of Team Enstone used customer Mercedes engines, competing as Lotus.
+
+
+=== Driver changes ===
+Sergio Pérez and Valtteri Bottas will return to full time seats with Cadillac. Pérez had previously signed a two-year contract with Red Bull Racing until 2026, but this was terminated by mutual agreement at the end of the 2024 season. Bottas last competed with Sauber in 2024 and was one of Mercedes's reserve drivers for 2025.
+Isack Hadjar will move from Racing Bulls to Red Bull Racing, replacing Yuki Tsunoda, who will become Red Bull's test and reserve driver. Hadjar's replacement will be Arvid Lindblad, who will be promoted from Formula 2.
+
+
+== Calendar ==
+
+The 2026 calendar comprises twenty-four Grands Prix, as with the previous two seasons. The Chinese, Miami, Canadian, British, Dutch and Singapore Grands Prix will feature the sprint format.
+
+
+=== Calendar changes ===
+The Spanish Grand Prix will move from the Circuit de Barcelona-Catalunya in Montmeló to a new street circuit in Madrid built around the IFEMA. The Circuit de Barcelona-Catalunya will continue to host a race under the name Barcelona-Catalunya Grand Prix. The Emilia Romagna Grand Prix in Imola was discontinued after their contract to host their race until 2025 was not renewed. The Azerbaijan Grand Prix will be held on a Saturday following a request from the promoter and relevant government stakeholders to accommodate their Remembrance Day.
+
+
+== Regulation changes ==
+Power unit, aerodynamic, geometric, and safety regulations are all set to be altered for the 2026 season.
+
+
+=== Technical regulations ===
+
+
+==== Power units ====
+New power unit regulations are due to be introduced for the 2026 season. The new power units will still produce over 1,000 bhp (750 kW), although the power will come from different sources. The engine regulations will see the turbocharged 1.6-litre V6 internal combustion engine configuration used since 2014 retained. However, the MGU-H (Motor Generator Unit – Heat), which has also been in use since 2014, will be removed, while the MGU-K (Motor Generator Unit – Kinetic) output will increase to 470 bhp (350 kW) from 160 bhp (120 kW). The power output of the internal combustion part of the power unit will decrease to 540 bhp (400 kW) from 850 bhp (630 kW). Fuel flow rates will be measured and limited based on energy, rather than mass of the fuel itself. The power units will use a fully sustainable fuel being developed by Formula One. The power units are expected to recover twice as much electrical energy as before.
+During the Commission meeting in early 2025, it was agreed to explore for catch-up options for power unit development for manufacturers who may have fallen behind their competitors in the initial development phase. The Commission also suggested that a relevant advisory committee look at whether the energy deployment of new power units should be reduced in race trim from the planned 470 bhp (350 kW) after some teams became concerned about the possibility of their cars running out of deployable energy in a race.
+
+
+==== Car size and aerodynamics ====
+On 6 June 2024, the 2026 car concept was revealed. The concept featured new active aerodynamics in both the front and rear wings. The concept saw the elimination of the drag reduction system, being replaced by a new overtake mode, initially referred to as manual override mode. The wheelbase was reduced from 360 cm (140 in) to 340 cm (130 in), the width was reduced from 200 cm (79 in) to 190 cm (75 in), and the minimum mass was reduced by 30 kg (66 lb). The tyres' widths will also be reduced by 2.5 cm (0.98 in) on the front pair and by 3.0 cm (1.2 in) on the rears. The floor will have reduced ground effect to ease the issues cars have suffered with porpoising.
+In October 2024, FIA announced that the downforce reduction of the 2026 cars compared to the 2022–2025 generation of cars would be less than initially proposed for performance and safety reasons. Later in the month, the FIA confirmed that the reduction in downforce from the 2026 generation of cars would be around 15%, a significantly smaller reduction than the originally drafted regulations which the FIA claimed had given the 2026 cars downforce reduction of over 40% compared to their predecessors. This will make the 2026 cars approximately two seconds slower a lap than the 2022–2025 generation of cars rather than the four seconds slower initially envisaged. On 17 December 2025, Formula One announced the official terms describing features of the 2026 cars. The term "boost mode" will be used to describe the normal deployment of the energy recovery system (ERS) to defend or attack; "active aerodynamics" (or simply "active aero") to describe the moveable front and rear wing elements – in both higher and lower drag/downforce configuration; "recharge" to describe when a car is harvesting electrical energy; and "overtake mode" to describe a mode where extra energy stored is used in order to help one driver overtake another, but only if the driver behind is within one second of the one ahead (similar to pre-2026 DRS deployment rules).
+
+
+==== Safety features ====
+The regulations for the front impact structure (FIS) will be updated with the intent to enhance safety during crashes. A two-stage FIS design has been introduced to address previous issues where the structure detached near the survival cell after a primary collision, leaving the vehicle vulnerable to further impacts. Side intrusion protection, particularly around the cockpit and fuel cell will also be improved. These upgrades aim to shield critical areas of the car during side collisions, while maintaining the vehicle's weight. The roll hoop's strength will be improved, withstanding loads increased from 16g to 20g, aligning with safety standards of other single-seater series. The load testing requirements will be raised from 141 kN to 167 kN.
+To further safeguard drivers and track marshals, lateral safety lights will be mandated. These lights will display the energy recovery system (ERS) status of a car when it stops on track, providing visual indicators of potential electrical risks, especially in emergency situations.
+
+
+=== Sporting regulations ===
+
+
+==== Driver numbers ====
+The rules surrounding the permanent driver numbering system introduced in 2014 will be modified. Drivers will be permitted to change their race number during their careers pending permission from the FIA and any past driver that may have used a requested number.
+
+
+==== Car liveries ====
+In order to discourage teams leaving excessive amounts of exposed black carbon on their cars in order to save weight, the FIA will mandate that a minimum of 55% of the surface area when viewed from the side and above must be covered by painted or stickered liveries.
+
+
+==== Cooling vests and special heat provisions ====
+Driver cooling vests will be mandated when the FIA declares a heat hazard during a race weekend. Prior to 2026, the cooling vest was optional. Additionally, the vest will undergo a redesign.
+
+
+==== Stewarding reviews ====
+For 2026, stewards will have the option to initiate a review based on new evidence. Under the previous version of the ISC, a competitor had to submit a right of review request for any decision to be reviewed. The option for competitors to submit a right of review remains in place. Additionally, an "out of competition" stewards panel will be introduced for time sensitive decisions that cannot wait until the next event.
+
+
+== Season summary ==
+
+
+=== Pre-season ===
+Three pre-season tests will be held. The first will be a private test and will take place at the Circuit de Barcelona-Catalunya on 26–30 January. The second and third will be held at the Bahrain International Circuit on 11–13 February and on 18–20 February. During the private test, teams will have the opportunity to run their cars in a series of three separate three-day tests, a significant expansion over previous testing programs to account for the new chassis and engine regulations.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==

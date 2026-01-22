@@ -1,0 +1,34 @@
+TITLE: Natural language
+
+A natural language or ordinary language is any spoken language or signed language used organically in a human community, first emerging without conscious premeditation and subject to: replication across generations of people in the community, regional expansion or contraction, and gradual internal and structural changes. The vast majority of languages in the world are natural languages. As a category, natural language includes both standard dialects (ones with high social prestige) as well as nonstandard or vernacular dialects. 
+Even an official language with a regulating academy such as Standard French, overseen by the Académie Française, is still classified as a natural language (e.g. in the field of natural language processing), as its prescriptive aspects do not make it regulated enough to be considered a constructed or controlled natural language. Linguists broadly consider writing to be a static visual representation of a particular natural language, though, in many cases in highly literate modern societies, writing itself is also now subject to the natural processes of widely spoken natural languages.
+Excluded from the definition of natural language are: artificial and constructed languages, such as those developed for works of fiction; languages of formal logic, such as those in computer programming; and non-human communication systems in nature, such as whale vocalizations or honey bees' waggle dance. The academic consensus is that particular key features prevent animal communication systems from being classified as languages at all. Certain systems of human communication with no native speakers, as sometimes used in cross-cultural contexts, are also not natural languages.
+
+
+== Controlled languages ==
+
+Controlled natural languages are subsets of natural languages whose grammars and dictionaries have been restricted in order to reduce ambiguity and complexity. This may be accomplished by decreasing usage of superlative or adverbial forms, or irregular verbs. Typical purposes for developing and implementing a controlled natural language are to aid understanding by non-native speakers or to ease computer processing. An example of a widely used controlled natural language is Simplified Technical English, which was originally developed for aerospace and avionics industry manuals.
+
+
+== International constructed languages ==
+
+Being constructed, International auxiliary languages such as Esperanto and Interlingua are not considered natural languages, with the possible exception of true native speakers of such languages. Natural languages evolve, through fluctuations in vocabulary and syntax, to incrementally improve human communication. In contrast, Esperanto was created by Polish ophthalmologist L. L. Zamenhof in the late 19th century.
+Some natural languages have become organically "standardized" through the synthesis of two or more pre-existing natural languages over a relatively short period of time through the development of a pidgin, which is not considered a language, into a stable creole language. A creole such as Haitian Creole has its own grammar, vocabulary and literature. It is spoken by over 10 million people worldwide and is one of the two official languages of the Republic of Haiti.
+As of 1996, there were 350 attested families with one or more native speakers of Esperanto. Latino sine flexione, another international auxiliary language, is no longer widely spoken.
+
+
+== See also ==
+Language acquisition – Process in which a first language is being acquired
+Origin of language – Relationship between language and human evolution
+Formal semantics (natural language) – Formal study of linguistic meaning
+Whistled language – Emulation of speech by whistling
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+ The dictionary definition of natural language at Wiktionary

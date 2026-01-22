@@ -1,0 +1,198 @@
+TITLE: Qualitative research
+
+Qualitative research is a type of research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic.  It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. Qualitative research methods have been used in sociology, anthropology, political science, psychology, communication studies, social work, folklore, educational research, information science and software engineering research.
+
+
+== Background ==
+Qualitative research has been informed by several strands of philosophical thought and examines aspects of human life, including culture, expression, beliefs, morality, life stress, and imagination. Contemporary qualitative research has been influenced by a number of branches of philosophy, for example, positivism, postpositivism, critical theory, and constructivism. 
+The historical transitions or 'moments' in qualitative research, together with the notion of 'paradigms' (Denzin & Lincoln, 2005), have received widespread popularity over the past decades. However, some scholars have argued that the adoptions of paradigms may be counterproductive and lead to less philosophically engaged communities.
+
+
+== Approaches to inquiry ==
+The use of nonquantitative material as empirical data has been growing in many areas of the social sciences, including pedagogy, development psychology and cultural psychology. Several philosophical and psychological traditions have influenced investigators' approaches to qualitative research, including phenomenology, social constructionism, symbolic interactionism, and positivism.
+
+
+=== Philosophical traditions ===
+Phenomenology refers to the philosophical study of the structure of an individual's consciousness and general subjective experience. Approaches to qualitative research based on constructionism, such as grounded theory, pay attention to how the subjectivity of both the researcher and the study participants can affect the theory that develops out of the research. The symbolic interactionist approach to qualitative research examines how individuals and groups develop an understanding of the world. Traditional positivist approaches to qualitative research seek a more objective understanding of the social world. Qualitative researchers have also been influenced by the sociology of knowledge and the work of Alfred Schütz, Peter L. Berger, Thomas Luckmann, and Harold Garfinkel.
+
+
+=== Sources of data ===
+Qualitative researchers use different sources of data to understand the topic they are studying. These data sources include interview transcripts, videos of social interactions, notes, verbal reports and artifacts such as books or works of art. The case study method exemplifies qualitative researchers' preference for depth, detail, and context. Data triangulation is also a strategy used in qualitative research. Autoethnography, the study of self, is a qualitative research method in which the researcher uses his or her personal experience to understand an issue.
+Grounded theory is an inductive type of research, based on ("grounded" in) a very close look at the empirical observations a study yields. Thematic analysis involves analyzing patterns of meaning. Conversation analysis is primarily used to analyze spoken conversations. Biographical research is concerned with the reconstruction of life histories, based on biographical narratives and documents. Narrative inquiry studies the narratives that people use to describe their experience.
+
+
+== Data collection ==
+Qualitative researchers may gather information through observations, note-taking, interviews, focus groups (group interviews), documents, images and artifacts.
+
+
+=== Interviews ===
+
+Research interviews are an important method of data collection in qualitative research. An interviewer is usually a professional or paid researcher, sometimes trained, who poses questions to the interviewee, in an alternating series of usually brief questions and answers, to elicit information. Compared to something like a written survey, qualitative interviews allow for a significantly higher degree of intimacy, with participants often revealing personal information to their interviewers in a real-time, face-to-face setting. As such, this technique can evoke an array of significant feelings and experiences within those being interviewed. Sociologists Bredal, Stefansen and Bjørnholt identified three "participant orientations", that they described as "telling for oneself", "telling for others" and "telling for the researcher". They also proposed that these orientations implied "different ethical contracts between the participant and researcher".
+
+
+=== Participant observation ===
+In participant observation ethnographers get to understand a culture by directly participating in the activities of the culture they study. Participant observation extends further than ethnography and into other fields, including psychology. For example, by training to be an EMT and becoming a participant observer in the lives of EMTs, Palmer studied how EMTs cope with the stress associated with some of the gruesome emergencies they deal with.
+
+
+=== Recursivity ===
+In qualitative research, the idea of recursivity refers to the emergent nature of research design. In contrast to standardized research methods, recursivity embodies the idea that the qualitative researcher can change a study's design during the data collection phase.
+Recursivity in qualitative research procedures contrasts to the methods used by scientists who conduct experiments. From the  perspective of the scientist, data collection, data analysis, discussion of the data in the context of the research literature, and drawing conclusions should be each undertaken once (or at most a small number of times). In qualitative research however, data are collected repeatedly until one or more specific stopping conditions are met, reflecting a nonstatic attitude to the planning and design of research activities. An example of this dynamism might be when the qualitative researcher unexpectedly changes their research focus or design midway through a study, based on their first interim data analysis. The researcher can even make further unplanned changes based on another interim data analysis. Such an approach would not be permitted in an experiment. Qualitative researchers would argue that recursivity in developing the relevant evidence enables the researcher to be more open to unexpected results and emerging new constructs.
+
+
+== Data analysis ==
+Qualitative researchers have a number of analytic strategies available to them.
+
+
+=== Coding ===
+
+In general, coding refers to the act of associating meaningful ideas with the data of interest. In the context of qualitative research, interpretative aspects of the coding process are often explicitly recognized and articulated; coding helps to produce specific words or short phrases believed to be useful abstractions from the data.
+
+
+=== Pattern thematic analysis ===
+Data may be sorted into patterns for thematic analyses as the primary basis for organizing and reporting the study findings.
+
+
+=== Content analysis ===
+
+According to Krippendorf, "Content analysis is a research technique for making replicable and valid inference from data to their context" (p. 21). It is applied to documents and written and oral communication. Content analysis is an important building block in the conceptual analysis of qualitative data. It is frequently used in sociology. For example, content analysis has been applied to research on such diverse aspects of human life as changes in perceptions of race over time, the lifestyles of contractors, and even reviews of automobiles.
+
+
+== Multi-method qualitative analysis ==
+
+
+=== Benefits ===
+This is, for example, illustrated by studies on classroom interactions where thematic analysis identifies learners' behaviors and Critical Classroom Discourse Analysis is then used as a framework to analyze their impact on identity construction; another example is the analysis of online parenting forums, where thematic discourse analysis identifies attitudes towards a practice like placentophagy and then examines how those themes function within broader social discourses on birth and medicalization.
+
+
+=== Challenges ===
+What might be useful is a form of "active reflexivity", which conceptualizes the practice as an ongoing interrogation of the researcher's assumptions and their influence on the methodological choice and production of knowledge.
+
+
+=== Coordinating qualitative and quantitative methods in the same study ===
+It is possible to coordinate quantitative and qualitative methods in the same study. The idea behind such a research approach would be that the strengths of one type of method would compensate for the weaknesses of the other type of method. For example, in a study of stress in the lives of graduate assistants, stressors, which can be extremely varied, were better ascertained using qualitative methods and the impact of those stressors, measured by a physical symptoms scale, were better assessed with quantitative methods. The Journal of Mixed Methods Research is devoted to studies that coordinate different research methodologies.
+
+
+== Issues ==
+
+
+=== Computer-assisted qualitative data analysis software (CAQDAS) ===
+Contemporary qualitative data analyses can be supported by computer programs (termed computer-assisted qualitative data analysis software). These programs have been employed with or without detailed hand coding or labeling. Such programs do not supplant the interpretive nature of coding. The programs are aimed at enhancing analysts' efficiency at applying, retrieving, and storing the codes generated from reading the data. Many programs enhance efficiency in editing and revising codes, which allow for more effective work sharing, peer review, data examination, and analysis of large datasets.
+Common qualitative data analysis software includes:
+
+ATLAS.ti
+Dedoose (mixed methods)
+MAXQDA (mixed methods)
+NVivo
+QDA MINER
+A criticism of quantitative coding approaches is that such coding sorts qualitative data into predefined (nomothetic) categories that are reflective of the categories found in objective science. The variety, richness, and individual characteristics of the qualitative data are reduced or, even, lost.
+To defend against the criticism that qualitative approaches to data are too subjective, qualitative researchers assert that by clearly articulating their definitions of the codes they use and linking those codes to the underlying data, they preserve some of the richness that might be lost if the results of their research boiled down to a list of predefined categories. Qualitative researchers also assert that their procedures are repeatable, which is an idea that is valued by quantitatively oriented researchers.
+Sometimes researchers rely on computers and their software to scan and reduce large amounts of qualitative data. At their most basic level, numerical coding schemes rely on counting words and phrases within a dataset; other techniques involve the analysis of phrases and exchanges in analyses of conversations. A computerized approach to data analysis can be used to aid content analysis, especially when there is a large corpus to unpack.
+
+
+=== Trustworthiness ===
+A central issue in qualitative research is trustworthiness (also known as credibility or, in quantitative studies, validity). There are many ways of establishing trustworthiness, including member check, interviewer corroboration, peer debriefing, prolonged engagement, negative case analysis, auditability, confirmability, bracketing, and balance. Data triangulation and eliciting examples of interviewee accounts are two of the most commonly used methods of establishing the trustworthiness of qualitative studies.
+Transferability of results has also been considered as an indicator of validity.
+
+
+=== Limitations of qualitative research ===
+Qualitative research is not without limitations. These limitations include participant reactivity, the potential for a qualitative investigator to over-identify with one or more study participants, "the impracticality of the Glaser-Strauss idea that hypotheses arise from data unsullied by prior expectations," the inadequacy of qualitative research for testing cause-effect hypotheses, and the Baconian character of qualitative research. Participant reactivity refers to the fact that people often behave differently when they know they are being observed. Over-identifying with participants refers to a sympathetic investigator studying a group of people and ascribing, more than is  warranted,  a virtue or some other characteristic to one or more participants. Compared to qualitative research, experimental research and certain types of nonexperimental research (e.g., prospective studies), although not perfect, are better means for drawing cause-effect conclusions.
+Glaser and Strauss, influential members of the qualitative research community, pioneered the idea that theoretically important categories and hypotheses can emerge "naturally" from the observations a qualitative researcher collects, provided that the researcher is not guided by preconceptions. The ethologist David Katz wrote "a hungry animal divides the environment into edible and inedible things....Generally speaking, objects change...according to the needs of the animal." Karl Popper carrying forward Katz's point wrote that "objects can be classified and can become similar or dissimilar, only in this way--by being related to needs and interests. This rule applied not only to animals but also to scientists." Popper made clear that observation is always selective, based on past research and the investigators' goals and motives and that preconceptionless research is impossible.
+The Baconian character of qualitative research refers to the idea that a qualitative researcher can collect enough observations such that categories and hypotheses will emerge from the data. Glaser and Strauss developed the idea of theoretical sampling by way of collecting observations until theoretical saturation is obtained and no additional observations are required to understand the character of the individuals under study. Bertrand Russell suggested that there can be no orderly arrangement of observations such that a hypothesis will jump out of those ordered observations; some provisional hypothesis usually guides the collection of observations.
+
+
+== In psychology ==
+
+
+=== Community psychology ===
+Autobiographical narrative research has been conducted in the field of community psychology. A selection of autobiographical narratives of community psychologists can be found in the book Six Community Psychologists Tell Their Stories: History, Contexts, and Narrative.
+
+
+=== Educational psychology ===
+Edwin Farrell used qualitative methods to understand the social reality of at-risk high school students. Later he used similar methods to understand the reality of successful high school students who came from the same neighborhoods as the at-risk students he wrote about in his previously mentioned book.
+
+
+=== Health psychology ===
+In the field of health psychology, qualitative methods have become increasingly employed in research on understanding health and illness and how health and illness are socially constructed in everyday life. Since then, a broad range of qualitative methods have been adopted by health psychologists, including discourse analysis, thematic analysis, narrative analysis, and interpretative phenomenological analysis. In 2015, the journal Health Psychology published a special issue on qualitative research.
+
+
+=== Industrial and organizational psychology ===
+According to Doldor and colleagues organizational psychologists extensively use qualitative research "during the design and implementation of activities like organizational change, training needs analyses, strategic reviews, and employee development plans."
+
+
+=== Occupational health psychology ===
+Although research in the field of occupational health psychology (OHP) has predominantly been quantitatively oriented, some OHP researchers have employed qualitative methods. Qualitative research efforts, if directed properly, can provide advantages for quantitatively oriented OHP researchers. These advantages include help with (1) theory and hypothesis development, (2) item creation for surveys and interviews, (3) the discovery of stressors and coping strategies not previously identified, (4) interpreting difficult-to-interpret quantitative findings, (5) understanding why some stress-reduction interventions fail and others succeed, and (6) providing rich descriptions of the lived lives of people at work. Some OHP investigators have united qualitative and quantitative methods within a single study (e.g., Elfering et al., [2005]); these investigators have used qualitative methods to assess job stressors that are difficult to ascertain using standard measures and well validated standardized instruments to assess coping behaviors and dependent variables such as mood.
+
+
+=== Social media psychology ===
+Since the advent of social media in the early 2000s, formerly private accounts of personal experiences have become widely shared with the public by millions of people around the world. Disclosures are often made openly, which has contributed to social media's key role in movements like the #metoo movement.
+The abundance of self-disclosure on social media has presented an unprecedented opportunity for qualitative and mixed methods researchers; mental health problems can now be investigated qualitatively more widely, at a lower cost, and with no intervention by the researchers. To take advantage of these data, researchers need to have mastered the tools for conducting qualitative research.
+
+
+== Academic journals ==
+Consumption Markets & Culture
+Journal of Consumer Research
+Qualitative Inquiry
+Qualitative Market Research
+Qualitative Research
+The Qualitative Report
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Adler, P. A. & Adler, P. (1987). : context and meaning in social inquiry / edited by Richard Jessor, Anne Colby, and Richard A. Shweder  OCLC 46597302
+Baškarada, S. (2014) "Qualitative Case Study Guidelines", in The Qualitative Report, 19(40): 1-25. Available from [1]
+Boas, Franz (1943). "Recent anthropology". Science. 98 (2546): 311–314, 334–337. Bibcode:1943Sci....98..334B. doi:10.1126/science.98.2546.334. PMID 17794461.
+Creswell, J. W. (2003). Research design: Qualitative, quantitative, and mixed method approaches. Thousand Oaks, CA: Sage Publications.
+Denzin, N. K., & Lincoln, Y. S. (2000). Handbook of qualitative research ( 2nd ed.). Thousand Oaks, CA: Sage Publications.
+Denzin, N. K., & Lincoln, Y. S. (2011). The SAGE Handbook of qualitative research ( 4th ed.). Los Angeles: Sage Publications.
+DeWalt, K. M. & DeWalt, B. R. (2002). Participant observation. Walnut Creek, CA: AltaMira Press.
+Fischer, C.T. (Ed.) (2005). Qualitative research methods for psychologists: Introduction through empirical studies. Academic Press. ISBN 0-12-088470-4.
+Franklin, M. I. (2012), "Understanding Research: Coping with the Quantitative-Qualitative Divide". London/New York. Routledge
+Giddens, A. (1990). The consequences of modernity. Stanford, CA: Stanford University Press.
+Gubrium, J. F. and J. A. Holstein. (2000). "The New Language of Qualitative Method." New York: Oxford University Press.
+Gubrium, J. F. and J. A. Holstein (2009). "Analyzing Narrative Reality." Thousand Oaks, CA: Sage.
+Gubrium, J. F. and J. A. Holstein, eds. (2000).  "Institutional Selves: Troubled Identities in a Postmodern World." New York: Oxford University Press.
+Hammersley, M. (2008) Questioning Qualitative Inquiry, London, Sage.
+Hammersley, M. (2013) What is qualitative research?, London, Bloomsbury.
+Holliday, A. R. (2007). Doing and Writing Qualitative Research, 2nd Edition. London: Sage Publications
+Holstein, J. A. and J. F. Gubrium, eds. (2012).  "Varieties of Narrative Analysis." Thousand Oaks, CA: Sage.
+Kaminski, Marek M. (2004). Games Prisoners Play. Princeton University Press. ISBN 0-691-11721-7.
+Mahoney, J; Goertz, G (2006). "A Tale of Two Cultures: Contrasting Quantitative and Qualitative Research". Political Analysis. 14 (3): 227–249. CiteSeerX 10.1.1.135.3256. doi:10.1093/pan/mpj017.
+Malinowski, B. (1922/1961). Argonauts of the Western Pacific. New York: E. P. Dutton.
+Miles, M. B. & Huberman, A. M. (1994). Qualitative Data Analysis. Thousand Oaks, CA: Sage.
+Pamela Maykut, Richard Morehouse. 1994 Beginning Qualitative Research.  Falmer Press.
+Pernecky, T. (2016). Epistemology and Metaphysics for Qualitative Research. London, UK: Sage Publications.
+Patton, M. Q. (2002). Qualitative research & evaluation methods ( 3rd ed.). Thousand Oaks, CA: Sage Publications.
+Pawluch D. & Shaffir W. & Miall C. (2005). Doing Ethnography: Studying Everyday Life. Toronto, ON Canada: Canadian Scholars' Press.
+Racino, J. (1999). Policy, Program Evaluation and Research in Disability: Community Support for All." New York, NY: Haworth Press (now Routledge imprint, Francis and Taylor, 2015).
+Ragin, C. C. (1994). Constructing Social Research: The Unity and Diversity of Method, Pine Forge Press, ISBN 0-8039-9021-9
+Riessman, Catherine K. (1993). "Narrative Analysis." Thousand Oaks, CA: Sage.
+Rosenthal, Gabriele (2018). Interpretive Social Research. An Introduction. Göttingen, Germany: Universitätsverlag Göttingen.
+Savin-Baden, M. and Major, C. (2013). "Qualitative research: The essential guide to theory and practice." London, Rutledge.
+Silverman, David, (ed), (2011), "Qualitative Research: Issues of Theory, Method and Practice". Third Edition. London, Thousand Oaks, New Delhi, Sage Publications
+Stebbins, Robert A. (2001) Exploratory Research in the Social Sciences. Thousand Oaks, CA: Sage.
+Taylor, Steven J., Bogdan, Robert, Introduction to Qualitative Research Methods, Wiley, 1998, ISBN 0-471-16868-8
+Van Maanen, J. (1988) Tales of the field: on writing ethnography, Chicago: University of Chicago Press.
+Wolcott, H. F. (1995). The art of fieldwork. Walnut Creek, CA: AltaMira Press.
+Wolcott, H. F. (1999). Ethnography: A way of seeing. Walnut Creek, CA: AltaMira Press.
+Ziman, John (2000). Real Science: what it is, and what it means. Cambridge, Uk: Cambridge University Press.
+
+
+== External links ==
+
+Qualitative Philosophy
+C.Wright Mills, On intellectual Craftsmanship, The Sociological Imagination,1959
+Participant Observation, Qualitative research methods: a Data collector's field guide
+Analyzing and Reporting Qualitative Market Research
+Overview of available QDA Software
+
+
+=== Videos ===
+Qualitative analysis, with a focus on interview data on YouTube
+Living Theory Approach to Qualitative Action Research on YouTube
+Yale University series by Leslie Curry on YouTube

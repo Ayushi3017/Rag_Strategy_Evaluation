@@ -1,0 +1,148 @@
+TITLE: Data management
+
+Data management comprises all disciplines related to handling data as a valuable resource, it is  the practice of managing an organization's data so it can be analyzed for decision making.
+
+
+== Concept ==
+The concept of data management emerged alongside the evolution of computing technology. In the 1950s, as computers became more prevalent, organizations began to grapple with the challenge of organizing and storing data efficiently. Early methods relied on punch cards and manual sorting, which were labor-intensive and prone to errors. The introduction of database management systems in the 1970s marked a significant milestone, enabling structured storage and retrieval of data.
+By the 1980s, relational database models revolutionized data management, emphasizing the importance of data as an asset and fostering a data-centric mindset in business. This era also saw the rise of data governance practices, which prioritized the organization and regulation of data to ensure quality and compliance. Over time, advancements in technology, such as cloud computing and big data analytics, have further refined data management, making it a cornerstone of modern business operations.
+As of 2025, data management encompasses a wide range of practices, from data storage and security to analytics and decision-making, reflecting its critical role in driving innovation and efficiency across industries.
+
+
+== Topics in Data Management ==
+The Data Management Body of Knowledge, DMBoK, developed by the Data Management Association, DAMA, outlines key knowledge areas that serve as the foundation for modern data management practices, suggesting a framework for organizations to manage data as a strategic asset.
+
+
+=== Data Governance ===
+
+Data governance refers to the policies, procedures, and standards that ensure data is managed consistently and responsibly across an organization. In enterprise contexts, governance involves aligning stakeholders across business units, defining data ownership, and quantifying the benefits of improved data quality. Effective governance frameworks often include data stewardship roles, escalation protocols, and cross-functional oversight committees to maintain trust and accountability in data use.
+
+
+=== Data Architecture ===
+
+Data Architecture focuses on designing the overall structure of data systems. It ensures that data flows are efficient and that systems are scalable, adaptable, and aligned with business needs.
+
+
+=== Data Modeling and Design ===
+
+This area centers on creating models that logically represent data relationships. It’s essential for both designing databases and ensuring that data is structured in a way that facilitates analysis and reporting.
+
+
+=== Data Storage and Operations ===
+
+Deals with the physical storage of data and its day-to-day management. This includes everything from traditional data centers to cloud-based storage solutions and ensuring efficient data processing.
+
+
+=== Data Integration and Interoperability ===
+
+Ensures that data from various sources can be seamlessly shared and combined across multiple systems, which is critical for comprehensive analytics and decision-making.
+
+
+=== Document and Content Management ===
+
+Focuses on managing unstructured data such as documents, multimedia, and other content, ensuring that it is stored, categorized, and easily retrievable.
+
+
+=== Data Warehousing, Business Intelligence and Data Analytics ===
+Involves consolidating data into repositories that support analytics, reporting, and business insights.
+
+
+==== Data warehousing ====
+In computing, a data warehouse (DW or DWH), also known as an enterprise data warehouse (EDW), is a system used for reporting and data analysis and is a core component of business intelligence. Data warehouses are central repositories of data integrated from disparate sources. They store current and historical data organized in a way that is optimized for data analysis, generation of reports, and developing insights across the integrated data. They are intended to be used by analysts and managers to help make organizational decisions.
+
+
+==== Business intelligence ====
+Business intelligence (BI) consists of strategies, methodologies, and technologies used by enterprises for data analysis and management of business information to inform business strategies and business operations. Common functions of BI technologies include reporting, online analytical processing, analytics, dashboard development, data mining, process mining, complex event processing, business performance management, benchmarking, text mining, predictive analytics, and prescriptive analytics.
+
+
+==== data mart ====
+A data mart is a structure/access pattern specific to data warehouse environments. The data mart is a subset of the data warehouse that focuses on a specific business line, department, subject area, or team. Whereas data warehouses have an enterprise-wide depth, the information in data marts pertains to a single department. In some deployments, each department or business unit is considered the owner of its data mart, including all the hardware, software, and data. This enables each department to isolate the use, manipulation, and development of their data. In other deployments where conformed dimensions are used, this business unit ownership will not hold true for shared dimensions like customer, product, etc.
+
+
+==== Data analytics ====
+Data analysis is the process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.
+
+
+==== Data mining ====
+Data mining is the process of extracting and finding patterns in massive data sets involving methods at the intersection of machine learning, statistics, and database systems. Data mining is an interdisciplinary subfield of computer science and statistics with an overall goal of extracting information (with intelligent methods) from a data set and transforming the information into a comprehensible structure for further use. Data mining is the analysis step of the "knowledge discovery in databases" process, or KDD. Aside from the raw analysis step, it also involves database and data management aspects, data pre-processing, model and inference considerations, interestingness metrics, complexity considerations, post-processing of discovered structures, visualization, and online updating.
+
+
+==== Data science ====
+Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data.
+
+
+=== Metadata Management ===
+
+Manages data about data, including definitions, origin, and usage, to enhance the understanding and usability of the organization’s data assets.
+
+
+=== Data Quality Management ===
+
+Data quality is not only a technical concern but a strategic enabler of trust, compliance, and decision-making. High-quality data supports consistent reporting, regulatory adherence, and customer confidence. Enterprise data management programs often define quality metrics such as precision, granularity, and timeliness, and link these to business outcomes.
+
+
+=== Reference and master data management ===
+
+Reference data comprises standardized codes and values for consistent interpretation across systems. Master data management (MDM) governs and centralizes an organization’s critical data, ensuring a unified, reliable information source that supports effective decision-making and operational efficiency.
+
+
+=== Data security ===
+
+Data security refers to a comprehensive set of practices and technologies designed to protect digital information and systems from unauthorized access, use, disclosure, modification, or destruction. It encompasses encryption, access controls, monitoring, and risk assessments to maintain data integrity, confidentiality, and availability.
+
+
+=== Data privacy ===
+
+Data privacy involves safeguarding individuals’ personal information by ensuring its collection, storage, and use comply with consent, legal standards, and confidentiality principles. It emphasizes protecting sensitive data from misuse or unauthorized access while respecting users' rights.
+
+
+== Data management as a foundation of information management ==
+
+The distinction between data and derived value is illustrated by the "information ladder" or the DIKAR model.
+
+The "DIKAR" model stands for Data, Information, Knowledge, Action, and Result. It is a framework used to bridge the gap between raw data and actionable outcomes. The model emphasizes the transformation of data into information, which is then interpreted to create knowledge. This knowledge guides actions that lead to measurable results. DIKAR is widely applied in organizational strategies, helping businesses align their data management processes with decision-making and performance goals. By focusing on each stage, the model ensures that data is effectively utilized to drive informed decisions and achieve desired outcomes. It is particularly valuable in technology-driven environments.
+The "information ladder" illustrates the progression from data (raw facts) to information (processed data), knowledge (interpreted information), and ultimately wisdom (applied knowledge). Each step adds value and context, enabling better decision-making. It emphasizes the transformation of unstructured inputs into meaningful insights for practical use.
+
+
+== Data management in research ==
+
+In research, Data management refers to the systematic process of handling data throughout its lifecycle. This includes activities such as collecting, organizing, storing, analyzing, and sharing data to ensure its accuracy, accessibility, and security. A Data Management Plan (DMP) is a structured document that outlines how research data will be collected, organized, stored, shared, and preserved throughout and after a research project. It serves as a guide to ensure that data are handled responsibly, remain accessible, and are protected from loss or misuse.
+
+Effective data management also involves creating a data management plan, DMP, addressing issues like ethical considerations, compliance with regulatory standards, and long-term preservation. Proper management enhances research transparency, reproducibility, and the efficient use of resources, ultimately contributing to the credibility and impact of research findings. It is a critical practice across disciplines to ensure data integrity and usability both during and after a research project.
+Why is it relevant to research?;
+>Helps researchers organize and manage their data properly throughout the study.
+>Ensures that data are stored safely and remain accessible when needed.
+>Promotes transparency and honesty by showing how data are handled and shared.   
+>Improves the quality and reliability of research results.
+>Prevents data loss and reduces possible ethical or legal issues.
+>Makes it easier for other researchers to reuse the data for future studies.
+>Increases the overall impact and credibility of the research.
+
+
+== Big Data ==
+Big data refers to the collection and analyses of massive sets of data. While big data is a recent phenomenon, the requirement for data to aid decision-making traces back to the early 1970s with the emergence of decision support systems (DSS). These systems can be considered as the initial iteration of data management for decision support.
+
+
+== Financial and economic outcomes ==
+
+Studies indicate that customer transactions account for a 40% increase in the data collected annually, which means that financial data has a considerable impact on business decisions. Therefore, modern organizations are using big data analytics to identify 5 to 10 new data sources that can help them collect and analyze data for improved decision-making. Jonsen (2013) explains that organizations using average analytics technologies are 20% more likely to gain higher returns compared to their competitors who have not introduced any analytics capabilities in their operations. Also, IRI reported that the retail industry could experience an increase of more than $10 billion each year resulting from the implementation of modern analytics technologies. Therefore, the following hypothesis can be proposed: Economic and financial outcomes can impact how organizations use data analytics tools.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Sebastian-Coleman, Laura (2018). Navigating the Labyrinth: An Executive Guide to Data Management. New York: Morgan Kaufmann. ISBN 9781634623759.
+Data Management Association (2024). Henderson, Deborah; Earley, Susan; Bradley, Chris (eds.). DAMA-DMBOK: Data Management Body of Knowledge (2nd, revised ed.). Basking Ridge, New Jersey: Technics Publications. ISBN 9781634622349.
+Gordon, Keith; BCS, The Chartered Institute for IT (2022). Principles of Data Management: Facilitating Information Sharing (3rd ed.). Swindon: BCS, The Chartered Institute for IT. ISBN 9781780175911.
+
+
+== External links ==
+"Data Management Association, DAMA". dama.org. Retrieved 8 Apr 2025. Association for Data Management professionals, providing advice on best practice and professional certification
+"dataversity.net". Retrieved 8 Apr 2025. Website providing learning resources on data related topics
+"Longwood Medical Area Research Data Management Working Group". Harvard University. Retrieved 8 Apr 2025. Working group promoting best practice in research data management
+"Data Management". Information Week. Retrieved 8 Apr 2025. News site covering Data Management
+"Data Driven Daily". datadrivendaily.com. Retrieved 25 Apr 2025. Website specializing in content for data professionals

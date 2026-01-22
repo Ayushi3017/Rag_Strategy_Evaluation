@@ -1,0 +1,503 @@
+TITLE: Outline of natural language processing
+
+Natural language processing is computer activity in which computers are entailed to analyze, understand, alter, or generate natural language.  This includes the automation of any or all linguistic forms, activities, or methods of communication, such as conversation, correspondence, reading, written composition, dictation, publishing, translation, lip reading, and so on.  Natural-language processing is also the name of the branch of computer science, artificial intelligence, and linguistics concerned with enabling computers to engage in communication using natural language(s) in all forms, including but not limited to speech, print, writing, and signing. The following outline is provided as an overview of and topical guide to natural-language processing:
+
+
+== Natural-language processing ==
+Natural-language processing can be described as all of the following:
+
+A field of science – systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
+An applied science – field that applies human knowledge to build or design useful things.
+A field of computer science – scientific and practical approach to computation and its applications.
+A branch of artificial intelligence – intelligence of machines and robots and the branch of computer science that aims to create it.
+A subfield of computational linguistics – interdisciplinary field dealing with the statistical or rule-based modeling of natural language from a computational perspective.
+An application of engineering – science, skill, and profession of acquiring and applying scientific, economic, social, and practical knowledge, in order to design and also build structures, machines, devices, systems, materials and processes.
+An application of software engineering – application of a systematic, disciplined, quantifiable  approach to the design, development, operation, and maintenance of software, and the study of these approaches; that is, the application of engineering to software.
+A subfield of computer programming – process of designing, writing, testing, debugging, and maintaining the source code of computer programs. This source code is written in one or more programming languages (such as Java, C++, C#, Python, etc.). The purpose of programming is to create a set of instructions that computers use to perform specific operations or to exhibit desired behaviors.
+A subfield of artificial intelligence programming –
+A type of system – set of interacting or interdependent components forming an integrated whole or a set of elements (often called 'components' ) and relationships which are different from relationships of the set or its elements to other elements or sets.
+A system that includes software – software is a collection of computer programs and related data that provides the instructions for telling a computer what to do and how to do it. Software refers to one or more computer programs and data held in the storage of the computer. In other words, software is a set of programs, procedures, algorithms and its documentation concerned with the operation of a data processing system.
+A type of technology – making, modification, usage, and knowledge of tools, machines, techniques, crafts, systems, methods of organization, in order to solve a problem, improve a preexisting solution to a problem, achieve a goal, handle an applied input/output relation or perform a specific function. It can also refer to the collection of such tools, machinery, modifications, arrangements and procedures. Technologies significantly affect human as well as other animal species' ability to control and adapt to their natural environments.
+A form of computer technology – computers and their application. NLP makes use of computers, image scanners, microphones, and many types of software programs.
+Language technology – consists of natural-language processing (NLP) and computational linguistics (CL) on the one hand, and speech technology on the other. It also includes many application oriented aspects of these. It is often called human language technology (HLT).
+
+
+== Prerequisite technologies ==
+The following technologies make natural-language processing possible:
+
+Communication – the activity of a source sending a message to a receiver
+Language –
+Speech –
+Writing –
+Computing –
+Computers –
+Computer programming –
+Information extraction –
+User interface –
+Software –
+Text editing – program used to edit plain text files
+Word processing – piece of software used for composing, editing, formatting, printing documents
+Input devices – pieces of hardware for sending data to a computer to be processed
+Computer keyboard – typewriter style input device whose input is converted into various data depending on the circumstances
+Image scanners –
+
+
+== Subfields of natural-language processing ==
+Information extraction (IE) – field concerned in general with the extraction of semantic information from text.  This covers tasks such as named-entity recognition, coreference resolution, relationship extraction, etc.
+Ontology engineering – field that studies the methods and methodologies for building ontologies, which are formal representations of a set of concepts within a domain and the relationships between those concepts.
+Speech processing – field that covers speech recognition, text-to-speech and related tasks.
+Statistical natural-language processing –
+Statistical semantics – a subfield of computational semantics that establishes semantic relations between words to examine their contexts.
+Distributional semantics – a subfield of statistical semantics that examines the semantic relationship of words across a corpora or in large samples of data.
+
+
+== Related fields ==
+Natural-language processing contributes to, and makes use of (the theories, tools, and methodologies from), the following fields:
+
+Automated reasoning – area of computer science and mathematical logic dedicated to understanding various aspects of reasoning, and producing software which allows computers to reason completely, or nearly completely, automatically. A sub-field of artificial intelligence, automatic reasoning is also grounded in theoretical computer science and philosophy of mind.
+Linguistics – scientific study of human language. Natural-language processing requires understanding of the structure and application of language, and therefore it draws heavily from linguistics.
+Applied linguistics – interdisciplinary field of study that identifies, investigates, and offers solutions to language-related real-life problems. Some of the academic fields related to applied linguistics are education, linguistics, psychology, computer science, anthropology, and sociology. Some of the subfields of applied linguistics relevant to natural-language processing are:
+Bilingualism / Multilingualism –
+Computer-mediated communication (CMC) – any communicative transaction that occurs through the use of two or more networked computers. Research on CMC focuses largely on the social effects of different computer-supported communication technologies. Many recent studies involve Internet-based social networking supported by social software.
+Contrastive linguistics – practice-oriented linguistic approach that seeks to describe the differences and similarities between a pair of languages.
+Conversation analysis (CA) – approach to the study of social interaction, embracing both verbal and non-verbal conduct, in situations of everyday life. Turn-taking is one aspect of language use that is studied by CA.
+Discourse analysis – various approaches to analyzing written, vocal, or sign language use or any significant semiotic event.
+Forensic linguistics – application of linguistic knowledge, methods and insights to the forensic context of law, language, crime investigation, trial, and judicial procedure.
+Interlinguistics – study of improving communications between people of different first languages with the use of ethnic and auxiliary languages (lingua franca). For instance by use of intentional international auxiliary languages, such as Esperanto or Interlingua, or spontaneous interlanguages known as pidgin languages.
+Language assessment – assessment of first, second or other language in the school, college, or university context; assessment of language use in the workplace; and assessment of language in the immigration, citizenship, and asylum contexts. The assessment may include analyses of listening, speaking, reading, writing or cultural understanding, with respect to understanding how the language works theoretically and the ability to use the language practically.
+Language pedagogy – science and art of language education, including approaches and methods of language teaching and study. Natural-language processing is used in programs designed to teach language, including first- and second-language training.
+Language planning –
+Language policy –
+Lexicography –
+Literacies –
+Pragmatics –
+Second-language acquisition –
+Stylistics –
+Translation –
+Computational linguistics – interdisciplinary field dealing with the statistical or rule-based modeling of natural language from a computational perspective. The models and tools of computational linguistics are used extensively in the field of natural-language processing, and vice versa.
+Computational semantics –
+Corpus linguistics – study of language as expressed in samples (corpora) of "real world" text.  Corpora is the plural of corpus, and a corpus is a specifically selected collection of texts (or speech segments) composed of natural language. After it is constructed (gathered or composed), a corpus is analyzed with the methods of computational linguistics to infer the meaning and context of its components (words, phrases, and sentences), and the relationships between them.  Optionally, a corpus can be annotated ("tagged") with data (manually or automatically) to make the corpus easier to understand (e.g., part-of-speech tagging).  This data is then applied to make sense of user input, for example, to make better (automated) guesses of what people are talking about or saying, perhaps to achieve more narrowly focused web searches, or for speech recognition.
+Metalinguistics –
+Sign linguistics – scientific study and analysis of natural sign languages, their features, their structure (phonology, morphology, syntax, and semantics), their acquisition (as a primary or secondary language), how they develop independently of other languages, their application in communication, their relationships to other languages (including spoken languages), and many other aspects.
+Human–computer interaction – the intersection of computer science and behavioral sciences, this field involves the study, planning, and design of the interaction between people (users) and computers.  Attention to human-machine interaction is important, because poorly designed human-machine interfaces can lead to many unexpected problems. A classic example of this is the Three Mile Island accident where investigations concluded that the design of the human–machine interface was at least partially responsible for the disaster.
+Information retrieval (IR) – field concerned with storing, searching and retrieving information. It is a separate field within computer science (closer to databases), but IR relies on some NLP methods (for example, stemming). Some current research and applications seek to bridge the gap between IR and NLP.
+Knowledge representation (KR) – area of artificial intelligence research aimed at representing knowledge in symbols to facilitate inferencing from those knowledge elements, creating new elements of knowledge. Knowledge Representation research involves analysis of how to reason accurately and effectively and how best to use a set of symbols to represent a set of facts within a knowledge domain.
+Semantic network – study of semantic relations between concepts.
+Semantic Web –
+Machine learning – subfield of computer science that examines pattern recognition and computational learning theory in artificial intelligence. There are three broad approaches to machine learning.  Supervised learning occurs when the machine is given example inputs and outputs by a teacher so that it can learn a rule that maps inputs to outputs. Unsupervised learning occurs when the machine determines the inputs structure without being provided example inputs or outputs. Reinforcement learning occurs when a machine must perform a goal without teacher feedback.
+Pattern recognition – branch of machine learning that examines how machines recognize regularities in data. As with machine learning, teachers can train machines to recognize patterns by providing them with example inputs and outputs (i.e. Supervised Learning), or the machines can recognize patterns without being trained on any example inputs or outputs (i.e. Unsupervised Learning).
+Statistical classification –
+
+
+== Structures used in natural-language processing ==
+Anaphora – type of expression whose reference depends upon another referential element. E.g., in the sentence 'Sally preferred the company of herself', 'herself' is an anaphoric expression in that it is coreferential with 'Sally', the sentence's subject.
+Context-free language –
+Controlled natural language – a natural language with a restriction introduced on its grammar and vocabulary in order to eliminate ambiguity and complexity
+Corpus – body of data, optionally tagged (for example, through part-of-speech tagging), providing real world samples for analysis and comparison.
+Text corpus – large and structured set of texts, nowadays usually electronically stored and processed. They are used to do statistical analysis and hypothesis testing, checking occurrences or validating linguistic rules within a specific subject (or domain).
+Speech corpus – database of speech audio files and text transcriptions. In Speech technology, speech corpora are used, among other things, to create acoustic models (which can then be used with a speech recognition engine). In Linguistics, spoken corpora are used to do research into phonetic, conversation analysis, dialectology and other fields.
+Grammar –
+Context-free grammar (CFG) –
+Constraint grammar (CG) –
+Definite clause grammar (DCG) –
+Functional unification grammar (FUG) –
+Generalized phrase structure grammar (GPSG) –
+Head-driven phrase structure grammar (HPSG) –
+Lexical functional grammar (LFG) –
+Probabilistic context-free grammar (PCFG) – another name for stochastic context-free grammar.
+Stochastic context-free grammar (SCFG) –
+Systemic functional grammar (SFG) –
+Tree-adjoining grammar (TAG) –
+Natural language –
+n-gram – sequence of n number of tokens, where a "token" is a character, syllable, or word. The n is replaced by a number. Therefore, a 5-gram is an n-gram of 5 letters, syllables, or words. "Eat this" is a 2-gram (also known as a bigram).
+Bigram – n-gram of 2 tokens. Every sequence of 2 adjacent elements in a string of tokens is a bigram. Bigrams are used for speech recognition, they can be used to solve cryptograms, and bigram frequency is one approach to statistical language identification.
+Trigram –  special case of the n-gram, where n is 3.
+Ontology – formal representation of a set of concepts within a domain and the relationships between those concepts.
+Taxonomy – practice and science of classification, including the principles underlying classification, and the methods of classifying things or concepts.
+Hyponymy and hypernymy – the linguistics of hyponyms and hypernyms.  A hyponym shares a type-of relationship with its hypernym. For example, pigeon, crow, eagle and seagull are all hyponyms of bird (their hypernym); which, in turn, is a hyponym of animal.
+Taxonomy for search engines – typically called a "taxonomy of entities". It is a tree in which nodes are labelled with entities which are expected to occur in a web search query. These trees are used to match keywords from a search query with the keywords from relevant answers (or snippets).
+Textual entailment – directional relation between text fragments. The relation holds whenever the truth of one text fragment follows from another text. In the TE framework, the entailing and entailed texts are termed text (t) and hypothesis (h), respectively. The relation is directional because even if "t entails h", the reverse "h entails t" is much less certain.
+Triphone – sequence of three phonemes. Triphones are useful in models of natural-language processing where they are used to establish the various contexts in which a phoneme can occur in a particular natural language.
+
+
+== Processes of NLP ==
+
+
+=== Applications ===
+Automated essay scoring (AES) – the use of specialized computer programs to assign grades to essays written in an educational setting. It is a method of educational assessment and an application of natural-language processing. Its objective is to classify a large set of textual entities into a small number of discrete categories, corresponding to the possible grades—for example, the numbers 1 to 6. Therefore, it can be considered a problem of statistical classification.
+Automatic image annotation – process by which a computer system automatically assigns textual metadata in the form of captioning or keywords to a digital image. The annotations are used in image retrieval systems to organize and locate images of interest from a database.
+Automatic summarization – process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document. Often used to provide summaries of text of a known type, such as articles in the financial section of a newspaper.
+Types
+Keyphrase extraction –
+Document summarization –
+Multi-document summarization –
+Methods and techniques
+Extraction-based summarization –
+Abstraction-based summarization –
+Maximum entropy-based summarization –
+Sentence extraction –
+Aided summarization –
+Human aided machine summarization (HAMS) –
+Machine aided human summarization (MAHS) –
+Automatic taxonomy induction – automated construction of tree structures from a corpus. This may be applied to building taxonomical classification systems for reading by end users, such as web directories or subject outlines.
+Coreference resolution – in order to derive the correct interpretation of text, or even to estimate the relative importance of various mentioned subjects, pronouns and other referring expressions need to be connected to the right individuals or objects. Given a sentence or larger chunk of text, coreference resolution determines which words ("mentions") refer to which objects ("entities") included in the text.
+Anaphora resolution – concerned with matching up pronouns with the nouns or names that they refer to. For example, in a sentence such as "He entered John's house through the front door", "the front door" is a referring expression and the bridging relationship to be identified is the fact that the door being referred to is the front door of John's house (rather than of some other structure that might also be referred to).
+Dialog system –
+Foreign-language reading aid – computer program that assists a non-native language user to read properly in their target language. The proper reading means that the pronunciation should be correct and stress to different parts of the words should be proper.
+Foreign-language writing aid – computer program or any other instrument that assists a non-native language user (also referred to as a foreign-language learner) in writing decently in their target language. Assistive operations can be classified into two categories: on-the-fly prompts and post-writing checks.
+Grammar checking – the act of verifying the grammatical correctness of written text, especially if this act is performed by a computer program.
+Information retrieval –
+Cross-language information retrieval –
+Machine translation (MT) – aims to automatically translate text from one human language to another.  This is one of the most difficult problems, and is a member of a class of problems colloquially termed "AI-complete", i.e. requiring all of the different types of knowledge that humans possess (grammar, semantics, facts about the real world, etc.) in order to solve properly.
+Classical approach of machine translation – rules-based machine translation.
+Computer-assisted translation –
+Interactive machine translation –
+Translation memory – database that stores so-called "segments", which can be sentences, paragraphs or sentence-like units (headings, titles or elements in a list) that have previously been translated, in order to aid human translators.
+Example-based machine translation –
+Rule-based machine translation –
+Natural-language programming – interpreting and compiling instructions communicated in natural language into computer instructions (machine code).
+Natural-language search –
+Optical character recognition (OCR) – given an image representing printed text, determine the corresponding text.
+Question answering – given a human-language question, determine its answer.  Typical questions have a specific right answer (such as "What is the capital of Canada?"), but sometimes open-ended questions are also considered (such as "What is the meaning of life?").
+Open domain question answering –
+Spam filtering –
+Sentiment analysis – extracts subjective information usually from a set of documents, often using online reviews to determine "polarity" about specific objects. It is especially useful for identifying trends of public opinion in the social media, for the purpose of marketing.
+Speech recognition – given a sound clip of a person or people speaking, determine the textual representation of the speech.  This is the opposite of text to speech and is one of the extremely difficult problems colloquially termed "AI-complete" (see above).  In natural speech there are hardly any pauses between successive words, and thus speech segmentation is a necessary subtask of speech recognition (see below). In most spoken languages, the sounds representing successive letters blend into each other in a process termed coarticulation, so the conversion of the analog signal to discrete characters can be a very difficult process.
+Speech synthesis (Text-to-speech) –
+Text-proofing –
+Text simplification – automated editing a document to include fewer words, or use easier words, while retaining its underlying meaning and information.
+
+
+=== Component processes ===
+Natural-language understanding – converts chunks of text into more formal representations such as first-order logic structures that are easier for computer programs to manipulate. Natural-language understanding involves the identification of the intended semantic from the multiple possible semantics which can be derived from a natural-language expression which usually takes the form of organized notations of natural-languages concepts. Introduction and creation of language metamodel and ontology are efficient however empirical solutions. An explicit formalization of natural-languages semantics without confusions with implicit assumptions such as closed-world assumption (CWA) vs. open-world assumption, or subjective Yes/No vs. objective True/False is expected for the construction of a basis of semantics formalization.
+Natural-language generation – task of converting information from computer databases into readable  human language.
+
+
+==== Component processes of natural-language understanding ====
+Automatic document classification (text categorization) –
+Automatic language identification –
+Compound term processing – category of techniques that identify compound terms and match them to their definitions. Compound terms are built by combining two (or more) simple terms, for example "triple" is a single word term but "triple heart bypass" is a compound term.
+Automatic taxonomy induction –
+Corpus processing –
+Automatic acquisition of lexicon –
+Text normalization –
+Text simplification –
+Deep linguistic processing –
+Discourse analysis – includes a number of related tasks.  One task is identifying the discourse structure of connected text, i.e. the nature of the discourse relationships between sentences (e.g. elaboration, explanation, contrast).  Another possible task is recognizing and classifying the speech acts in a chunk of text (e.g. yes–no questions, content questions, statements, assertions, orders, suggestions, etc.).
+Information extraction –
+Text mining – process of deriving high-quality information from text. High-quality information is typically derived through the devising of patterns and trends through means such as statistical pattern learning.
+Biomedical text mining – (also known as BioNLP), this is text mining applied to texts and literature of the biomedical and molecular biology domain. It is a rather recent research field drawing elements from natural-language processing, bioinformatics, medical informatics and computational linguistics. There is an increasing interest in text mining and information extraction strategies applied to the biomedical and molecular biology literature due to the increasing number of electronically available publications stored in databases such as PubMed.
+Decision tree learning –
+Sentence extraction –
+Terminology extraction –
+Latent semantic indexing –
+Lemmatisation – groups together all like terms that share a same lemma such that they are classified as a single item.
+Morphological segmentation – separates words into individual morphemes and identifies the class of the morphemes.  The difficulty of this task depends greatly on the complexity of the morphology (i.e. the structure of words) of the language being considered.  English has fairly simple morphology, especially inflectional morphology, and thus it is often possible to ignore this task entirely and simply model all possible forms of a word (e.g. "open, opens, opened, opening") as separate words.  In languages such as Turkish, however, such an approach is not possible, as each dictionary entry has thousands of possible word forms.
+Named-entity recognition (NER) – given a stream of text, determines which items in the text map to proper names, such as people or places, and what the type of each such name is (e.g. person, location, organization).  Although capitalization can aid in recognizing named entities in languages such as English, this information cannot aid in determining the type of named entity, and in any case is often inaccurate or insufficient.  For example, the first word of a sentence is also capitalized, and named entities often span several words, only some of which are capitalized.  Furthermore, many other languages in non-Western scripts (e.g. Chinese or Arabic) do not have any capitalization at all, and even languages with capitalization may not consistently use it to distinguish names.  For example, German capitalizes all nouns, regardless of whether they refer to names, and French and Spanish do not capitalize names that serve as adjectives.
+Ontology learning – automatic or semi-automatic creation of ontologies, including extracting the corresponding domain's terms and the relationships between those concepts from a corpus of natural-language text, and encoding them with an ontology language for easy retrieval. Also called "ontology extraction", "ontology generation", and "ontology acquisition".
+Parsing – determines the parse tree (grammatical analysis) of a given sentence.  The grammar for natural languages is ambiguous and typical sentences have multiple possible analyses.  In fact, perhaps surprisingly, for a typical sentence there may be thousands of potential parses (most of which will seem completely nonsensical to a human).
+Shallow parsing –
+Part-of-speech tagging – given a sentence, determines the part of speech for each word.  Many words, especially common ones, can serve as multiple parts of speech.  For example, "book" can be a noun ("the book on the table") or verb ("to book a flight"); "set" can be a noun, verb or adjective; and "out" can be any of at least five different parts of speech. Some languages have more such ambiguity than others.  Languages with little inflectional morphology, such as English are particularly prone to such ambiguity. Chinese is prone to such ambiguity because it is a tonal language during verbalization. Such inflection is not readily conveyed via the entities employed within the orthography to convey intended meaning.
+Query expansion –
+Relationship extraction – given a chunk of text, identifies the relationships among named entities (e.g. who is the wife of whom).
+Semantic analysis (computational) – formal analysis of meaning, and "computational" refers to approaches that in principle support effective implementation.
+Explicit semantic analysis –
+Latent semantic analysis –
+Semantic analytics –
+Sentence breaking (also known as sentence boundary disambiguation and sentence detection) – given a chunk of text, finds the sentence boundaries.  Sentence boundaries are often marked by periods or other punctuation marks, but these same characters can serve other purposes (e.g. marking abbreviations).
+Speech segmentation – given a sound clip of a person or people speaking, separates it into words.  A subtask of speech recognition and typically grouped with it.
+Stemming – reduces an inflected or derived word into its word stem, base, or root form.
+Text chunking –
+Tokenization – given a chunk of text, separates it into distinct words, symbols, sentences, or other units
+Topic segmentation and recognition – given a chunk of text, separates it into segments each of which is devoted to a topic, and identifies the topic of the segment.
+Truecasing –
+Word segmentation – separates a chunk of continuous text into separate words.  For a language like English, this is fairly trivial, since words are usually separated by spaces.  However, some written languages like Chinese, Japanese and Thai do not mark word boundaries in such a fashion, and in those languages text segmentation is a significant task requiring knowledge of the vocabulary and morphology of words in the language.
+Word-sense disambiguation (WSD) – because many words have more than one meaning, word-sense disambiguation is used to select the meaning which makes the most sense in context.  For this problem, we are typically given a list of words and associated word senses, e.g. from a dictionary or from an online resource such as WordNet.
+Word-sense induction – open problem of natural-language processing, which concerns the automatic identification of the senses of a word (i.e. meanings). Given that the output of word-sense induction is a set of senses for the target word (sense inventory), this task is strictly related to that of word-sense disambiguation (WSD), which relies on a predefined sense inventory and aims to solve the ambiguity of words in context.
+Automatic acquisition of sense-tagged corpora –
+W-shingling – set of unique "shingles"—contiguous subsequences of tokens in a document—that can be used to gauge the similarity of two documents. The w denotes the number of tokens in each shingle in the set.
+
+
+==== Component processes of natural-language generation ====
+Natural-language generation – task of converting information from computer databases into readable  human language.
+
+Automatic taxonomy induction (ATI) – automated building of tree structures from a corpus. While ATI is used to construct the core of ontologies (and doing so makes it a component process of natural-language understanding), when the ontologies being constructed are end user readable (such as a subject outline), and these are used for the construction of further documentation (such as using an outline as the basis to construct a report or treatise) this also becomes a component process of natural-language generation.
+Document structuring –
+
+
+== History of natural-language processing ==
+History of natural-language processing
+
+History of machine translation
+History of automated essay scoring
+History of natural-language user interface
+History of natural-language understanding
+History of optical character recognition
+History of question answering
+History of speech synthesis
+Turing test – test of a machine's ability to exhibit intelligent behavior, equivalent to or indistinguishable from, that of an actual human. In the original illustrative example, a human judge engages in a natural-language conversation with a human and a machine designed to generate performance indistinguishable from that of a human being. All participants are separated from one another. If the judge cannot reliably tell the machine from the human, the machine is said to have passed the test. The test was introduced by Alan Turing in his 1950 paper "Computing Machinery and Intelligence," which opens with the words: "I propose to consider the question, 'Can machines think?'"
+Universal grammar – theory in linguistics, usually credited to Noam Chomsky, proposing that the ability to learn grammar is hard-wired into the brain. The theory suggests that linguistic ability manifests itself without being taught (see poverty of the stimulus), and that there are properties that all natural human languages share. It is a matter of observation and experimentation to determine precisely what abilities are innate and what properties are shared by all languages.
+ALPAC – was a committee of seven scientists led by John R. Pierce, established in 1964 by the U. S. Government in order to evaluate the progress in computational linguistics in general and machine translation in particular. Its report, issued in 1966, gained notoriety for being very skeptical of research done in machine translation so far, and emphasizing the need for basic research in computational linguistics; this eventually caused the U. S. Government to reduce its funding of the topic dramatically.
+Conceptual dependency theory – a model of natural-language understanding used in artificial intelligence systems.  Roger Schank at Stanford University introduced the model in 1969, in the early days of artificial intelligence. This model was extensively used by Schank's students at Yale University such as Robert Wilensky, Wendy Lehnert, and Janet Kolodner.
+Augmented transition network – type of graph theoretic structure used in the operational definition of formal languages, used especially in parsing relatively complex natural languages, and having wide application in artificial intelligence.  Introduced by William A. Woods in 1970.
+Distributed Language Translation (project) –
+
+
+=== Timeline of NLP software ===
+
+
+== General natural-language processing concepts ==
+Sukhotin's algorithm – statistical classification algorithm for classifying characters in a text as vowels or consonants. It was initially created by Boris V. Sukhotin.
+T9 (predictive text) – stands for "Text on 9 keys", is a USA-patented predictive text technology for mobile phones (specifically those that contain a 3x4 numeric keypad), originally developed by Tegic Communications, now part of Nuance Communications.
+Tatoeba – free collaborative online database of example sentences geared towards foreign-language learners.
+Teragram Corporation –  fully owned subsidiary of SAS Institute, a major producer of statistical analysis software, headquartered in Cary, North Carolina, USA. Teragram is based in Cambridge, Massachusetts and specializes in the application of computational linguistics to multilingual natural-language processing.
+TipTop Technologies – company that developed TipTop Search, a real-time web, social search engine with a unique platform for semantic analysis of natural language. TipTop Search provides results capturing individual and group sentiment, opinions, and experiences from content of various sorts including real-time messages from Twitter or consumer product reviews on Amazon.com.
+Transderivational search – when a search is being conducted for a fuzzy match across a broad field. In computing the equivalent function can be performed using content-addressable memory.
+Vocabulary mismatch – common phenomenon in the usage of natural languages, occurring when different people name the same thing or concept differently.
+LRE Map –
+Reification (linguistics) –
+Semantic Web –
+Metadata –
+Spoken dialogue system –
+Affix grammar over a finite lattice –
+Aggregation (linguistics) –
+Bag-of-words model – model that represents a text as a bag (multiset) of its words that disregards grammar and word sequence, but maintains multiplicity. This model is a commonly used to train document classifiers
+Brill tagger –
+Cache language model –
+ChaSen, MeCab – provide morphological analysis and word splitting for Japanese
+Classic monolingual WSD –
+ClearForest –
+CMU Pronouncing Dictionary – also known as cmudict, is a public domain pronouncing dictionary designed for uses in speech technology, and was created by Carnegie Mellon University (CMU). It defines a mapping from English words to their North American pronunciations, and is commonly used in speech processing applications such as the Festival Speech Synthesis System and the CMU Sphinx speech recognition system.
+Concept mining –
+Content determination –
+DATR –
+DBpedia Spotlight –
+Deep linguistic processing –
+Discourse relation –
+Document-term matrix –
+Dragomir R. Radev –
+ETBLAST –
+Filtered-popping recursive transition network –
+Robby Garner –
+GeneRIF –
+Gorn address –
+Grammar induction –
+Grammatik –
+Hashing-Trick –
+Hidden Markov model –
+Human language technology –
+Information extraction –
+International Conference on Language Resources and Evaluation –
+Kleene star –
+Language Computer Corporation –
+Language model –
+LanguageWare –
+Latent semantic mapping –
+Legal information retrieval –
+Lesk algorithm –
+Lessac Technologies –
+Lexalytics –
+Lexical choice –
+Lexical Markup Framework –
+Lexical substitution –
+LKB –
+Logic form –
+LRE Map –
+Machine translation software usability –
+MAREC –
+Maximum entropy –
+Message Understanding Conference –
+METEOR –
+Minimal recursion semantics –
+Morphological pattern –
+Multi-document summarization –
+Multilingual notation –
+Naive semantics –
+Natural language –
+Natural-language interface –
+Natural-language user interface –
+News analytics –
+Nondeterministic polynomial –
+Open domain question answering –
+Optimality theory –
+Paco Nathan –
+Phrase structure grammar –
+Powerset (company) –
+Production (computer science) –
+PropBank –
+Question answering –
+Realization (linguistics) –
+Recursive transition network –
+Referring expression generation –
+Rewrite rule –
+Semantic compression –
+Semantic neural network –
+SemEval –
+SPL notation –
+Stemming – reduces an inflected or derived word into its word stem, base, or root form.
+String kernel –
+
+
+== Natural-language processing tools ==
+Google Ngram Viewer – graphs n-gram usage from a corpus of more than 5.2 million books
+
+
+=== Corpora ===
+Text corpus (see list) – large and structured set of texts (nowadays usually electronically stored and processed). They are used to do statistical analysis and hypothesis testing, checking occurrences or validating linguistic rules within a specific language territory.
+Bank of English
+British National Corpus
+Corpus of Contemporary American English (COCA)
+Oxford English Corpus
+
+
+=== Natural-language processing toolkits ===
+The following natural-language processing toolkits are notable collections of natural-language processing software. They are suites of libraries, frameworks, and applications for symbolic, statistical natural-language and speech processing.
+
+
+=== Named-entity recognizers ===
+ABNER (A Biomedical Named-Entity Recognizer) – open source text mining program that uses linear-chain conditional random field sequence models. It automatically tags genes, proteins and other entity names in text. Written by Burr Settles of the University of Wisconsin-Madison.
+Stanford NER (Named-Entity Recognizer) — Java implementation of a Named-Entity Recognizer that uses linear-chain conditional random field sequence models. It automatically tags persons, organizations, and locations in text in English, German, Chinese, and Spanish languages. Written by Jenny Finkel and other members of the Stanford NLP Group at Stanford University.
+
+
+=== Translation software ===
+Comparison of machine translation applications
+Machine translation applications
+Google Translate
+DeepL
+Linguee – web service that provides an online dictionary for a number of language pairs. Unlike similar services, such as LEO, Linguee incorporates a search engine that provides access to large amounts of bilingual, translated sentence pairs, which come from the World Wide Web. As a translation aid, Linguee therefore differs from machine translation services like Babelfish and is more similar in function to a translation memory.
+UNL Universal Networking Language
+Yahoo! Babel Fish
+Reverso
+
+
+=== Other software ===
+CTAKES – open-source natural-language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifying types of clinical named entities — drugs, diseases/disorders, signs/symptoms, anatomical sites and procedures. Each named entity has attributes for the text span, the ontology mapping code, context (family history of, current, unrelated to patient), and negated/not negated. Also known as Apache cTAKES.
+DMAP –
+ETAP-3 – proprietary linguistic processing system focusing on English and Russian. It is a rule-based system which uses the Meaning-Text Theory as its theoretical foundation.
+JAPE – the Java Annotation Patterns Engine, a component of the open-source General Architecture for Text Engineering (GATE) platform. JAPE is a finite state transducer that operates over annotations based on regular expressions.
+LOLITA – "Large-scale, Object-based, Linguistic Interactor, Translator and Analyzer". LOLITA was developed by Roberto Garigliano and colleagues between 1986 and 2000. It was designed as a general-purpose tool for processing unrestricted text that could be the basis of a wide variety of applications. At its core was a semantic network containing some 90,000 interlinked concepts.
+Maluuba – intelligent personal assistant for Android devices, that uses a contextual approach to search which takes into account the user's geographic location, contacts, and language.
+METAL MT – machine translation system developed in the 1980s at the University of Texas and at Siemens which ran on Lisp Machines.
+Never-Ending Language Learning – semantic machine learning system developed by a research team at Carnegie Mellon University, and supported by grants from DARPA, Google, and the NSF, with portions of the system running on a supercomputing cluster provided by Yahoo!. NELL was programmed by its developers to be able to identify a basic set of fundamental semantic relationships between a few hundred predefined categories of data, such as cities, companies, emotions and sports teams. Since the beginning of 2010, the Carnegie Mellon research team has been running NELL around the clock, sifting through hundreds of millions of web pages looking for connections between the information it already knows and what it finds through its search process – to make new connections in a manner that is intended to mimic the way humans learn new information.
+NLTK –
+Online-translator.com –
+Regulus Grammar Compiler – software system for compiling unification grammars into grammars for speech recognition systems.
+S Voice –
+Siri (software) –
+Speaktoit –
+TeLQAS –
+Weka's classification tools –
+word2vec – models that were developed by a team of researchers led by Thomas Milkov at Google to generate word embeddings that can reconstruct some of the linguistic context of words using shallow, two dimensional neural nets derived from a much larger vector space.
+Festival Speech Synthesis System –
+CMU Sphinx speech recognition system –
+Language Grid – Open source platform for language web services, which can customize language services by combining existing language services.
+
+
+=== Chatterbots ===
+
+Chatterbot – a text-based conversation agent that can interact with human users through some medium, such as an instant message service. Some chatterbots are designed for specific purposes, while others converse with human users on a wide range of topics.
+
+
+==== Classic chatterbots ====
+Dr. Sbaitso
+ELIZA
+PARRY
+Racter (or Claude Chatterbot)
+Mark V Shaney
+
+
+==== General chatterbots ====
+Albert One – 1998 and 1999 Loebner winner, by Robby Garner.
+A.L.I.C.E. – 2001, 2002, and 2004 Loebner Prize winner developed by Richard Wallace.
+Charlix
+Cleverbot (winner of the 2010 Mechanical Intelligence Competition)
+Elbot – 2008 Loebner Prize winner, by Fred Roberts.
+Eugene Goostman – 2012 Turing 100 winner, by Vladimir Veselov.
+Fred – an early chatterbot by Robby Garner.
+Jabberwacky
+Jeeney AI
+MegaHAL
+Mitsuku, 2013 and 2016 Loebner Prize winner
+Rose - ... 2015 - 3x Loebner Prize winner, by Bruce Wilcox.
+SimSimi – A popular artificial intelligence conversation program that was created in 2002 by ISMaker.
+Spookitalk – A chatterbot used for NPCs in Douglas Adams' Starship Titanic video game.
+Ultra Hal – 2007 Loebner Prize winner, by Robert Medeksza.
+Verbot
+
+
+==== Instant messenger chatterbots ====
+GooglyMinotaur, specializing in Radiohead, the first bot released by ActiveBuddy (June 2001-March 2002)
+SmarterChild, developed by ActiveBuddy and released in June 2001
+Infobot, an assistant on IRC channels such as #perl, primarily to help out with answering Frequently Asked Questions (June 1995-today)
+Negobot, a bot designed to catch online pedophiles by posing as a young girl and attempting to elicit personal details from people it speaks to.
+
+
+== Natural-language processing organizations ==
+AFNLP (Asian Federation of Natural Language Processing Associations) – the organization for coordinating the natural-language processing related activities and events in the Asia-Pacific region.
+Association for Computational Linguistics – international scientific and professional society for people working on problems involving natural-language processing.
+
+
+=== Natural-language processing-related conferences ===
+Annual Meeting of the Association for Computational Linguistics (ACL)
+International Conference on Intelligent Text Processing and Computational Linguistics (CICLing)
+International Conference on Language Resources and Evaluation – biennial conference organised by the European Language Resources Association with the support of institutions and organisations involved in natural-language processing
+Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)
+Text, Speech and Dialogue (TSD) – annual conference
+Text Retrieval Conference (TREC) – on-going series of workshops focusing on various information retrieval (IR) research areas, or tracks
+
+
+=== Companies involved in natural-language processing ===
+AlchemyAPI – service provider of a natural-language processing API.
+Google, Inc. – the Google search engine is an example of automatic summarization, utilizing keyphrase extraction.
+Calais (Reuters product) – provider of a natural-language processing services.
+Wolfram Research, Inc. developer of natural-language processing computation engine Wolfram Alpha.
+
+
+== Natural-language processing publications ==
+
+
+=== Books ===
+Connectionist, Statistical and Symbolic Approaches to Learning for Natural Language Processing  – Wermter, S., Riloff E. and Scheler, G. (editors). First book that addressed statistical and neural network learning of language.
+Speech and Language Processing: An Introduction to Natural Language Processing, Speech Recognition, and Computational Linguistics – by Daniel Jurafsky and James H. Martin. Introductory book on language technology.
+
+
+==== Book series ====
+Studies in Natural Language Processing – book series of the Association for Computational Linguistics, published by Cambridge University Press.
+
+
+=== Journals ===
+Computational Linguistics – peer-reviewed academic journal in the field of computational linguistics. It is published quarterly by MIT Press for the Association for Computational Linguistics (ACL)
+
+
+== People influential in natural-language processing ==
+Daniel Bobrow –
+Rollo Carpenter – creator of Jabberwacky and Cleverbot.
+Noam Chomsky – author of the seminal work Syntactic Structures, which revolutionized Linguistics with 'universal grammar', a rule based system of syntactic structures.
+Kenneth Colby –
+David Ferrucci – principal investigator of the team that created Watson, IBM's AI computer that won the quiz show Jeopardy!
+Lyn Frazier –
+Daniel Jurafsky – Professor of Linguistics and Computer Science at Stanford University. With James H. Martin, he wrote the textbook Speech and Language Processing: An Introduction to Natural Language Processing, Speech Recognition, and Computational Linguistics
+Roger Schank – introduced the conceptual dependency theory for natural-language understanding.
+Jean E. Fox Tree –
+Alan Turing – originator of the Turing Test.
+Joseph Weizenbaum – author of the ELIZA chatterbot.
+Terry Winograd – professor of computer science at Stanford University, and co-director of the Stanford Human-Computer Interaction Group. He is known within the philosophy of mind and artificial intelligence fields for his work on natural language using the SHRDLU program.
+William Aaron Woods –
+Maurice Gross – author of the concept of local grammar, taking finite automata as the competence model of language.
+Stephen Wolfram – CEO and founder of Wolfram Research, creator of the programming language (natural-language understanding) Wolfram Language, and natural-language processing computation engine Wolfram Alpha.
+Victor Yngve –
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+Crevier, Daniel (1993). AI: The Tumultuous Search for Artificial Intelligence. New York, NY: BasicBooks. ISBN 0-465-02997-3.
+McCorduck, Pamela (2004), Machines Who Think (2nd ed.), Natick, MA: A. K. Peters, Ltd., ISBN 978-1-56881-205-2, OCLC 52197627.
+Russell, Stuart J.; Norvig, Peter (2003), Artificial Intelligence: A Modern Approach (2nd ed.), Upper Saddle River, New Jersey: Prentice Hall, ISBN 0-13-790395-2.
+
+
+== External links ==

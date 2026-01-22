@@ -1,0 +1,100 @@
+TITLE: Natural language generation
+
+Natural language generation (NLG) is a software process that produces natural language output. A widely cited survey of NLG methods describes  NLG as "the subfield of artificial intelligence and computational linguistics that is concerned with the construction of computer systems that can produce understandable texts in English or other human languages from some underlying non-linguistic representation of information".
+While it is widely agreed that the output of any NLG process is text, there is some disagreement about whether the inputs of an NLG system need to be non-linguistic. Common applications of NLG methods include the production of various reports, for example weather  and patient reports; image captions; and chatbots like ChatGPT.
+Automated NLG can be compared to the process humans use when they turn ideas into writing or speech. Psycholinguists prefer the term language production for this process, which can also be described in mathematical terms, or modeled in a computer for psychological research. NLG systems can also be compared to translators of artificial computer languages, such as decompilers or transpilers, which also produce human-readable code generated from an intermediate representation. Human languages tend to be considerably more complex and allow for much more ambiguity and variety of expression than programming languages, which makes NLG more challenging.
+NLG may be viewed as complementary to natural language understanding (NLU): whereas in natural-language understanding, the system needs to disambiguate the input sentence to produce the machine representation language, in NLG the system needs to make decisions about how to put a representation into words. The practical considerations in building NLU vs. NLG systems are not symmetrical. NLU needs to deal with ambiguous or erroneous user input, whereas the ideas the system wants to express through NLG are generally known precisely. NLG needs to choose a specific, self-consistent textual representation from many potential representations, whereas NLU generally tries to produce a single, normalized representation of the idea expressed.
+NLG has existed since ELIZA was developed in the mid 1960s, but the methods were first used commercially in the 1990s. NLG techniques range from simple template-based systems like a mail merge that generates form letters, to systems that have a complex understanding of human grammar. NLG can also be accomplished by training a statistical model using machine learning, typically on a large corpus of human-written texts.
+
+
+== Example ==
+The Pollen Forecast for Scotland system is a simple example of a simple NLG system that could essentially be based on a template.  This system takes as input six numbers, which give predicted pollen levels in different parts of Scotland.  From these numbers, the system generates a short textual summary of pollen levels as its output.
+For example, using the historical data for July 1, 2005, the software produces:
+
+Grass pollen levels for Friday have increased from the moderate to high levels of yesterday with values of around 6 to 7 across most parts of the country. However, in Northern areas, pollen levels will be moderate with values of 4.
+
+In contrast, the actual forecast (written by a human meteorologist) from this data was:
+
+Pollen counts are expected to remain high at level 6 over most of Scotland, and even level 7 in the south east. The only relief is in the Northern Isles and far northeast of mainland Scotland with medium levels of pollen count.
+
+Comparing these two illustrates some of the choices that NLG systems must make; these are further discussed below.
+
+
+== Stages ==
+The process to generate text can be as simple as keeping a list of canned text that is copied and pasted, possibly linked with some glue text. The results may be satisfactory in simple domains such as horoscope machines or generators of personalized business letters. However, a sophisticated NLG system needs to include stages of planning and merging of information to enable the generation of text that looks natural and does not become repetitive. The typical stages of natural-language generation, as proposed by Dale and Reiter, are:
+
+Content determination
+Deciding what information to mention in the text. For instance, in the pollen example above, deciding whether to explicitly mention that pollen level is 7 in the southeast.
+Document structuring
+Overall organisation of the information to convey.  For example, deciding to describe the areas with high pollen levels first, instead of the areas with low pollen levels.
+Aggregation
+Merging of similar sentences to improve readability and naturalness. For instance, merging the sentences "Grass pollen levels for Friday have increased from the moderate to high levels of yesterday." and "Grass pollen levels will be around 6 to 7 across most parts of the country."  into a single sentence of "Grass pollen levels for Friday have increased from the moderate to high levels of yesterday with values of around 6 to 7 across most parts of the country."
+Lexical choice
+Putting words to the concepts.  For example, deciding whether medium or moderate should be used when describing a pollen level of 4.
+Referring expression generation
+Creating referring expressions that identify objects and regions.  For example, deciding to use in the Northern Isles and far northeast of mainland Scotland to refer to a certain region in Scotland. This task also includes making decisions about pronouns and other types of anaphora.
+Realization
+Creating the actual text, which should be correct according to the rules of syntax, morphology, and orthography.  For example, using will be for the future tense of to be.
+An alternative approach to NLG is to use "end-to-end" machine learning to build a system, without having separate stages as above.   In other words, we build an NLG system by training a machine learning algorithm (often an LSTM) on a large data set of input data and corresponding (human-written) output texts.  The end-to-end approach has perhaps been most successful in image captioning, that is automatically generating a textual caption for an image.
+
+
+== Applications ==
+
+
+=== Automatic report generation ===
+From a commercial perspective, the most successful NLG applications
+have been data-to-text systems which generate textual summaries of databases and data sets; these
+systems usually perform data analysis as well as text generation. Research has shown that textual summaries can be more effective than graphs and other visuals for decision support, and that computer-generated texts can be superior (from the reader's perspective) to human-written texts.
+The first commercial data-to-text systems produced weather forecasts from weather data. The earliest such system to be deployed was FoG, which was used by Environment Canada to generate weather forecasts in French and English in the early 1990s.  The success of FoG triggered other work, both research and commercial. Recent applications include the UK Met Office's text-enhanced forecast.
+Data-to-text systems have since been applied in a range of settings. Following the minor earthquake near Beverly Hills, California on March 17, 2014, The Los Angeles Times reported details about the time, location and strength of the quake within 3 minutes of the event. This report was automatically generated by a 'robo-journalist', which converted the incoming data into text via a preset template. Currently there is considerable commercial interest in using NLG to summarise financial and business data.  Indeed, Gartner has said that NLG will become a standard feature of 90% of modern BI and analytics platforms.  NLG is also being used commercially in automated journalism, chatbots, generating product descriptions for e-commerce sites, summarising medical records, and enhancing accessibility (for example by describing graphs and data sets to blind people).
+An example of an interactive use of NLG is the WYSIWYM framework. It stands for What you see is what you meant and allows users to see and manipulate the continuously rendered view (NLG output) of an underlying formal language document (NLG input), thereby editing the formal language without learning it.
+Looking ahead, the current progress in data-to-text generation paves the way for tailoring texts to specific audiences. For example, data from babies in neonatal care can be converted into text differently in a clinical setting, with different levels of technical detail and explanatory language, depending on intended recipient of the text (doctor, nurse, patient). The same idea can be applied in a sports setting, with different reports generated for fans of specific teams.
+
+
+=== Image captioning ===
+Over the past few years, there has been an increased interest in automatically generating captions for images, as part of a broader endeavor to investigate the interface between vision and language. A case of data-to-text generation, the algorithm of image captioning (or automatic image description) involves taking an image, analyzing its visual content, and generating a textual description (typically a sentence) that verbalizes the most prominent aspects of the image.
+An image captioning system involves two sub-tasks. In Image Analysis, features and attributes of an image are detected and labelled, before mapping these outputs to linguistic structures. Recent research utilizes deep learning approaches through features from a pre-trained convolutional neural network such as AlexNet, VGG or Caffe, where caption generators use an activation layer from the pre-trained network as their input features. Text Generation, the second task, is performed using a wide range of techniques. For example, in the Midge system, input images are represented as triples consisting of object/stuff detections, action/pose detections and spatial relations. These are subsequently mapped to <noun, verb, preposition> triples and realized using a tree substitution grammar.
+A common method in image captioning is to use a vision model (such as a ResNet) to encode an image into a vector, then use a language model (such as an RNN) to decode the vector into a caption.
+Despite advancements, challenges and opportunities remain in image capturing research. Notwithstanding the recent introduction of Flickr30K, MS COCO and other large datasets have enabled the training of more complex models such as neural networks, it has been argued that research in image captioning could benefit from larger and diversified datasets. Designing automatic measures that can mimic human judgments in evaluating the suitability of image descriptions is another need in the area. Other open challenges include visual question-answering (VQA), as well as the construction and evaluation multilingual repositories for image description.
+
+
+=== Chatbots ===
+Another area  where NLG has been widely applied is automated dialogue systems, frequently in the form of chatbots. A chatbot or chatterbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. While natural language processing (NLP) techniques are applied in deciphering human input, NLG informs the output part of the chatbot algorithms in facilitating real-time dialogues.
+Early chatbot systems, including Cleverbot created by Rollo Carpenter in 1988 and published in 1997,  reply to questions by identifying how a human has responded to the same question in a conversation database using information retrieval (IR) techniques. Modern chatbot systems predominantly rely on machine learning (ML) models, such as sequence-to-sequence learning and reinforcement learning to generate natural language output. Hybrid models have also been explored. For example, the Alibaba shopping assistant first uses an IR approach to retrieve the best candidates from the knowledge base, then uses the  ML-driven seq2seq model re-rank the candidate responses and generate the answer.
+
+
+=== Creative writing and computational humor ===
+Creative language generation by NLG has been hypothesized since the field's origins. A recent pioneer in the area is Phillip Parker, who has developed an arsenal of algorithms capable of automatically generating textbooks, crossword puzzles, poems and books on topics ranging from bookbinding to cataracts. The advent of large pretrained transformer-based language models such as GPT-3 has also enabled breakthroughs, with such models demonstrating recognizable ability for creating-writing tasks.
+A related area of NLG application is computational humor production.  JAPE (Joke Analysis and Production Engine) is one of the earliest large, automated humor production systems that uses a hand-coded template-based approach to create punning riddles for children. HAHAcronym creates humorous reinterpretations of any given acronym, as well as proposing new fitting acronyms given some keywords.
+Despite progresses, many challenges remain in producing automated creative and humorous content that rival human output. In an experiment for generating satirical headlines, outputs of their best BERT-based model were perceived as funny 9.4% of the time (while real headlines from The Onion were 38.4%) and a GPT-2 model fine-tuned on satirical headlines achieved 6.9%.  It has been pointed out that two main issues with humor-generation systems are the lack of annotated data sets and the lack of formal evaluation methods, which could be applicable to other creative content generation. Some have argued relative to other applications, there has been a lack of attention to creative aspects of language production within NLG. NLG researchers stand to benefit from insights into what constitutes creative language production, as well as structural features of narrative that have the potential to improve NLG output even in data-to-text systems.
+
+
+== Evaluation ==
+As in other scientific fields, NLG researchers need to test how well their systems, modules, and algorithms work.  This is called evaluation. There are three basic techniques for evaluating NLG systems:
+
+Task-based (extrinsic) evaluation: give the generated text to a person, and assess how well it helps them perform a task (or otherwise achieves its communicative goal).  For example, a system which generates summaries of medical data can be evaluated by giving these summaries to doctors, and assessing whether the summaries help doctors make better decisions.
+Human ratings: give the generated text to a person, and ask them to rate the quality and usefulness of the text.
+Metrics: compare generated texts to texts written by people from the same input data, using an automatic metric such as BLEU, METEOR, ROUGE and LEPOR.
+An ultimate goal is how useful NLG systems are at helping people, which is the first of the above techniques. However, task-based evaluations are time-consuming and expensive, and can be difficult to carry out (especially if they require subjects with specialised expertise, such as doctors).  Hence (as in other areas of NLP) task-based evaluations are the exception, not the norm.
+Recently researchers are assessing how well human-ratings and metrics correlate with (predict) task-based evaluations.  Work is being conducted in the context of Generation Challenges shared-task events.  Initial results suggest that human ratings are much better than metrics in this regard.  In other words, human ratings usually do predict task-effectiveness at least to some degree (although there are exceptions), while ratings produced by metrics often do not predict task-effectiveness well.  These results are preliminary.  In any case, human ratings are the most popular evaluation technique in NLG; this is contrast to machine translation, where metrics are widely used.
+An AI can be graded on faithfulness to its training data or, alternatively, on factuality. A response that reflects the training data but not reality is faithful but not factual. A confident but unfaithful response is a hallucination. In Natural Language Processing, a hallucination is often defined as "generated content that is nonsensical or unfaithful to the provided source content".
+
+
+== See also ==
+
+Autocompletion
+Automated journalism
+Automated paraphrasing
+Markov text generators
+Meaning-text theory
+Generative art § Literature
+
+
+== References ==
+
+
+== Further reading ==
+Dale, Robert; Reiter, Ehud (2000). Building natural language generation systems. Cambridge, UK: Cambridge University Press. ISBN 978-0-521-02451-8.
+Evans, Roger; Piwek, Paul; Cahill, Lynne (2002). What is NLG?. INLG2002. New York, US. paper
+Gatt, Albert; Krahmer, Emiel (2018). "Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation". Journal of Artificial Intelligence Research. 61: 65–170. arXiv:1703.09902. doi:10.1613/jair.5477. S2CID 16946362.
+Reiter, Ehud (2018-01-16). "How do I Learn about NLG?".

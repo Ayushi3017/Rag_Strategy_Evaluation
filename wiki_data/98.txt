@@ -1,0 +1,73 @@
+TITLE: Origin (data analysis software)
+
+Origin is a proprietary computer program for interactive scientific graphing and data analysis. It is produced by OriginLab Corporation, and runs on Microsoft Windows. It has inspired several platform-independent open-source clones and alternatives like LabPlot and SciDAVis.
+Graphing support in Origin includes various 2D/3D plot types. Data analyses in Origin include statistics, signal processing, curve fitting and peak analysis. Origin's curve fitting is performed by a nonlinear least squares fitter which is based on the Levenberg–Marquardt algorithm.
+Origin imports data files in various formats such as ASCII text, Excel, NI TDM, DIADem, NetCDF, SPC, etc. It also exports the graph to various image file formats such as JPEG, GIF, EPS, TIFF, etc. There is also a built-in query tool for accessing database data via ADO.
+
+
+== Features ==
+
+Origin is primarily a GUI software with a spreadsheet front end. Unlike popular spreadsheets like Excel, Origin's worksheet is column oriented.  Each column has associated attributes like name, units and other user definable labels.  Instead of cell formula, Origin uses column formula for calculations.
+Recent versions of Origin have introduced and expanded on batch capabilities, with the goal of eliminating the need to program many routine operations. Instead the user relies on customizable graph templates, analysis dialog box Themes which save a particular suite of operations, auto recalculation on changes to data or analysis parameters, and Analysis Templates™ which save a collection of operations within the workbook.
+Origin also has a scripting language (LabTalk) for controlling the software, which can be extended using a built-in C/C++-based compiled language (Origin C). Other programming options include an embedded Python  environment, and an R Console plus support for Rserve.
+Origin can be also used as a COM server for programs which may be written in Visual Basic .NET, C#, LabVIEW, etc.
+Older (.OPJ), but not newer (.OPJU), Origin project files can be read by the open-source LabPlot or SciDAVis software. The native origin file viewer can read them and can convert newer OPJU files to older OPJ files for older versions of Origin. The files can also be read by QtiPlot but only with a paid "Pro" version. Finally the liborigin library can also read. OPJ files such as by using the opj2dat script, which exports the data tables contained in the file.
+There is also a free component (Orglab) maintained by Originlab that can be used to create (or read) OPJ files. A free Viewer application is also available.
+
+
+== History ==
+Origin was first created for use solely with microcalorimeters manufactured by MicroCal Inc. (acquired by Malvern Instruments in 2014) The software was used to graph the instruments data, and perform nonlinear curve fitting and parameter calculation.
+The software was first published for the public in 1992 by Microcal Software, which later was renamed to OriginLab Corporation, located in Northampton, Massachusetts.
+
+
+=== Editions and support ===
+Origin is available in two editions, the regular version Origin and the pricier OriginPro. The latter adds additional data analysis features like surface fitting, short-time Fourier Transform, and more advanced statistics. A few version types have been offered from Origin and OriginPro as personal, academic, government and student versions. 
+
+
+=== Release history ===
+2025/11/21 Origin 2026: Flash Fill and Smart Formula, Find in Project Files, Bring in Cell Formula from Excel into Origin, Periodic Refresh for Data Import, Ctrl+Backspace to repeat Last Action, Ctrl+Shift+Backspace to reopen last analysis dialog, and Duplicate Operation for specified sheets, New Graph Maker, Graphical Summary for Descriptive Statistics.
+2025/6/19 Origin 2025b: Search box on top to find and execute commands, Project Browser, Customize report sheet graph size, Stats mode with pre-installed stats apps, Key chords for user-defined shortcuts, recent import, interactive cell referencing and highlight formula cells, Graph options dialog, window switcher by ctrl+tab, trend lines, reference lines, high DPI GUI improvements, graph protection
+2024/11/21 Origin 2025: Slicer, Recent Origin Files browser, Time Series Pivot, Save local opju to cloud, connect to google sheet, Report Style, Graph Style, Notes window preview, New Dialog to build Summary Sheet
+2024/5/15 Origin 2024b: New Redo (Ctrl+Y) and improved Undo(Ctrl+Z), Unstack time series data by time interval, Time series explorer graph and analysis app, Open & save project to cloud(SharePoint/OneDrive/Google Drive), Plot from image window, ROI-based data extraction gadget, Remove operations for sheet/layer, window, folder or whole project.
+2023/11/21 Origin 2024: Dark Mode Support, Drag to Change Axis Scale, Added Binary Column which Auto Scale in Plot, Range (max-min) added to Selection Stats, Sheet Browser Graph, Substitution notation support in LaTeX, Export and Copy Image with highlight effect, SPC (statistical process control) app, etc.
+2023/04/27 Origin 2023b: built-in LaTeX, Floating windows, Keep pinned windows when switching folders, Export to PDF via MS Print, Scale opju files properly on different resolutions, Duplicate Sheet with New Files, Browser Graph with gadgets, Set external image in graph as linked file, SVG drag & drop to graph, rotate, resize, etc.
+2022/11/3 Origin 2023: Folder Notes, Seesaw Folders, Pin window, Banded Rows, Hide & Protect sheet, Better inserted sheet/table on graph, Graph export with internal preview, clickable export link, Improved Script window with Unicode support, auto fill and syntax coloring,
+2022/5/12 Origin 2022b: Export SVG, GeoTIFF support, rich text in notes window, simpler symbol map, remove formula and links, customize gadget ROI label, distance annotation, arrange & snap windows, high resolution icons on 4K monitor, etc.
+2021/11/16 Origin 2022: Add Notes to Cells, Named Range, Image on Graph as Linked Files, Mini Toolbars on Object Manager, Connect to OneDrive and Google Drive for data.
+2021/4/30 Origin 2021b: Mini toolbar for 3D graph, built-in Shapefile support, insert maps to graphs, NetCDF climate data, SQLite import export
+2020/10/27 Origin 2021. Fully integrated Python support with new originpro package. New formula bar, color manager, chord diagram. New Apps including TDMS Connector, Import PDF Tables.
+2020/4/30 Origin 2020b. Mini toolbar for worksheet & matrix, data connector navigator panel, browser graphs. Worksheet cells no longer showing ####. New Apps such as Canonical Correlation Analysis, Correlation plot etc.
+2019/10/25 Origin 2020. Only provides 64 bit Origin & OriginPro. Mini toolbars, much faster import and plotting of large dataset. Density dots, color dots, sankey diagram, improved pie and doughnut charts. Copy and Paste plot, Copy and Paste HTML or EMF table.
+2019/04/24 Origin 2019b. HTML and Markdown reports.  Web Data Connectors for CSV, JSON, Excel, MATLAB. Rug Plots, Split Heatmap Plot. Validation Reports using NIST data. New Apps for Quantile Regression, 2D Correlation, Isosurface Plot, etc.
+2018/10/26  Origin 2019. Data Highlighter for data exploration, Windows-like search from Start menu, Conditional formatting of data cells, Violin plot, New apps like Stats Advisor, Image Object Counter, Design of Experiments, etc.
+2018/4/24  Origin 2018b. Matrices embedded in workbook, Worksheet/matrix data preview, Dynamic graph preview in analysis, Distributed batch processing on multi-core CPU (app).
+2017/11/9  Origin 2018. Cell formula, Unicode, Bridge chart, changed to a more compact file format (OPJU).
+2016/11/10 Origin 2017. Trellis Plot, Geology fill patterns, JavaScript support from Origin C.
+2015/10/23 Origin 2016. First version to support Apps in Origin, also added R support.
+2014/10 Origin 2015  added graph thumbnail previews, project search, heat map, 2D kernel density plot and Python support.
+2013/10 Origin 9.1 SR0 added support for Piper diagram, Ternary surface plot etc.
+2012/10 Origin 9 with high performance OpenGL 3D Graphing, orthogonal regression for implicit/explicit functions
+2011/11 Origin 8.6, first version in 64bit
+2011/04 Origin 8.5.1
+2010/09 Origin 8.5.0
+2009/10 Origin 8.1
+2009/08 Origin 8 SR6
+2007/12 Origin 8 SR1
+2007/10 Origin 8
+2006/01 Origin 7.5 SR6
+2003/10 Origin 7.5
+2002/02 Origin 7.0
+2000/09 Origin 6.1
+1999/06 Origin 6.0
+1997/08 Origin 5.0
+1995/02 Origin 4.1
+1994/07 Origin 3.5
+1993/08 Origin 2.9
+1993/?? Origin 2
+
+
+== References ==
+
+
+== External links ==
+Official website

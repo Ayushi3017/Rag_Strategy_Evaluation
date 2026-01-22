@@ -1,0 +1,26 @@
+TITLE: Structured data analysis (statistics)
+
+Structured data analysis is the statistical data analysis of structured data. This can arise either in the form of an a priori structure such as multiple-choice questionnaires or in situations with the need to search for structure that fits the given data, either exactly or approximately. This structure can then be used for making comparisons, predictions, manipulations etc.
+
+
+== Types of structured data analysis ==
+Algebraic data analysis
+Bayesian analysis
+Cluster analysis
+Combinatorial data analysis
+Formal concept analysis
+Functional data analysis
+Geometric data analysis
+Regression analysis
+Shape analysis
+Topological data analysis
+Tree structured data analysis
+
+
+== References ==
+
+
+== Further reading ==
+Carlsson, Gunnar (2009). "Topology and data". Bulletin of the American Mathematical Society. New Series. 46 (2): 255–308. doi:10.1090/S0273-0979-09-01249-X.
+James O. Ramsay; B. W. Silverman (2005). Functional data analysis. Springer. ISBN 9780387400808.
+Leland Wilkinson, (1992) Tree Structured Data Analysis: AID, CHAID and CART

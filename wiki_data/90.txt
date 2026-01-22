@@ -1,0 +1,59 @@
+TITLE: Secondary data
+
+Secondary data refers to data that is collected by someone other than the primary user. Common sources of secondary data for social science include censuses, information collected by government departments, organizational records and data that was originally collected for other research purposes. Primary data, by contrast, are collected by the investigator conducting the research.
+Secondary data analysis can save time that would otherwise be spent collecting data and, particularly in the case of quantitative data, can provide larger and higher-quality databases that would be unfeasible for any individual researcher to collect on their own. In addition, analysts of social and economic change consider secondary data essential, since it is impossible to conduct a new survey that can adequately capture past change and/or developments. However, secondary data analysis can be less useful in marketing research, as data may be outdated or inaccurate.
+
+
+== Sources of secondary data ==
+Secondary data can be obtained from many sources:
+
+censuses and government departments like housing, social security, electoral statistics, tax records
+internet searches and libraries
+GPS and remote sensing
+km progress reports
+journals, newspapers and magazines
+
+
+=== Administrative data and census ===
+Government departments and agencies routinely collect information when registering people or carrying out transactions, or for record keeping – usually when delivering a service. This information is called administrative data.
+It can include:
+
+personal information such as names, dates of birth, addresses
+information about schools and educational achievements
+information about health
+information about criminal convictions or prison sentences
+tax records, such as income
+A census is the procedure of systematically acquiring and recording information about the members of a given population. It is a regularly occurring and official count of a particular population. It is a type of administrative data, but it is collected for the purpose of research at specific intervals. Most administrative data is collected continuously and for the purpose of delivering a service to the people.
+
+
+== Advantages and disadvantages of secondary data ==
+Secondary data is available from other sources and may already have been used in previous research, making it easier to carry out further research. It is time-saving and cost-efficient: the data was collected by someone other than the researcher. Administrative data and census data may cover both larger and much smaller samples of the population in detail. Information collected by the government will also cover parts of the population that may be less likely to respond to the census (in countries where this is optional).
+A clear benefit of using secondary data is that much of the background work needed has already been carried out, such as literature reviews or case studies. The data may have been used in published texts and statistics elsewhere, and the data could already be promoted in the media or bring in useful personal contacts. Secondary data generally have a pre-established degree of validity and reliability which need not be re-examined by the researcher who is re-using such data. Secondary data is key in the concept of data enrichment, which is where datasets from secondary sources are connected to a research dataset to improve its precision by adding key attributes and values.
+Secondary data can provide a baseline for primary research to compare the collected primary data results to and it can also be helpful in research design.
+However, secondary data can present problems, too. The data may be out of date or inaccurate. If using data collected for different research purposes, it may not cover those samples of the population researchers want to examine, or not in sufficient detail. Administrative data, which is not originally collected for research, may not be available in the usual research formats or may be difficult to get access to.
+
+
+== Secondary analysis or re-use of qualitative data ==
+While 'secondary data' is associated with quantitative databases, analysis focused on verbal or visual materials created for another purpose, is a legitimate avenue for the qualitative researcher. Actually one could go as far as claim that qualitative secondary data analysis “can be understood, not so much as the analysis of pre-existing data; rather as involving a process of re-contextualizing, and re-constructing, data.”
+In the analysis of secondary qualitative data, good documentation cannot be underestimated as it provides future researchers with the background and context and allows replication.
+
+
+== References ==
+
+
+=== Sources ===
+
+
+== Further reading ==
+696 Research Methods, Secondary Data Analysis Archived October 26, 2000, at the Wayback Machine Corti, L. & Bishop, L. (2005)  FQS 6(1) 'Strategies in Teaching Secondary Analysis of Qualitative Data'
+Culot, G., Podrecca, M., Nassimbeni, G., Orzes, G., & Sartor, M. (2023). Using supply chain databases in academic research: A methodological critique. Journal of Supply Chain Management, 59(1), 3-25.
+Kelly, M. Primary and Secondary Data. McKinnon Secondary College, 2005. http://www.mckinnonsc.vic.edu.au/vceit/infodata/primarysecondary.htm
+McCaston, M. Katherine. Tips for Collecting, Reviewing, and Analyzing Secondary Data. Partnership & Household Livelihood Security Unit(PHLS), February 1998.
+Mochmann, Ekkehard. Data Archiving and the Uses of Secondary Analysis. Central Archives for Empirical Social Research, University of Cologne.
+O'Sullivan, E. & Rassel, G. R. Research Methods for Public Administrators. 3rd Ed. Longman, 1999. p265,268-269.
+
+
+== External links ==
+UK Data Archive: curator of the largest UK collection of digital data in the social sciences and humanities
+Re-using qualitative data
+ESDS Qualidata: access and support for a range of social science qualitative datasets Archived August 9, 2016, at the Wayback Machine

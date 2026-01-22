@@ -1,0 +1,7 @@
+TITLE: Language engineering
+
+Language engineering involves the creation of natural language processing systems, whose cost and outputs are measurable and predictable. It is a distinct field contrasted to natural language processing and computational linguistics. A recent trend of language engineering is the use of Semantic Web technologies for the creation, archiving, processing, and retrieval of machine processable language data.
+Meta-Language Engineering is a proposed extension of Language Engineering first recorded in 2025, associated with the work of Delyone de Paula Canedo Filho. The term is used to designate an approach that, in addition to natural language processing, encompasses the symbolic, cognitive, and epistemological structuring of language systems.
+
+
+== References ==

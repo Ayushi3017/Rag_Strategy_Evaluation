@@ -1,0 +1,86 @@
+TITLE: Formula One tyres
+
+Formula One tyres are specialised racing tyres designed for use on a Formula One car. Tyres play a crucial role in the car's performance, affecting grip, handling, and overall speed. Tyres are also a component into racing strategy, depending on factors such as weather or deterioration. Throughout the history of Formula One, tyres have undergone major changes with different manufacturers and specifications used in the sport. Since 2011, tyres have been provided exclusively by Pirelli, an Italian tyre manufacturer. As of the 2025 season, there are 8 separate types of tyres available for use during events.
+
+
+== Design and usage ==
+Formula One tyres bear only a superficial resemblance to a normal road tyre.  Whereas the latter has a useful life of up to 80,000 km (50,000 miles), the tyres used in Formula One are built to last less than one race distance. The purpose of the tyre determines the compound of the rubber to be used. In extremely wet weather, such as that seen in the 2007 European Grand Prix, the F1 cars are unable to keep up with the safety car in deep standing water due to the risk of aquaplaning. In very wet races, such as the 2011 Canadian Grand Prix, the tyres are unable to provide a safe race due to the amount of water, and so the race can be red flagged. The race is either then stopped permanently or suspended for up to a 3-hour period until the cars can race safely again. Both the latter – and successively the former – situations occurred at the 2021 Belgian Grand Prix.
+
+
+== History ==
+During the 1950s and 1960s, Formula One tyres were supplied by Dunlop, Englebert, Firestone, Continental and Goodyear. In 1958, Dunlop introduced its R5 racing tyre, replacing the cotton fabric of the earlier R1 to R4 tyres with nylon fabric, allowing for a reported 12 lb reduction in tyre weight. During the 1960s, Dunlop introduced improved nylon casings, reduced aspect ratio, significantly increased tyre width, and the use of synthetic rubber.
+Slick tyres were introduced to Formula One by Firestone at the 1971 Spanish Grand Prix. 1975's Ferrari 312T used a Goodyear 26.0"×16.2"–13" slick tyre (overall diameter × width) in the rear on a 13"×18" rim, with a Goodyear 20.0"×9.2"–13" slick tyre in the front on a 13×10" rim.
+For the 1981 season the maximum diameter of the rear tyre was limited to 26.0", while the diameter of the front tyres was increased. Therefore, from 1981 until 1992, Goodyear supplied white sidewall marked Eagle tyres with the sizes of 25.0"×10.0"–13" in the front and 26.0"×15.0"–13" in the rear. For the 1993 season, the complete wheel width of the rear was reduced from 18" to 15". This prompted Goodyear to change to yellow sidewall markings to correspond to the new, narrower rear tyres which were approximately 12.8" wide, down from the previous 15.0".
+For the 1997 F1 season, Bridgestone joined Goodyear in supplying tyres to F1 competitors, creating a tyre war between the two manufacturers. Goodyear would leave the sport following the 1998 season, leaving Bridgestone as the sole tyre provider for the next two seasons.
+In 1998, grooved tyres were introduced with three groove lines in the front tyres and four groove lines in the rear tyres. Between 1999 and 2008, regulations required the tyres to feature a minimum of four 14 mm (0.55 in) grooves in them, with the intention of slowing the cars down. This is because a slick tyre, with no indentations, provides the most grip in dry conditions. They could be no wider than 355 mm (14 in) at the front and 380 mm (15 in) at the rear, and the maximum diameter was 660 mm (26 in), or 670 mm (26.4 in) for wet tyres.
+In 2001, Michelin entered Formula One, once again creating a tyre war after Bridgestone had been the sole tyre provider for the preceding two seasons.
+Tyre changes were disallowed in 2005, so harder compounds were used to ensure the tyres could last the full race distance of around 300 km (200 miles). For 2006, following the dramatic and highly political 2005 United States Grand Prix, tyre changes were permitted again. The race saw the withdrawal of all Michelin runners after Michelin tyres failed on two separate cars on the same turn. This left just the three teams using Bridgestone tyres (which were durable enough to handle the full race distance without issues thanks largely to Bridgestone subsidiary Firestone supplying the IndyCar Series which had run its Indianapolis 500 just a couple weeks earlier) to race.
+For 2007, Bridgestone again became the sole tyre partner and supplier in Formula One with the withdrawal of Michelin, and introduced four compounds of tyre, two of which are made available at each race. The harder tyre (referred to as the "prime" tyre) is more durable but gives less grip, and the softer tyre (referred to as the "option" tyre) gives more grip but is less durable. Both compounds have to be used by each car during a race and the softer tyre had a painted white stripe in the second groove to distinguish between compounds. This was introduced after the first race of the season when confusion occurred because a small dot was put on the sidewall of the tyre, instead of the white stripe. Upon the reintroduction of slicks in 2009, the sidewalls of the softer tyres were painted green to indicate the difference in compound, as there were no longer any grooves in tyres. Each team must use each specification during the race, unless wet or intermediate tyres are used during the race, in which case this rule no longer applies.
+
+Slick tyres were reintroduced at the beginning of 2009, along with aerodynamic changes intended to shift the balance towards mechanical grip in an attempt to increase overtaking.
+On 2 November 2009, Bridgestone announced their withdrawal from Formula One at the end of the 2010 season. Michelin, Cooper Avon and Pirelli showed interest in taking over the role of tyre partner and supplier. On 24 June 2010, it was announced that Pirelli would be the sole tyre partner and supplier for 2011 and would receive a three-year contract. They thus ended their programmes for both the Grand-Am Rolex Sports Car Series and FIA World Rally Championship after spending three years as an official tyre partner and supplier (as the Grand-Am Rolex Sports Car Series switched to Continental and the FIA World Rally Championship switched to Michelin tyres in 2011). During August 2010, Pirelli commenced its test programme with the Toyota TF109 at the Mugello Circuit with Nick Heidfeld as the test driver. From 2011, the feeder GP2 Series used identical Pirelli tyres as in F1.
+In 2009, with the removal of the four 14 mm (0.55 in) grooves, the front tyres gained proportionally larger contact patch. In 2010, the front tyres were narrowed from 270 mm (11 in) to 245 mm (9.6 in), in order to improve the balance of grip between the front and rear. In 2011, with the sole tyre supplier having been changed from Bridgestone to Pirelli, the rules were the same as the 2010 season rules concerning the tyres. All teams still were required to use each type of dry tyre compound supplied in the race, and drivers that made it through to Q3 still had to use the same tyres they used to set their fastest qualifying time with to start the race. However, the way of denoting different tyre specifications was changed. Rather than a green stripe denoting a softer compound, for each tyre specification, the lettering on the tyre would have a specific colour. The hard compound would have silver lettering, the medium compound would have white lettering, the soft tyres would have yellow lettering and the super-soft tyres would have red lettering. For the wet tyres, the intermediate tyres would have light blue lettering and the full wet tyres would have orange lettering.
+At the 2011 Malaysian Grand Prix, Pirelli introduced a coloured band around the outside of the tyre on the softer of the two dry compounds. This was due to confusion during the first round of the season. This measure was said to be a stopgap, with a permanent solution due to be implemented at the first European race of the season. The coloured line featured at the Chinese Grand Prix too. From the Turkish Grand Prix, the permanent solution was implemented; the option compound had a new marking. The option tyre had two thick coloured lines between the Pirelli and P Zero logos of each tyre, which made it easier to see the colour of the marking when the tyre rotates. The prime tyre remained the same markings as previously, though later in the season had the sidewall updated with the new markings.
+In 2012, Pirelli introduced Cinturato sub-brand model exclusively for treaded intermediate and full-rain tyres while the P Zero sub-brand model remains exclusively for dry slicks.
+In 2016, new tyre rules were introduced. Pirelli nominated three different compounds of slick tyres to bring to each race. Each team had 13 sets of dry tyres for the race weekend. Of the 13 sets, two sets of tyres were chosen by Pirelli to be reserved for the race. Additionally, one set of the softest compound were set aside for Q3. Teams were free to choose what they liked for their ten remaining sets from the three chosen compounds. Each driver must have used at least two different dry weather compounds during the race (including one set of the mandatory race tyres), and drivers who made it to Q3 must start the race with the tyres they set their fastest Q2 lap on. Teams were mandated to inform the FIA about their tyre choices eight weeks before the start of a European event and 14 weeks before a non-European race.
+For the 2017 F1 season, significantly wider Pirelli tyres were introduced at both the front and rear axles, while the overall diameter of the tyres was increased by 10mm (660 to 670 mm (26.0 to 26.4 in)). Front tyre size increased to 305/670-R13 up from the previous 245/660-R13, while rear-tyre size increased to 405/670-R13 up from the previous 325/660-R13. In 2017 and 2018, the FIA Formula 2 Championship continued to use the pre-2017 size Pirelli F1 tyres.
+Pirelli introduced two new tyre compounds for the 2018 F1 season – hypersoft (pink) and superhard (orange). The hard tyre became ice blue.
+Heading into the 2019 season, Pirelli reduced the tyre range from seven to five dry weather compounds. They also scrapped the tyre naming system such that the tyres were denoted at each Grand Prix independently as hard, medium and soft with white, yellow and red sidewalls respectively rather than having a separate name and colour for each of the five tyres. The change was implemented so that casual fans could better understand the tyre system. However, by 2025 the range of dry compounds had expanded to seven again.
+As Formula One wheel rim diameter size will switch from 13 to 18 in (330 to 457 mm), the tyre diameter of 2022-spec Pirelli Formula One tyres will also be altered, from 670 to 720 mm (26.4 to 28.3 in), while the tread width of 2022-spec Pirelli Formula One tyres are expected to be unchanged.
+
+
+=== 2005 United States Grand Prix controversy ===
+
+On Friday, 17 June 2005, during the afternoon's practice session, Ralf Schumacher, who was driving for Toyota, crashed heavily in turn 13 of the Indianapolis Motor Speedway road course, as a result of a left-rear tyre failure. Turn 13 on the Indianapolis Motor Speedway road course is a high-speed banked turn, unique in Formula One racing, that causes a greater than usual lateral load. This pressure can cause the side walls of the tyre to bow and wear in abnormal places.
+
+The following day, Michelin reported that the tyres it had provided for its seven customer teams—BAR, McLaren, Red Bull, Renault, Toyota, Sauber, and Williams—were unsafe for extended high-speed use on this turn, and announced its intention to fly in another set of tyres from its Clermont-Ferrand headquarters. However, the replacement tyres flown in, which were of the type used in the Spanish Grand Prix earlier that year, turned out to have the same problem when tested.
+In a letter to FIA Race Director Charlie Whiting, Michelin representatives Pierre Dupasquier and Nick Shorrock revealed that they did not know the cause of Schumacher's tyre failure, and unless the cars could be slowed down in turn 13, Michelin's tyres would be unsafe and unsuitable for use during the race. Whiting replied, expressing his surprise that Michelin had not brought along a second set of tyres. Instead, he suggested that the teams be informed of the maximum safe speed in turn 13, and offered to monitor the turn by penalising any excess speed on the Michelin cars. He also addressed several solutions which had been proposed by the teams, insisting that use of the tyres flown in overnight would result in penalties, and the placement of a chicane in the turn was "out of the question"—the race would not be sanctioned by the FIA (making it a non-championship race) if the track layout was changed. He deemed the Michelin teams' proposals to be "grossly unfair" to the Bridgestone teams. In a second letter, Dupasquier and Shorrock announced that they would not permit their teams to race on Michelin's tyres. The race then took place with only the three Bridgestone teams (Ferrari, Jordan and Minardi) taking part. The race was won by Michael Schumacher.
+
+
+=== Make Cars Green campaign ===
+
+ 
+At the 2008 Japanese Grand Prix, the tyres had the grooves painted green, as part of a promotion by the FIA to reduce the impact of motoring on the environment called Make Cars Green. The softer of the two types of tyre still had the second innermost groove painted white, as per normal.
+Upon the return of slicks at the beginning of the 2009 season, the white stripe to indicate differences between the tyres was no longer possible due to the lack of grooves on the tyres. Subsequently, in a continuation of the Make Cars Green tyres in Japan, Bridgestone painted the sidewalls of the option tyre green instead.
+
+
+== Tyre summary ==
+
+There are eight tyre compounds available for the 2025 season.  Two are treaded wet-weather tyres supplied at every Grand Prix: the intermediate (indicated by a green sidewall) for damp tracks with light standing water, and the full wet (indicated by a blue sidewall) for heavy standing water. The other six are dry-weather slicks, designated C1 to C6. C1 is the hardest, offering the least grip but the greatest durability, while C6—an ultra-soft compound introduced for the 2025 season—is the softest, giving maximum grip at the expense of longevity. These six slicks create a continuous progression of grip versus wear. Pirelli announced a change to the available tyre compounds for 2023, with a compound to be inserted between the old C1 and C2 compounds. This change was supposed to provide teams with more flexible strategy options after criticism towards the original C1 compound for a large drop in grip compared to the other tyres. This addition led to the compound range being extended to C0-C5, but the C0 was never used in a race during the 2023 season. For the 2024 season, Pirelli dropped the C0 altogether, and the range became C1-C5.  The following 2025 season, the C6 was introduced, so the range became C1-C6.
+Pirelli nominates three of the compounds to be run at each race. Of these three, the hardest compound is named the hard tyre for the weekend and is denoted by a white sidewall, while the softest compound is named the soft and is denoted by a red sidewall, with the third of the nominated tyres named the medium tyre which is denoted by a yellow side wall. Drivers have to use at least two of the dry weather compound tyres during a race, unless the race is affected by wet weather.
+With the intention of making tyre usage more sustainable in the future, Formula One tried a reduction in allocated tyre sets from 13 to 11 at two races in 2023. At these races the use of tyres in qualifying was mandated as hard in Q1, medium in Q2 and soft in Q3, assuming that the weather was dry. Teams are usually free to choose which tyre compound they run during qualifying.
+
+
+== Manufacturers ==
+From 2011 onwards, the Italian manufacturer Pirelli is the sole tyre supplier. The deal is currently set to last through the 2027 season.
+Past manufacturers include:
+
+Avon
+Bridgestone
+Continental
+Dunlop
+Englebert
+Firestone
+Goodyear
+Michelin
+
+
+=== Tyre manufacturers by season ===
+The manufacturer that is competing in 2025 is shown in bold. These results are correct as of the 2025 Abu Dhabi Grand Prix.
+
+
+=== Records ===
+Ordered by number of races won. The manufacturer that is competing in 2025 is shown in bold. These results are correct as of the 2025 Abu Dhabi Grand Prix.
+
+
+== References ==
+
+
+== External links ==
+Pirelli F1 Tyres
+FIA tyre regulation summary
+FIA tyre regulations
+Formula One Tyre Technology | Bridgestone Motorsport Official Site
+The Aerodynamic Development of the Formula One Car
+Bridgestone Teams, Single Tyre Formula And Sole Supplier
+The ATLAS Rough Guide: How to Set Up a Formula One Car (Part One)

@@ -1,0 +1,22 @@
+TITLE: Geometric data analysis
+
+Geometric data analysis comprises geometric aspects of image analysis, pattern analysis, and shape analysis, and the approach of multivariate statistics, which treat arbitrary data sets as clouds of points in a space that is n-dimensional. This includes topological data analysis, cluster analysis, inductive data analysis, correspondence analysis, multiple correspondence analysis, principal components analysis and iconography of correlations.
+
+
+== See also ==
+Algebraic statistics for algebraic-geometry in statistics
+Combinatorial data analysis
+Computational anatomy for the study of shapes and forms at the morphome scale
+Structured data analysis (statistics)
+
+
+== References ==
+Michael Kirby (2001). Geometric Data Analysis: An Empirical Approach to Dimensionality Reduction and the Study of Patterns. Wiley. ISBN 978-0-4712-3929-1.
+Brigitte Le Roux, Henry Rouanet (2004). Geometric Data Analysis: from Correspondence Analysis to Structured Data Analysis. Springer. ISBN 978-1-4020-2235-7.
+Michael J. Greenacre, Jörg Blasius (2006). Multiple Correspondence Analysis and Related Methods. CRC press. ISBN 978-1-58488-628-0.
+Approximation of Geodesic Distances for Geometric Data Analysis
+
+
+=== Differential geometry and data analysis ===
+Differential Geometry and Statistics, M.K. Murray, J.W. Rice, Chapman and Hall/CRC, ISBN 978-0-412-39860-5
+Ridges in image and data analysis, David Eberly, Springer, 1996, ISBN 978-0-7923-4268-7

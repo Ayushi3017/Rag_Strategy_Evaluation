@@ -1,0 +1,112 @@
+TITLE: Natural language programming
+
+Natural language programming (NLP) is an ontology-assisted way of programming in terms of natural language sentences, e.g. English. A structured document with Content, sections and subsections for explanations of sentences forms a NLP document, which is actually a computer program. Natural language programming is not to be mixed up with natural language interfacing or voice control where a program is first written and then communicated with through natural language using an interface added on. In NLP the functionality of a program is organised only for the definition of the meaning of sentences. For instance, NLP can be used to represent all the knowledge of an autonomous robot. Having done so, its tasks can be scripted by its users so that the robot can execute them autonomously while keeping to prescribed rules of behaviour as determined by the robot's user. Such robots are called transparent robots  as their reasoning  is transparent to users and this develops trust in robots.   Natural language use and natural language user interfaces include Inform 7, a natural programming language for making interactive fiction, Shakespeare, an esoteric natural programming language in the style of the plays of William Shakespeare, and Wolfram Alpha, a computational knowledge engine, using natural-language input. Some methods for program synthesis are based on natural-language programming.
+
+
+== Interpretation ==
+The smallest unit of statement in NLP is a sentence.  Each sentence is stated in terms of concepts from the underlying ontology, attributes in that ontology and named objects in capital letters.  In an NLP text every sentence unambiguously compiles into a procedure call in the underlying high-level programming language such as MATLAB, Octave, SciLab, Python, etc.
+Symbolic languages such as Wolfram Language are capable of interpreted processing of queries by sentences. This can allow interactive requests such as that implemented in Wolfram Alpha. The difference between these and NLP is that the latter builds up a single program or a library of routines that are programmed through natural language sentences using an ontology that defines the available data structures in a high level programming language.
+An example text from an English language natural language program is as follows:
+
+ If  U_ is 'smc01-control',  then do the following. Define surface weights Alpha as "[0.5, 0.5]".
+ Initialise matrix Phi as a 'unit matrix'. Define J as the 'inertia matrix' of Spc01. Compute
+ matrix J2 as the inverse of J.  Compute position velocity error Ve and angular velocity error
+ Oe from dynamical state X, guidance reference Xnow.   Define the joint sliding surface G2
+ from the position velocity error Ve and angular velocity error Oe using the surface weights
+ Alpha. Compute the smoothed sign function SG2 from the joint sliding surface G2 with sign
+ threshold 0.01.  Compute special dynamical force F from dynamical state X and surface
+ weights Alpha.  Compute control torque T and control force U from matrix J2, surface weights
+ Alpha, special dynamical force F, smoothed sign function SG2.  Finish conditional actions.
+
+that defines a feedback control scheme using a sliding mode control method.
+
+
+== Software paradigm ==
+Natural-language programming is a top-down method of writing software. Its stages are as follows:
+
+Definition of an ontology –  taxonomy –  of concepts needed to describe tasks in the topic addressed. Each concept and all their attributes are defined in natural-language words. This ontology will define the data structures the NLP can use in sentences.
+Definition of one or more top-level sentences in terms of concepts from the ontology. These sentences are later used to invoke the most important activities in the topic.
+Defining of each of the top-level sentences in terms of a sequence of sentences.
+Defining each of the lower-level sentences in terms of other sentences or by a simple sentence of the form  Execute code "...".  where ... stands for a code in terms of the associated high-level programming language.
+Repeating the previous step until you have no sentences left undefined. During this process each of sentences can be classified to belong to a section of the document to be produced in HTML or Latex format to form the final natural-language program.
+Testing the meaning of each sentence by executing its code using testing objects.
+Providing a library of procedure calls (in the underlying high-level language) which are needed in the code definitions of some low-level-sentence meanings.
+Providing a title, author data and compiling the sentences into an HTML or LaTeX file.
+Publishing the natural-language program as a webpage on the Internet or as a PDF file compiled from the LaTeX document.
+
+
+== Publication value of natural-language programs and documents ==
+A natural-language program is a precise formal description of some procedure that its author created. It is human readable and it can also be read by a suitable software agent.  For example, a web page in an NLP format can be read by a software personal assistant agent to a person and she or he can ask the agent to execute some sentences, i.e. carry out some task or answer a question. There is a reader agent available for English interpretation of HTML based NLP documents that a person can run on her personal computer .
+
+
+== Contribution of natural-language programs to machine knowledge ==
+An ontology class is a natural-language program that is not a concept in the sense as humans use concepts. Concepts in an NLP are examples (samples) of generic human concepts. Each sentence in a natural-language program is either (1) stating a relationship in a world model or (2) carries out an action in the environment or (3) carries out a computational procedure or (4) invokes an answering mechanism in response to a question.
+A set of NLP sentences, with associated ontology defined, can also be used as a pseudo code that does not provide the details in any underlying high level programming language. In such an application the sentences used become high level abstractions (conceptualisations) of computing procedures that are computer language and machine independent.
+
+
+== AI in natural language programming ==
+Researchers have started to experiment with natural language programming environments that use plain language prompts and then use AI (specifically large language models) to turn natural language into formal code. For example Spatial Pixel created a natural language programming environment to turn natural language into P5.js code through OpenAI's API. In 2021 OpenAI developed a natural language programming environment for their programming large language model called Codex.
+
+
+== See also ==
+Controlled natural language
+Context-free language
+Domain-specific language (or DSL)
+End-user programming
+Knowledge representation
+Natural-language processing
+Source-code generation
+Very high-level programming language
+Vibe coding, a method of performing natural language programming using a large language model
+
+
+=== Programming languages with English-like syntax ===
+AppleScript
+Attempto Controlled English
+COBOL
+ClearTalk
+FLOW-MATIC
+HyperTalk
+Inform 7
+JOSS
+SenseTalk
+Software AG
+Transcript
+Structured Query Language (or SQL)
+xTalk
+
+
+=== Programming languages with other natural language-like vocabulary or syntax ===
+Non-English-based programming languages
+
+
+== References ==
+
+
+== Bibliography ==
+Books
+
+Natural Language Programming of Agents and Robotic Devices:  publishing for agents and humans in sEnglish by S M Veres, ISBN 978-0-9558417-0-5, London, June 2008.
+Dijkstra, Edsger W. (1979). "On the foolishness of "natural language programming"". Program Construction. Lecture Notes in Computer Science. Vol. 69. pp. 51–53. doi:10.1007/bfb0014656. ISBN 3-540-09251-X.
+Lieberman, Henry; Liu, Hugo (2006). "Feasibility Studies for Programming in Natural Language". End User Development. Human-Computer Interaction Series. Vol. 9. pp. 459–473. doi:10.1007/1-4020-5386-x_20. ISBN 978-1-4020-4220-1.
+Halpern, Mark (1990). "Natural Language and Redundancy in Programming". Binding Time: Six Studies in Programming Technology & Milieu. Ablex series in computational science. Intellect Books. ISBN 9780893916916.
+Papers at conferences
+
+Veres, S.M.; Molnar, L. (2010). "Documents for Intelligent Agents in English". Artificial Intelligence and Applications. doi:10.2316/p.2010.674-122. ISBN 978-0-88986-817-5.
+Sliding mode control of autonomous spacecraft. (half written in sEnglish) by S M Veres an N K Lincoln, Proc. TAROS’2008, Towards Autonomous Robotic Systems, Edinburgh, 1–3 September 2008.
+Veres, Sandor M. (2010). "Mission Capable Autonomous Control Systems in the Oceans, in the Air and in Space". Brain-Inspired Information Technology. Studies in Computational Intelligence. Vol. 266. pp. 1–10. doi:10.1007/978-3-642-04025-2_1. ISBN 978-3-642-04024-5.
+Pulido-Prieto, Oscar; Juárez-Martínez, Ulises (2017). "A Survey of Naturalistic Programming Technologies". ACM Computing Surveys. 50 (5): 1–35. doi:10.1145/3109481. S2CID 2078759.
+Program synthesis from natural language specifications
+Raza, Mohammad, Sumit Gulwani, and Natasa Milic-Frayling. "Compositional Program Synthesis from Natural Language and Examples." IJCAI. 2015.
+Green, Cordell. "A Summary of the PSI Program Synthesis System." IJCAI. Vol. 5. 1977.
+
+
+== External links ==
+English Script (dormant since 2016)
+Plain English Programming Programming language using English sentences in ASCII.
+SEMPRE  –  a toolkit for training semantic parsers
+sysbrain.com  –  sEnglish Editor in C++/ROS for robot programming to develop transparent robots.
+wy-lang.org  –  "Programming Language for the ancient Chinese"
+How natural should a natural interface be? –  thoughts on how "natural" the Ubiquity interface (dormant since 2009)
+Metafor turns English to code (dormant since 2005)
+Computer knowledge representation format, system, methods, and applications –  US patent re: hyperlinking to .who/what/where/when/how XML files that embed NL

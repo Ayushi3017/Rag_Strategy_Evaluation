@@ -1,0 +1,5912 @@
+TITLE: Distributional data analysis
+
+Distributional data analysis is a branch of nonparametric statistics that is related to functional data analysis. It is concerned with random objects that are probability distributions, i.e., the statistical analysis of samples of random distributions where each atom of a sample is a distribution. One of the main challenges in distributional data analysis is that although the space of probability distributions is a convex space, it is not a vector space.
+
+
+== Notation ==
+Let 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ be a probability measure on 
+  
+    
+      
+        D
+      
+    
+    {\displaystyle D}
+  
+, where 
+  
+    
+      
+        D
+        ⊂
+        
+          
+            R
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle D\subset \mathbb {R} ^{p}}
+  
+ with 
+  
+    
+      
+        p
+        ≥
+        1
+      
+    
+    {\displaystyle p\geq 1}
+  
+. The probability measure 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ can be equivalently characterized as cumulative distribution function 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+ or probability density function 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ if it exists. For univariate distributions with 
+  
+    
+      
+        p
+        =
+        1
+      
+    
+    {\displaystyle p=1}
+  
+, quantile function 
+  
+    
+      
+        Q
+        =
+        
+          F
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle Q=F^{-1}}
+  
+ can also be used.
+Let 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+ be a space of distributions 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ and let 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ be a metric on 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+ so that 
+  
+    
+      
+        (
+        
+          
+            F
+          
+        
+        ,
+        d
+        )
+      
+    
+    {\displaystyle ({\mathcal {F}},d)}
+  
+ forms a metric space. There are various metrics available for 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+.
+For example, suppose 
+  
+    
+      
+        
+          ν
+          
+            1
+          
+        
+        ,
+        
+        
+          ν
+          
+            2
+          
+        
+        ∈
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \nu _{1},\;\nu _{2}\in {\mathcal {F}}}
+  
+, and let  
+  
+    
+      
+        
+          f
+          
+            1
+          
+        
+      
+    
+    {\displaystyle f_{1}}
+  
+ and 
+  
+    
+      
+        
+          f
+          
+            2
+          
+        
+      
+    
+    {\displaystyle f_{2}}
+  
+ be the density functions of 
+  
+    
+      
+        
+          ν
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \nu _{1}}
+  
+ and 
+  
+    
+      
+        
+          ν
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \nu _{2}}
+  
+, respectively. The Fisher-Rao metric is defined as
+
+  
+    
+      
+        
+          d
+          
+            F
+            R
+          
+        
+        (
+        
+          f
+          
+            1
+          
+        
+        ,
+        
+          f
+          
+            2
+          
+        
+        )
+        =
+        arccos
+        ⁡
+        
+          (
+          
+            
+              ∫
+              
+                D
+              
+            
+            
+              
+                
+                  f
+                  
+                    1
+                  
+                
+                (
+                x
+                )
+                
+                  f
+                  
+                    2
+                  
+                
+                (
+                x
+                )
+              
+            
+            d
+            x
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle d_{FR}(f_{1},f_{2})=\arccos \left(\int _{D}{\sqrt {f_{1}(x)f_{2}(x)}}dx\right).}
+  
+
+For univariate distributions, let 
+  
+    
+      
+        
+          Q
+          
+            1
+          
+        
+      
+    
+    {\displaystyle Q_{1}}
+  
+ and 
+  
+    
+      
+        
+          Q
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Q_{2}}
+  
+ be the quantile functions of 
+  
+    
+      
+        
+          ν
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \nu _{1}}
+  
+ and 
+  
+    
+      
+        
+          ν
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \nu _{2}}
+  
+. Denote the 
+  
+    
+      
+        
+          L
+          
+            p
+          
+        
+      
+    
+    {\displaystyle L^{p}}
+  
+-Wasserstein space as 
+  
+    
+      
+        
+          
+            
+              W
+            
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\mathcal {W}}_{p}}
+  
+, which is the space of distributions with finite 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+-th moments. Then, for 
+  
+    
+      
+        
+          ν
+          
+            1
+          
+        
+        ,
+        
+        
+          ν
+          
+            2
+          
+        
+        ∈
+        
+          
+            
+              W
+            
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \nu _{1},\;\nu _{2}\in {\mathcal {W}}_{p}}
+  
+, the 
+  
+    
+      
+        
+          L
+          
+            p
+          
+        
+      
+    
+    {\displaystyle L^{p}}
+  
+-Wasserstein metric is defined as
+
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                p
+              
+            
+          
+        
+        (
+        
+          ν
+          
+            1
+          
+        
+        ,
+        
+          ν
+          
+            2
+          
+        
+        )
+        =
+        
+          
+            (
+            
+              
+                ∫
+                
+                  0
+                
+                
+                  1
+                
+              
+              [
+              
+                Q
+                
+                  1
+                
+              
+              (
+              s
+              )
+              −
+              
+                Q
+                
+                  2
+                
+              
+              (
+              s
+              )
+              
+                ]
+                
+                  p
+                
+              
+              d
+              s
+            
+            )
+          
+          
+            1
+            
+              /
+            
+            p
+          
+        
+        .
+      
+    
+    {\displaystyle d_{W_{p}}(\nu _{1},\nu _{2})=\left(\int _{0}^{1}[Q_{1}(s)-Q_{2}(s)]^{p}ds\right)^{1/p}.}
+  
+
+
+== Mean and variance ==
+For a probability measure 
+  
+    
+      
+        ν
+        ∈
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \nu \in {\mathcal {F}}}
+  
+, consider a random process 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {F}}}
+  
+ such that 
+  
+    
+      
+        ν
+        ∼
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \nu \sim {\mathfrak {F}}}
+  
+. One way to define mean and variance of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ is to introduce the Fréchet mean and the Fréchet variance. With respect to the metric 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  
+ on 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+, the Fréchet mean 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }}
+  
+, also known as the barycenter, and the Fréchet variance 
+  
+    
+      
+        
+          V
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle V_{\oplus }}
+  
+ are defined as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  μ
+                  
+                    ⊕
+                  
+                
+              
+              
+                
+                =
+                
+                  argmin
+                  
+                    μ
+                    ∈
+                    
+                      
+                        F
+                      
+                    
+                  
+                
+                ⁡
+                
+                  E
+                
+                [
+                
+                  d
+                  
+                    2
+                  
+                
+                (
+                ν
+                ,
+                μ
+                )
+                ]
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    ⊕
+                  
+                
+              
+              
+                
+                =
+                
+                  E
+                
+                [
+                
+                  d
+                  
+                    2
+                  
+                
+                (
+                ν
+                ,
+                
+                  μ
+                  
+                    ⊕
+                  
+                
+                )
+                ]
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mu _{\oplus }&=\operatorname {argmin} _{\mu \in {\mathcal {F}}}\mathbb {E} [d^{2}(\nu ,\mu )],\\V_{\oplus }&=\mathbb {E} [d^{2}(\nu ,\mu _{\oplus })].\end{aligned}}}
+  
+
+A widely used example is the Wasserstein-Fréchet mean, or simply the Wasserstein mean, which is the Fréchet mean with the 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+-Wasserstein metric 
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle d_{W_{2}}}
+  
+. For 
+  
+    
+      
+        ν
+        ,
+        
+        μ
+        ∈
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \nu ,\;\mu \in {\mathcal {W}}_{2}}
+  
+, let 
+  
+    
+      
+        
+          Q
+          
+            ν
+          
+        
+        ,
+        
+        
+          Q
+          
+            μ
+          
+        
+      
+    
+    {\displaystyle Q_{\nu },\;Q_{\mu }}
+  
+ be the quantile functions of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ and 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+, respectively. The Wasserstein mean and Wasserstein variance is defined as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  μ
+                  
+                    ⊕
+                  
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                =
+                
+                  argmin
+                  
+                    μ
+                    ∈
+                    
+                      
+                        
+                          W
+                        
+                      
+                      
+                        2
+                      
+                    
+                  
+                
+                ⁡
+                
+                  E
+                
+                
+                  [
+                  
+                    
+                      ∫
+                      
+                        0
+                      
+                      
+                        1
+                      
+                    
+                    (
+                    
+                      Q
+                      
+                        ν
+                      
+                    
+                    (
+                    s
+                    )
+                    −
+                    
+                      Q
+                      
+                        μ
+                      
+                    
+                    (
+                    s
+                    )
+                    
+                      )
+                      
+                        2
+                      
+                    
+                    d
+                    s
+                  
+                  ]
+                
+                ,
+              
+            
+            
+              
+                
+                  V
+                  
+                    ⊕
+                  
+                  
+                    ∗
+                  
+                
+              
+              
+                
+                =
+                
+                  E
+                
+                
+                  [
+                  
+                    
+                      ∫
+                      
+                        0
+                      
+                      
+                        1
+                      
+                    
+                    (
+                    
+                      Q
+                      
+                        ν
+                      
+                    
+                    (
+                    s
+                    )
+                    −
+                    
+                      Q
+                      
+                        
+                          μ
+                          
+                            ⊕
+                          
+                          
+                            ∗
+                          
+                        
+                      
+                    
+                    (
+                    s
+                    )
+                    
+                      )
+                      
+                        2
+                      
+                    
+                    d
+                    s
+                  
+                  ]
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mu _{\oplus }^{*}&=\operatorname {argmin} _{\mu \in {\mathcal {W}}_{2}}\mathbb {E} \left[\int _{0}^{1}(Q_{\nu }(s)-Q_{\mu }(s))^{2}ds\right],\\V_{\oplus }^{*}&=\mathbb {E} \left[\int _{0}^{1}(Q_{\nu }(s)-Q_{\mu _{\oplus }^{*}}(s))^{2}ds\right].\end{aligned}}}
+  
+
+
+== Modes of variation ==
+Modes of variation are useful concepts in depicting the variation of data around the mean function. Based on the Karhunen-Loève representation, modes of variation show the contribution of each eigenfunction to the mean.
+
+
+=== Functional principal component analysis ===
+Functional principal component analysis (FPCA) can be directly applied to the probability density functions. Consider a distribution process 
+  
+    
+      
+        ν
+        ∼
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \nu \sim {\mathfrak {F}}}
+  
+ and let 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ be the density function of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+. Let the mean density function as 
+  
+    
+      
+        μ
+        (
+        t
+        )
+        =
+        
+          E
+        
+        
+          [
+          
+            f
+            (
+            t
+            )
+          
+          ]
+        
+      
+    
+    {\displaystyle \mu (t)=\mathbb {E} \left[f(t)\right]}
+  
+ and the covariance function as 
+  
+    
+      
+        G
+        (
+        s
+        ,
+        t
+        )
+        =
+        Cov
+        ⁡
+        (
+        f
+        (
+        s
+        )
+        ,
+        f
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle G(s,t)=\operatorname {Cov} (f(s),f(t))}
+  
+ with orthonormal eigenfunctions 
+  
+    
+      
+        {
+        
+          ϕ
+          
+            j
+          
+        
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \{\phi _{j}\}_{j=1}^{\infty }}
+  
+ and eigenvalues 
+  
+    
+      
+        {
+        
+          λ
+          
+            j
+          
+        
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \{\lambda _{j}\}_{j=1}^{\infty }}
+  
+.
+By the Karhunen-Loève theorem, 
+  
+    
+      
+        f
+        (
+        t
+        )
+        =
+        μ
+        (
+        t
+        )
+        +
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          ξ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle f(t)=\mu (t)+\sum _{j=1}^{\infty }\xi _{j}\phi _{j}(t)}
+  
+, where principal components 
+  
+    
+      
+        
+          ξ
+          
+            j
+          
+        
+        =
+        
+          ∫
+          
+            D
+          
+        
+        [
+        f
+        (
+        t
+        )
+        −
+        μ
+        (
+        t
+        )
+        ]
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+        d
+        t
+      
+    
+    {\displaystyle \xi _{j}=\int _{D}[f(t)-\mu (t)]\phi _{j}(t)dt}
+  
+. The 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+th mode of variation is defined as
+
+  
+    
+      
+        
+          g
+          
+            j
+          
+        
+        (
+        t
+        ,
+        α
+        )
+        =
+        μ
+        (
+        t
+        )
+        +
+        α
+        
+          
+            
+              λ
+              
+                j
+              
+            
+          
+        
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+        ,
+        
+        t
+        ∈
+        D
+        ,
+        
+        α
+        ∈
+        [
+        −
+        A
+        ,
+        A
+        ]
+      
+    
+    {\displaystyle g_{j}(t,\alpha )=\mu (t)+\alpha {\sqrt {\lambda _{j}}}\phi _{j}(t),\quad t\in D,\;\alpha \in [-A,A]}
+  
+
+with some constant 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, such as 2 or 3.
+
+
+=== Transformation FPCA ===
+Assume the probability density functions 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+ exist, and let 
+  
+    
+      
+        
+          
+            
+              F
+            
+          
+          
+            f
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}_{f}}
+  
+ be the space of density functions.
+Transformation approaches introduce a continuous and invertible transformation 
+  
+    
+      
+        Ψ
+        :
+        
+          
+            
+              F
+            
+          
+          
+            f
+          
+        
+        →
+        
+          H
+        
+      
+    
+    {\displaystyle \Psi :{\mathcal {F}}_{f}\to \mathbb {H} }
+  
+, where 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbb {H} }
+  
+ is a Hilbert space of functions. For instance, the log quantile density transformation or the centered log ratio transformation are popular choices.
+For 
+  
+    
+      
+        f
+        ∈
+        
+          
+            
+              F
+            
+          
+          
+            f
+          
+        
+      
+    
+    {\displaystyle f\in {\mathcal {F}}_{f}}
+  
+, let 
+  
+    
+      
+        Y
+        =
+        Ψ
+        (
+        f
+        )
+      
+    
+    {\displaystyle Y=\Psi (f)}
+  
+, the transformed functional variable. The mean function 
+  
+    
+      
+        
+          μ
+          
+            Y
+          
+        
+        (
+        t
+        )
+        =
+        
+          E
+        
+        
+          [
+          
+            Y
+            (
+            t
+            )
+          
+          ]
+        
+      
+    
+    {\displaystyle \mu _{Y}(t)=\mathbb {E} \left[Y(t)\right]}
+  
+ and the covariance function 
+  
+    
+      
+        
+          G
+          
+            Y
+          
+        
+        (
+        s
+        ,
+        t
+        )
+        =
+        Cov
+        ⁡
+        (
+        Y
+        (
+        s
+        )
+        ,
+        Y
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle G_{Y}(s,t)=\operatorname {Cov} (Y(s),Y(t))}
+  
+ are defined accordingly, and let 
+  
+    
+      
+        {
+        
+          λ
+          
+            j
+          
+        
+        ,
+        
+          ϕ
+          
+            j
+          
+        
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \{\lambda _{j},\phi _{j}\}_{j=1}^{\infty }}
+  
+ be the eigenpairs of 
+  
+    
+      
+        
+          G
+          
+            Y
+          
+        
+        (
+        s
+        ,
+        t
+        )
+      
+    
+    {\displaystyle G_{Y}(s,t)}
+  
+. The Karhunen-Loève decomposition gives 
+
+  
+    
+      
+        Y
+        (
+        t
+        )
+        =
+        
+          μ
+          
+            Y
+          
+        
+        (
+        t
+        )
+        +
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          ξ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Y(t)=\mu _{Y}(t)+\sum _{j=1}^{\infty }\xi _{j}\phi _{j}(t)}
+  
+, where 
+  
+    
+      
+        
+          ξ
+          
+            j
+          
+        
+        =
+        
+          ∫
+          
+            D
+          
+        
+        [
+        Y
+        (
+        t
+        )
+        −
+        
+          μ
+          
+            Y
+          
+        
+        (
+        t
+        )
+        ]
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+        d
+        t
+      
+    
+    {\displaystyle \xi _{j}=\int _{D}[Y(t)-\mu _{Y}(t)]\phi _{j}(t)dt}
+  
+. Then, the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+th transformation mode of variation is defined as
+
+  
+    
+      
+        
+          g
+          
+            j
+          
+          
+            T
+            F
+          
+        
+        (
+        t
+        ,
+        α
+        )
+        =
+        
+          Ψ
+          
+            −
+            1
+          
+        
+        
+          (
+          
+            
+              μ
+              
+                Y
+              
+            
+            +
+            α
+            
+              
+                
+                  λ
+                  
+                    j
+                  
+                
+              
+            
+            
+              ϕ
+              
+                j
+              
+            
+          
+          )
+        
+        (
+        t
+        )
+        ,
+        
+        t
+        ∈
+        D
+        ,
+        
+        α
+        ∈
+        [
+        −
+        A
+        ,
+        A
+        ]
+        .
+      
+    
+    {\displaystyle g_{j}^{TF}(t,\alpha )=\Psi ^{-1}\left(\mu _{Y}+\alpha {\sqrt {\lambda _{j}}}\phi _{j}\right)(t),\quad t\in D,\;\alpha \in [-A,A].}
+  
+
+
+=== Log FPCA and Wasserstein Geodesic PCA ===
+Endowed with metrics such as the Wasserstein metric 
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle d_{W_{2}}}
+  
+ or the Fisher-Rao metric 
+  
+    
+      
+        
+          d
+          
+            F
+            R
+          
+        
+      
+    
+    {\displaystyle d_{FR}}
+  
+, we can employ the (pseudo) Riemannian structure of 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+. Denote the tangent space at the Fréchet mean 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }}
+  
+ as 
+  
+    
+      
+        
+          T
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+      
+    
+    {\displaystyle T_{\mu _{\oplus }}}
+  
+, and define the logarithm and exponential maps 
+  
+    
+      
+        
+          log
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+        :
+        
+          
+            F
+          
+        
+        →
+        
+          T
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+      
+    
+    {\displaystyle \log _{\mu _{\oplus }}:{\mathcal {F}}\to T_{\mu _{\oplus }}}
+  
+ and 
+  
+    
+      
+        
+          exp
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+        :
+        
+          T
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+        →
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle \exp _{\mu _{\oplus }}:T_{\mu _{\oplus }}\to {\mathcal {F}}}
+  
+. 
+Let 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ be the projected density onto the tangent space, 
+  
+    
+      
+        Y
+        =
+        
+          log
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        (
+        f
+        )
+      
+    
+    {\displaystyle Y=\log _{\mu _{\oplus }}(f)}
+  
+. 
+In Log FPCA, FPCA is performed to 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ and then projected back to 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+ using the exponential map. Therefore, with 
+  
+    
+      
+        Y
+        (
+        t
+        )
+        =
+        
+          μ
+          
+            Y
+          
+        
+        (
+        t
+        )
+        +
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          ξ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Y(t)=\mu _{Y}(t)+\sum _{j=1}^{\infty }\xi _{j}\phi _{j}(t)}
+  
+, the 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+th Log FPCA mode of variation is defined as 
+
+  
+    
+      
+        
+          g
+          
+            j
+          
+          
+            L
+            o
+            g
+          
+        
+        (
+        t
+        ,
+        α
+        )
+        =
+        
+          exp
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        
+          (
+          
+            
+              μ
+              
+                
+                  f
+                  
+                    ⊕
+                  
+                
+              
+            
+            +
+            α
+            
+              
+                
+                  λ
+                  
+                    j
+                  
+                
+              
+            
+            
+              ϕ
+              
+                j
+              
+            
+          
+          )
+        
+        (
+        t
+        )
+        ,
+        
+        t
+        ∈
+        D
+        ,
+        
+        α
+        ∈
+        [
+        −
+        A
+        ,
+        A
+        ]
+        .
+      
+    
+    {\displaystyle g_{j}^{Log}(t,\alpha )=\exp _{f_{\oplus }}\left(\mu _{f_{\oplus }}+\alpha {\sqrt {\lambda _{j}}}\phi _{j}\right)(t),\quad t\in D,\;\alpha \in [-A,A].}
+  
+
+As a special case, consider 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+-Wasserstein space 
+  
+    
+      
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathcal {W}}_{2}}
+  
+, a random distribution 
+  
+    
+      
+        ν
+        ∈
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \nu \in {\mathcal {W}}_{2}}
+  
+, and a subset 
+  
+    
+      
+        G
+        ⊂
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle G\subset {\mathcal {W}}_{2}}
+  
+. Let 
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+        (
+        ν
+        ,
+        G
+        )
+        =
+        
+          inf
+          
+            μ
+            ∈
+            G
+          
+        
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+        (
+        ν
+        ,
+        μ
+        )
+      
+    
+    {\displaystyle d_{W_{2}}(\nu ,G)=\inf _{\mu \in G}d_{W_{2}}(\nu ,\mu )}
+  
+ and 
+  
+    
+      
+        
+          K
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+        (
+        G
+        )
+        =
+        
+          E
+        
+        
+          [
+          
+            
+              d
+              
+                
+                  W
+                  
+                    2
+                  
+                
+              
+              
+                2
+              
+            
+            (
+            ν
+            ,
+            G
+            )
+          
+          ]
+        
+      
+    
+    {\displaystyle K_{W_{2}}(G)=\mathbb {E} \left[d_{W_{2}}^{2}(\nu ,G)\right]}
+  
+. Let 
+  
+    
+      
+        
+          CL
+        
+        (
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {\text{CL}}({\mathcal {W}}_{2})}
+  
+ be the metric space of nonempty, closed subsets of 
+  
+    
+      
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathcal {W}}_{2}}
+  
+, endowed with Hausdorff distance, and define
+
+  
+    
+      
+        
+          CG
+          
+            
+              ν
+              
+                0
+              
+            
+            ,
+            k
+          
+        
+        ⁡
+        (
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+        )
+        =
+        {
+        G
+        ∈
+        CL
+        ⁡
+        (
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+        )
+        :
+        
+          ν
+          
+            0
+          
+        
+        ∈
+        G
+        ,
+        G
+        
+           is a geodesic set s.t. 
+        
+        dim
+        ⁡
+        (
+        G
+        )
+        ≤
+        k
+        }
+        ,
+        
+        k
+        ≥
+        1.
+      
+    
+    {\displaystyle \operatorname {CG} _{\nu _{0},k}({\mathcal {W}}_{2})=\{G\in \operatorname {CL} ({\mathcal {W}}_{2}):\nu _{0}\in G,G{\text{ is a geodesic set s.t. }}\operatorname {dim} (G)\leq k\},\;k\geq 1.}
+  
+
+Let the reference measure 
+  
+    
+      
+        
+          ν
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \nu _{0}}
+  
+ be the Wasserstein mean 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }}
+  
+.
+Then, a principal geodesic subspace (PGS) of dimension 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+ with respect to 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }}
+  
+ is a set 
+  
+    
+      
+        
+          G
+          
+            k
+          
+        
+        =
+        
+          argmin
+          
+            G
+            ∈
+            
+              
+                CG
+              
+              
+                
+                  ν
+                  
+                    ⊕
+                  
+                
+                ,
+                k
+              
+            
+            (
+            
+              
+                
+                  W
+                
+              
+              
+                2
+              
+            
+            )
+          
+        
+        ⁡
+        
+          K
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+        (
+        G
+        )
+      
+    
+    {\displaystyle G_{k}=\operatorname {argmin} _{G\in {\text{CG}}_{\nu _{\oplus },k}({\mathcal {W}}_{2})}K_{W_{2}}(G)}
+  
+.
+Note that the tangent space 
+  
+    
+      
+        
+          T
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+        
+      
+    
+    {\displaystyle T_{\mu _{\oplus }}}
+  
+ is a subspace of 
+  
+    
+      
+        
+          L
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L_{\mu _{\oplus }}^{2}}
+  
+, the Hilbert space of 
+  
+    
+      
+        
+          
+            μ
+            
+              ⊕
+            
+          
+        
+      
+    
+    {\displaystyle {\mu _{\oplus }}}
+  
+-square-integrable functions. Obtaining the PGS is equivalent to performing PCA in 
+  
+    
+      
+        
+          L
+          
+            
+              μ
+              
+                ⊕
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L_{\mu _{\oplus }}^{2}}
+  
+ under constraints to lie in the convex and closed subset. Therefore, a simple approximation of the Wasserstein Geodesic PCA is the Log FPCA by relaxing the geodesicity constraint, while alternative techniques are suggested.
+
+
+== Distributional regression ==
+
+
+=== Fréchet regression ===
+Fréchet regression is a generalization of regression with responses taking values in a metric space and Euclidean predictors. Using the Wasserstein metric 
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle d_{W_{2}}}
+  
+, Fréchet regression models can be applied to distributional objects. The global Wasserstein-Fréchet regression model is defined as
+
+which generalizes the standard linear regression. 
+For the local Wasserstein-Fréchet regression, consider a scalar predictor 
+  
+    
+      
+        X
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle X\in \mathbb {R} }
+  
+ and introduce a smoothing kernel 
+  
+    
+      
+        
+          K
+          
+            h
+          
+        
+        (
+        ⋅
+        )
+        =
+        
+          h
+          
+            −
+            1
+          
+        
+        K
+        (
+        ⋅
+        
+          /
+        
+        h
+        )
+      
+    
+    {\displaystyle K_{h}(\cdot )=h^{-1}K(\cdot /h)}
+  
+. The local Fréchet regression model, which generalizes the local linear regression model, is defined as
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  l
+                  
+                    ⊕
+                  
+                
+                (
+                x
+                )
+              
+              
+                
+                =
+                
+                  argmin
+                  
+                    ω
+                    ∈
+                    
+                      
+                        F
+                      
+                    
+                  
+                
+                ⁡
+                
+                  E
+                
+                
+                  [
+                  
+                    
+                      s
+                      
+                        L
+                      
+                    
+                    (
+                    X
+                    ,
+                    x
+                    ,
+                    h
+                    )
+                    
+                      d
+                      
+                        
+                          W
+                          
+                            2
+                          
+                        
+                      
+                      
+                        2
+                      
+                    
+                    (
+                    ν
+                    ,
+                    ω
+                    )
+                  
+                  ]
+                
+                ,
+              
+            
+            
+              
+                
+                  s
+                  
+                    L
+                  
+                
+                (
+                X
+                ,
+                x
+                ,
+                h
+                )
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    0
+                  
+                  
+                    −
+                    2
+                  
+                
+                {
+                
+                  K
+                  
+                    h
+                  
+                
+                (
+                X
+                −
+                x
+                )
+                [
+                
+                  μ
+                  
+                    2
+                  
+                
+                −
+                
+                  μ
+                  
+                    1
+                  
+                
+                (
+                X
+                −
+                x
+                )
+                ]
+                }
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}l_{\oplus }(x)&=\operatorname {argmin} _{\omega \in {\mathcal {F}}}\mathbb {E} \left[s_{L}(X,x,h)d_{W_{2}}^{2}(\nu ,\omega )\right],\\s_{L}(X,x,h)&=\sigma _{0}^{-2}\{K_{h}(X-x)[\mu _{2}-\mu _{1}(X-x)]\},\end{aligned}}}
+  
+
+where 
+  
+    
+      
+        
+          μ
+          
+            j
+          
+        
+        =
+        
+          E
+        
+        
+          [
+          
+            
+              K
+              
+                h
+              
+            
+            (
+            X
+            −
+            x
+            )
+            (
+            X
+            −
+            x
+            
+              )
+              
+                j
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \mu _{j}=\mathbb {E} \left[K_{h}(X-x)(X-x)^{j}\right]}
+  
+, 
+  
+    
+      
+        j
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+      
+    
+    {\displaystyle j=0,1,2,}
+  
+ and 
+  
+    
+      
+        
+          σ
+          
+            0
+          
+          
+            2
+          
+        
+        =
+        
+          μ
+          
+            0
+          
+        
+        
+          μ
+          
+            2
+          
+        
+        −
+        
+          μ
+          
+            1
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma _{0}^{2}=\mu _{0}\mu _{2}-\mu _{1}^{2}}
+  
+.
+
+
+=== Transformation based approaches ===
+Consider the response variable 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ to be probability distributions. With the space of density functions 
+  
+    
+      
+        
+          
+            
+              F
+            
+          
+          
+            f
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}_{f}}
+  
+ and a Hilbert space of functions 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbb {H} }
+  
+, consider continuous and invertible transformations 
+  
+    
+      
+        Ψ
+        :
+        
+          
+            
+              F
+            
+          
+          
+            f
+          
+        
+        →
+        
+          H
+        
+      
+    
+    {\displaystyle \Psi :{\mathcal {F}}_{f}\to \mathbb {H} }
+  
+. Examples of transformations include log hazard transformation, log quantile density transformation, or centered log-ratio transformation. Linear methods such as functional linear models are applied to the transformed variables. The fitted models are interpreted back in the original density space 
+  
+    
+      
+        
+          
+            F
+          
+        
+      
+    
+    {\displaystyle {\mathcal {F}}}
+  
+ using the inverse transformation. 
+
+
+=== Random object approaches ===
+In Wasserstein regression, both predictors 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+ and responses 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ can be distributional objects. Let 
+  
+    
+      
+        ω
+        
+          ⊕
+        
+      
+    
+    {\displaystyle \omega {\oplus }}
+  
+ and 
+  
+    
+      
+        
+          ν
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle \nu _{\oplus }}
+  
+ be the Wasserstein mean of 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  
+ and 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+, respectively. The Wasserstein regression model is defined as
+
+  
+    
+      
+        
+          E
+        
+        (
+        
+          log
+          
+            
+              ν
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        ν
+        
+          |
+        
+        
+          log
+          
+            ω
+            
+              ⊕
+            
+          
+        
+        ⁡
+        ω
+        )
+        =
+        Γ
+        (
+        
+          log
+          
+            ω
+            
+              ⊕
+            
+          
+        
+        ⁡
+        ω
+        )
+        ,
+      
+    
+    {\displaystyle \mathbb {E} (\log _{\nu _{\oplus }}\nu |\log _{\omega {\oplus }}\omega )=\Gamma (\log _{\omega {\oplus }}\omega ),}
+  
+
+with a linear regression operator 
+
+  
+    
+      
+        Γ
+        g
+        (
+        t
+        )
+        =
+        ⟨
+        β
+        (
+        ⋅
+        ,
+        t
+        )
+        ,
+        g
+        
+          ⟩
+          
+            ω
+            
+              ⊕
+            
+          
+        
+        ,
+        
+        t
+        ∈
+        D
+        ,
+        
+        g
+        ∈
+        
+          T
+          
+            ω
+            
+              ⊕
+            
+          
+        
+        ,
+        
+        β
+        :
+        
+          D
+          
+            2
+          
+        
+        →
+        
+          R
+        
+        .
+      
+    
+    {\displaystyle \Gamma g(t)=\langle \beta (\cdot ,t),g\rangle _{\omega {\oplus }},\;t\in D,\;g\in T_{\omega {\oplus }},\;\beta :D^{2}\to \mathbb {R} .}
+  
+
+Estimation of the regression operator is based on empirical estimators obtained from samples.
+Also, the Fisher-Rao metric 
+  
+    
+      
+        
+          d
+          
+            F
+            R
+          
+        
+      
+    
+    {\displaystyle d_{FR}}
+  
+ can be used in a similar fashion.
+
+
+== Hypothesis testing ==
+
+
+=== Wasserstein F-test ===
+Wasserstein 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+-test has been proposed to test for the effects of the predictors in the Fréchet regression framework with the Wasserstein metric. Consider Euclidean predictors 
+  
+    
+      
+        X
+        ∈
+        
+          
+            R
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle X\in \mathbb {R} ^{p}}
+  
+ and distributional responses 
+  
+    
+      
+        ν
+        ∈
+        
+          
+            
+              W
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \nu \in {\mathcal {W}}_{2}}
+  
+. Denote the Wasserstein mean of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+ as 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }^{*}}
+  
+, and the sample Wasserstein mean as 
+  
+    
+      
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {\hat {\mu }}_{\oplus }^{*}}
+  
+. Consider the global Wasserstein-Fréchet regression model 
+  
+    
+      
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle m_{\oplus }(x)}
+  
+ defined in (1), which is the conditional Wasserstein mean given 
+  
+    
+      
+        X
+        =
+        x
+      
+    
+    {\displaystyle X=x}
+  
+. The estimator of 
+  
+    
+      
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle m_{\oplus }(x)}
+  
+, 
+  
+    
+      
+        
+          
+            
+              
+                m
+                ^
+              
+            
+          
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle {\hat {m}}_{\oplus }(x)}
+  
+ is obtained by minimizing the empirical version of the criterion.
+Let 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+, 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  
+, 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+, 
+
+  
+    
+      
+        
+          F
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle F_{\oplus }^{*}}
+  
+, 
+  
+    
+      
+        
+          Q
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle Q_{\oplus }^{*}}
+  
+, 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle f_{\oplus }^{*}}
+  
+, 
+
+  
+    
+      
+        
+          F
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle F_{\oplus }(x)}
+  
+, 
+  
+    
+      
+        
+          Q
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle Q_{\oplus }(x)}
+  
+, 
+and 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle f_{\oplus }(x)}
+  
+ denote the cumulative distribution, quantile, and density functions of 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+, 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }^{*}}
+  
+, and 
+  
+    
+      
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle m_{\oplus }(x)}
+  
+, respectively. For a pair 
+  
+    
+      
+        (
+        X
+        ,
+        ν
+        )
+      
+    
+    {\displaystyle (X,\nu )}
+  
+, define 
+  
+    
+      
+        T
+        =
+        Q
+        ∘
+        
+          F
+          
+            ⊕
+          
+        
+        (
+        X
+        )
+      
+    
+    {\displaystyle T=Q\circ F_{\oplus }(X)}
+  
+ be the optimal transport map from 
+  
+    
+      
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        X
+        )
+      
+    
+    {\displaystyle m_{\oplus }(X)}
+  
+ to 
+  
+    
+      
+        ν
+      
+    
+    {\displaystyle \nu }
+  
+. 
+Also, define 
+  
+    
+      
+        S
+        =
+        
+          Q
+          
+            ⊕
+          
+        
+        (
+        X
+        )
+        ∘
+        
+          F
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle S=Q_{\oplus }(X)\circ F_{\oplus }^{*}}
+  
+, the optimal transport map from 
+  
+    
+      
+        
+          μ
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle \mu _{\oplus }^{*}}
+  
+ to 
+  
+    
+      
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle m_{\oplus }(x)}
+  
+. Finally, define the covariance kernel 
+  
+    
+      
+        K
+        (
+        u
+        ,
+        v
+        )
+        =
+        
+          E
+        
+        [
+        
+          Cov
+        
+        (
+        (
+        T
+        ∘
+        S
+        )
+        (
+        u
+        )
+        ,
+        (
+        T
+        ∘
+        S
+        )
+        (
+        v
+        )
+        )
+        ]
+      
+    
+    {\displaystyle K(u,v)=\mathbb {E} [{\text{Cov}}((T\circ S)(u),(T\circ S)(v))]}
+  
+ and by the Mercer decomposition, 
+  
+    
+      
+        K
+        (
+        u
+        ,
+        v
+        )
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        u
+        )
+        
+          ϕ
+          
+            j
+          
+        
+        (
+        v
+        )
+      
+    
+    {\displaystyle K(u,v)=\sum _{j=1}^{\infty }\lambda _{j}\phi _{j}(u)\phi _{j}(v)}
+  
+.
+If there are no regression effects, the conditional Wasserstein mean would equal the Wasserstein mean. That is, hypotheses for the test of no effects are
+
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+        :
+        
+          m
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+        ≡
+        
+          μ
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+        
+        
+          v.s.
+        
+        
+        
+          H
+          
+            1
+          
+        
+        :
+        
+          Not 
+        
+        
+          H
+          
+            0
+          
+        
+        .
+      
+    
+    {\displaystyle H_{0}:m_{\oplus }(x)\equiv \mu _{\oplus }^{*}\quad {\text{v.s.}}\quad H_{1}:{\text{Not }}H_{0}.}
+  
+
+To test for these hypotheses, the proposed global Wasserstein 
+  
+    
+      
+        F
+      
+    
+    {\displaystyle F}
+  
+-statistic and its asymptotic distribution are
+
+  
+    
+      
+        
+          F
+          
+            G
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+          
+            2
+          
+        
+        (
+        
+          
+            
+              
+                m
+                ^
+              
+            
+          
+          
+            ⊕
+          
+        
+        (
+        x
+        )
+        ,
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            ⊕
+          
+          
+            ∗
+          
+        
+        )
+        ,
+        
+        
+          F
+          
+            G
+          
+        
+        
+          |
+        
+        
+          X
+          
+            1
+          
+        
+        ,
+        ⋯
+        ,
+        
+          X
+          
+            n
+          
+        
+        
+          
+            ⟶
+            d
+          
+        
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          V
+          
+            j
+          
+        
+        
+        a
+        .
+        s
+        .
+        ,
+      
+    
+    {\displaystyle F_{G}=\sum _{i=1}^{n}d_{W_{2}}^{2}({\hat {m}}_{\oplus }(x),{\hat {\mu }}_{\oplus }^{*}),\quad F_{G}|X_{1},\cdots ,X_{n}{\overset {d}{\longrightarrow }}\sum _{j=1}^{\infty }\lambda _{j}V_{j}\;a.s.,}
+  
+
+where 
+  
+    
+      
+        
+          V
+          
+            j
+          
+        
+        
+          
+            ∼
+            
+              i
+              i
+              d
+            
+          
+        
+        
+          χ
+          
+            p
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle V_{j}{\overset {iid}{\sim }}\chi _{p}^{2}}
+  
+. An extension to hypothesis testing for partial regression effects, and alternative testing approximations using the 
+Satterthwaite's approximation or a bootstrap approach are proposed.
+
+
+=== Tests for the intrinsic mean ===
+The Hilbert sphere 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}^{\infty }}
+  
+ is defined as 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            ∞
+          
+        
+        =
+        
+          {
+          
+            f
+            ∈
+            
+              H
+            
+            :
+            ‖
+            f
+            
+              ‖
+              
+                
+                  H
+                
+              
+            
+            =
+            1
+          
+          }
+        
+      
+    
+    {\displaystyle {\mathcal {S}}^{\infty }=\left\{f\in \mathbb {H} :\|f\|_{\mathbb {H} }=1\right\}}
+  
+, where 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbb {H} }
+  
+ is a separable infinite-dimensional Hilbert space with inner product 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        
+          ⟩
+          
+            
+              H
+            
+          
+        
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle _{\mathbb {H} }}
+  
+ and norm 
+  
+    
+      
+        ‖
+        ⋅
+        
+          ‖
+          
+            
+              H
+            
+          
+        
+      
+    
+    {\displaystyle \|\cdot \|_{\mathbb {H} }}
+  
+. Consider the space of square root densities 
+  
+    
+      
+        
+          
+            X
+          
+        
+        =
+        
+          {
+          
+            x
+            :
+            D
+            →
+            
+              R
+            
+            :
+            x
+            =
+            
+              
+                f
+              
+            
+            ,
+            
+              ∫
+              
+                D
+              
+            
+            f
+            (
+            t
+            )
+            d
+            t
+            =
+            1
+          
+          }
+        
+      
+    
+    {\displaystyle {\mathcal {X}}=\left\{x:D\to \mathbb {R} :x={\sqrt {f}},\int _{D}f(t)dt=1\right\}}
+  
+. Then with the Fisher-Rao metric 
+  
+    
+      
+        
+          d
+          
+            F
+            R
+          
+        
+      
+    
+    {\displaystyle d_{FR}}
+  
+ on 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  
+, 
+  
+    
+      
+        
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\mathcal {X}}}
+  
+ is the positive orthant of the Hilbert sphere 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle {\mathcal {S}}^{\infty }}
+  
+ with 
+  
+    
+      
+        
+          H
+        
+        =
+        
+          L
+          
+            2
+          
+        
+        (
+        D
+        )
+      
+    
+    {\displaystyle \mathbb {H} =L^{2}(D)}
+  
+. 
+Let a chart 
+  
+    
+      
+        τ
+        :
+        U
+        ⊂
+        
+          
+            
+              S
+            
+          
+          
+            ∞
+          
+        
+        →
+        
+          G
+        
+      
+    
+    {\displaystyle \tau :U\subset {\mathcal {S}}^{\infty }\to \mathbb {G} }
+  
+ as a smooth homeomorphism that maps 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+  
+ onto an open subset 
+  
+    
+      
+        τ
+        (
+        U
+        )
+      
+    
+    {\displaystyle \tau (U)}
+  
+ of a separable Hilbert space 
+  
+    
+      
+        
+          G
+        
+      
+    
+    {\displaystyle \mathbb {G} }
+  
+ for coordinates. For example, 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ can be the logarithm map.
+Consider a random element 
+  
+    
+      
+        x
+        =
+        
+          
+            f
+          
+        
+        ∈
+        
+          
+            X
+          
+        
+      
+    
+    {\displaystyle x={\sqrt {f}}\in {\mathcal {X}}}
+  
+ equipped with the Fisher-Rao metric, and write its Fréchet mean as 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+. Let the empirical estimator of 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ using 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ samples as 
+  
+    
+      
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mu }}}
+  
+. Then central limit theorem for 
+  
+    
+      
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            τ
+          
+        
+        =
+        τ
+        (
+        
+          
+            
+              μ
+              ^
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\hat {\mu }}_{\tau }=\tau ({\hat {\mu }})}
+  
+ and 
+  
+    
+      
+        
+          μ
+          
+            τ
+          
+        
+        =
+        τ
+        (
+        μ
+        )
+      
+    
+    {\displaystyle \mu _{\tau }=\tau (\mu )}
+  
+ holds: 
+  
+    
+      
+        
+          
+            n
+          
+        
+        (
+        
+          
+            
+              
+                μ
+                ^
+              
+            
+          
+          
+            τ
+          
+        
+        −
+        
+          μ
+          
+            τ
+          
+        
+        )
+        
+          
+            ⟶
+            L
+          
+        
+        Z
+        ,
+        
+        n
+        →
+        ∞
+      
+    
+    {\displaystyle {\sqrt {n}}({\hat {\mu }}_{\tau }-\mu _{\tau }){\overset {L}{\longrightarrow }}Z,\;n\to \infty }
+  
+,
+where 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+ is a Gaussian random element in 
+  
+    
+      
+        
+          G
+        
+      
+    
+    {\displaystyle \mathbb {G} }
+  
+ with mean 0 and covariance operator 
+  
+    
+      
+        
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\mathcal {T}}}
+  
+. Let the eigenvalue-eigenfunction pairs of 
+  
+    
+      
+        
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\mathcal {T}}}
+  
+ and the estimated covariance operator 
+  
+    
+      
+        
+          
+            
+              
+                T
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\mathcal {T}}}}
+  
+ as 
+  
+    
+      
+        (
+        
+          λ
+          
+            k
+          
+        
+        ,
+        
+          ϕ
+          
+            k
+          
+        
+        
+          )
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle (\lambda _{k},\phi _{k})_{k=1}^{\infty }}
+  
+ and 
+  
+    
+      
+        (
+        
+          
+            
+              
+                λ
+                ^
+              
+            
+          
+          
+            k
+          
+        
+        ,
+        
+          
+            
+              
+                ϕ
+                ^
+              
+            
+          
+          
+            k
+          
+        
+        
+          )
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle ({\hat {\lambda }}_{k},{\hat {\phi }}_{k})_{k=1}^{\infty }}
+  
+, respectively.
+Consider one-sample hypothesis testing
+
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+        :
+        μ
+        =
+        
+          μ
+          
+            0
+          
+        
+        
+        
+          v.s.
+        
+        
+        
+          H
+          
+            1
+          
+        
+        :
+        μ
+        ≠
+        
+          μ
+          
+            0
+          
+        
+        ,
+      
+    
+    {\displaystyle H_{0}:\mu =\mu _{0}\quad {\text{v.s.}}\quad H_{1}:\mu \neq \mu _{0},}
+  
+
+with 
+  
+    
+      
+        
+          μ
+          
+            0
+          
+        
+        ∈
+        
+          
+            
+              S
+            
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \mu _{0}\in {\mathcal {S}}^{\infty }}
+  
+. Denote 
+  
+    
+      
+        ‖
+        ⋅
+        
+          ‖
+          
+            
+              G
+            
+          
+        
+      
+    
+    {\displaystyle \|\cdot \|_{\mathbb {G} }}
+  
+ and 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        
+          ⟩
+          
+            
+              G
+            
+          
+        
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle _{\mathbb {G} }}
+  
+ as the norm and inner product in 
+  
+    
+      
+        
+          G
+        
+      
+    
+    {\displaystyle \mathbb {G} }
+  
+. The test statistics and their limiting distributions are
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  T
+                  
+                    1
+                  
+                
+              
+              
+                
+                =
+                n
+                ‖
+                τ
+                (
+                
+                  
+                    
+                      μ
+                      ^
+                    
+                  
+                
+                )
+                −
+                τ
+                (
+                
+                  μ
+                  
+                    0
+                  
+                
+                )
+                
+                  ‖
+                  
+                    
+                      G
+                    
+                  
+                  
+                    2
+                  
+                
+                
+                  
+                    ⟶
+                    L
+                  
+                
+                
+                  λ
+                  
+                    k
+                  
+                
+                
+                  W
+                  
+                    k
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  S
+                  
+                    1
+                  
+                
+              
+              
+                
+                =
+                n
+                
+                  ∑
+                  
+                    k
+                    =
+                    1
+                  
+                  
+                    K
+                  
+                
+                
+                  
+                    
+                      ⟨
+                      τ
+                      (
+                      
+                        
+                          
+                            μ
+                            ^
+                          
+                        
+                      
+                      )
+                      −
+                      τ
+                      (
+                      
+                        μ
+                        
+                          0
+                        
+                      
+                      )
+                      ,
+                      
+                        
+                          
+                            
+                              ϕ
+                              ^
+                            
+                          
+                        
+                        
+                          k
+                        
+                      
+                      
+                        ⟩
+                        
+                          
+                            G
+                          
+                        
+                        
+                          2
+                        
+                      
+                    
+                    
+                      
+                        
+                          
+                            λ
+                            ^
+                          
+                        
+                      
+                      
+                        k
+                      
+                    
+                  
+                
+                
+                  
+                    ⟶
+                    L
+                  
+                
+                
+                  χ
+                  
+                    K
+                  
+                  
+                    2
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}T_{1}&=n\|\tau ({\hat {\mu }})-\tau (\mu _{0})\|_{\mathbb {G} }^{2}{\overset {L}{\longrightarrow }}\lambda _{k}W_{k},\\S_{1}&=n\sum _{k=1}^{K}{\frac {\langle \tau ({\hat {\mu }})-\tau (\mu _{0}),{\hat {\phi }}_{k}\rangle _{\mathbb {G} }^{2}}{{\hat {\lambda }}_{k}}}{\overset {L}{\longrightarrow }}\chi _{K}^{2},\end{aligned}}}
+  
+
+where 
+  
+    
+      
+        
+          W
+          
+            k
+          
+        
+        
+          
+            ∼
+            
+              i
+              i
+              d
+            
+          
+        
+        
+          χ
+          
+            1
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle W_{k}{\overset {iid}{\sim }}\chi _{1}^{2}}
+  
+. The actual testing procedure can be done by employing the limiting distributions with Monte Carlo simulations, or bootstrap tests are possible. An extension to the two-sample test and paired test are also proposed.
+
+
+== Distributional time series ==
+Autoregressive (AR) models for distributional time series are constructed by defining stationarity and utilizing the notion of difference between distributions using 
+  
+    
+      
+        
+          d
+          
+            
+              W
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle d_{W_{2}}}
+  
+ and 
+  
+    
+      
+        
+          d
+          
+            F
+            R
+          
+        
+      
+    
+    {\displaystyle d_{FR}}
+  
+.
+In Wasserstein autoregressive model (WAR), consider a stationary density time series 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+      
+    
+    {\displaystyle f_{t}}
+  
+ with Wasserstein mean 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle f_{\oplus }}
+  
+. Denote the difference between 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+      
+    
+    {\displaystyle f_{t}}
+  
+ and 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle f_{\oplus }}
+  
+ using the logarithm map, 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+        ⊖
+        
+          f
+          
+            ⊕
+          
+        
+        =
+        
+          log
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        
+          f
+          
+            t
+          
+        
+        =
+        
+          T
+          
+            t
+          
+        
+        −
+        
+          id
+        
+      
+    
+    {\displaystyle f_{t}\ominus f_{\oplus }=\log _{f_{\oplus }}f_{t}=T_{t}-{\text{id}}}
+  
+, where 
+  
+    
+      
+        
+          T
+          
+            t
+          
+        
+        =
+        
+          Q
+          
+            t
+          
+        
+        ∘
+        
+          F
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle T_{t}=Q_{t}\circ F_{\oplus }}
+  
+ is the optimal transport from 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle f_{\oplus }}
+  
+ to 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+      
+    
+    {\displaystyle f_{t}}
+  
+ in which 
+  
+    
+      
+        
+          F
+          
+            t
+          
+        
+      
+    
+    {\displaystyle F_{t}}
+  
+ and 
+  
+    
+      
+        
+          F
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle F_{\oplus }}
+  
+ are the cdf of 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+      
+    
+    {\displaystyle f_{t}}
+  
+ and 
+  
+    
+      
+        
+          f
+          
+            ⊕
+          
+        
+      
+    
+    {\displaystyle f_{\oplus }}
+  
+. An 
+  
+    
+      
+        A
+        R
+        (
+        1
+        )
+      
+    
+    {\displaystyle AR(1)}
+  
+ model on the tangent space 
+  
+    
+      
+        
+          T
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+      
+    
+    {\displaystyle T_{f_{\oplus }}}
+  
+ is defined as 
+  
+    
+      
+        
+          V
+          
+            t
+          
+        
+        =
+        β
+        
+          V
+          
+            t
+            −
+            1
+          
+        
+        +
+        
+          ϵ
+          
+            t
+          
+        
+        ,
+        
+        t
+        ∈
+        
+          Z
+        
+        ,
+      
+    
+    {\displaystyle V_{t}=\beta V_{t-1}+\epsilon _{t},\;t\in \mathbb {Z} ,}
+  
+ for 
+  
+    
+      
+        
+          V
+          
+            t
+          
+        
+        ∈
+        
+          T
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{t}\in T_{f_{\oplus }}}
+  
+ with the autoregressive parameter 
+  
+    
+      
+        β
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle \beta \in \mathbb {R} }
+  
+ and mean zero random i.i.d. innovations 
+  
+    
+      
+        
+          ϵ
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \epsilon _{t}}
+  
+. Under proper conditions, 
+  
+    
+      
+        
+          μ
+          
+            t
+          
+        
+        =
+        
+          exp
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        (
+        
+          V
+          
+            t
+          
+        
+        )
+      
+    
+    {\displaystyle \mu _{t}=\exp _{f_{\oplus }}(V_{t})}
+  
+ with densities 
+  
+    
+      
+        
+          f
+          
+            t
+          
+        
+      
+    
+    {\displaystyle f_{t}}
+  
+ and 
+  
+    
+      
+        
+          V
+          
+            t
+          
+        
+        =
+        
+          log
+          
+            
+              f
+              
+                ⊕
+              
+            
+          
+        
+        ⁡
+        (
+        
+          μ
+          
+            t
+          
+        
+        )
+      
+    
+    {\displaystyle V_{t}=\log _{f_{\oplus }}(\mu _{t})}
+  
+. Accordingly, 
+  
+    
+      
+        W
+        A
+        R
+        (
+        1
+        )
+      
+    
+    {\displaystyle WAR(1)}
+  
+, with a natural extension to order 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+, is defined as
+
+  
+    
+      
+        
+          T
+          
+            t
+          
+        
+        −
+        
+          id
+        
+        =
+        β
+        (
+        
+          T
+          
+            t
+            −
+            1
+          
+        
+        −
+        
+          id
+        
+        )
+        +
+        
+          ϵ
+          
+            t
+          
+        
+        .
+      
+    
+    {\displaystyle T_{t}-{\text{id}}=\beta (T_{t-1}-{\text{id}})+\epsilon _{t}.}
+  
+
+On the other hand, the spherical autoregressive model (SAR) considers the Fisher-Rao metric. Following the settings of ##Tests for the intrinsic mean, let 
+  
+    
+      
+        
+          x
+          
+            t
+          
+        
+        ∈
+        
+          
+            X
+          
+        
+      
+    
+    {\displaystyle x_{t}\in {\mathcal {X}}}
+  
+ with Fréchet mean 
+  
+    
+      
+        
+          μ
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \mu _{x}}
+  
+. Let 
+  
+    
+      
+        θ
+        =
+        arccos
+        ⁡
+        (
+        ⟨
+        
+          x
+          
+            t
+          
+        
+        ,
+        
+          μ
+          
+            x
+          
+        
+        ⟩
+        )
+      
+    
+    {\displaystyle \theta =\arccos(\langle x_{t},\mu _{x}\rangle )}
+  
+, which is the geodesic distance between 
+  
+    
+      
+        
+          x
+          
+            t
+          
+        
+      
+    
+    {\displaystyle x_{t}}
+  
+ and 
+  
+    
+      
+        
+          μ
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \mu _{x}}
+  
+. Define a rotation operator 
+  
+    
+      
+        
+          Q
+          
+            
+              x
+              
+                t
+              
+            
+            ,
+            
+              μ
+              
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle Q_{x_{t},\mu _{x}}}
+  
+ that rotates 
+  
+    
+      
+        
+          x
+          
+            t
+          
+        
+      
+    
+    {\displaystyle x_{t}}
+  
+ to 
+  
+    
+      
+        
+          μ
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \mu _{x}}
+  
+. The spherical difference between 
+  
+    
+      
+        
+          x
+          
+            t
+          
+        
+      
+    
+    {\displaystyle x_{t}}
+  
+ and 
+  
+    
+      
+        
+          μ
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \mu _{x}}
+  
+ is represented as 
+  
+    
+      
+        
+          R
+          
+            t
+          
+        
+        =
+        
+          x
+          
+            t
+          
+        
+        ⊖
+        
+          μ
+          
+            x
+          
+        
+        =
+        θ
+        
+          Q
+          
+            
+              x
+              
+                t
+              
+            
+            ,
+            
+              μ
+              
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle R_{t}=x_{t}\ominus \mu _{x}=\theta Q_{x_{t},\mu _{x}}}
+  
+. Assume that 
+  
+    
+      
+        
+          R
+          
+            t
+          
+        
+      
+    
+    {\displaystyle R_{t}}
+  
+ is a stationary sequence with the Fréchet mean 
+  
+    
+      
+        
+          μ
+          
+            R
+          
+        
+      
+    
+    {\displaystyle \mu _{R}}
+  
+, then 
+  
+    
+      
+        S
+        A
+        R
+        (
+        1
+        )
+      
+    
+    {\displaystyle SAR(1)}
+  
+ is defined as
+
+  
+    
+      
+        
+          R
+          
+            t
+          
+        
+        −
+        
+          μ
+          
+            R
+          
+        
+        =
+        β
+        (
+        
+          R
+          
+            t
+            −
+            1
+          
+        
+        −
+        
+          μ
+          
+            R
+          
+        
+        )
+        +
+        
+          ϵ
+          
+            t
+          
+        
+        ,
+      
+    
+    {\displaystyle R_{t}-\mu _{R}=\beta (R_{t-1}-\mu _{R})+\epsilon _{t},}
+  
+
+where 
+  
+    
+      
+        
+          μ
+          
+            R
+          
+        
+        =
+        
+          E
+        
+        
+          R
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \mu _{R}=\mathbb {E} R_{t}}
+  
+ and mean zero random i.i.d innovations 
+  
+    
+      
+        
+          ϵ
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \epsilon _{t}}
+  
+. An alternative model, the differenced based spherical autoregressive (DSAR) model is defined with 
+  
+    
+      
+        
+          R
+          
+            t
+          
+        
+        =
+        
+          x
+          
+            t
+            +
+            1
+          
+        
+        ⊖
+        
+          x
+          
+            t
+          
+        
+      
+    
+    {\displaystyle R_{t}=x_{t+1}\ominus x_{t}}
+  
+, with natural extensions to order 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+  
+. A similar extension to the Wasserstein space was introduced.
+
+
+== References ==

@@ -1,0 +1,123 @@
+TITLE: Formula One regulations
+
+The numerous Formula One regulations, made and enforced by the FIA, have changed dramatically since the first Formula One World Championship in 1950. There are two main types of regulations; technical and sporting. Technical regulations are related to car specifications, such as the chassis or the engine. Meanwhile, sporting regulations involve race procedures and set rules that pertain to the sport as a whole. This article covers the current state of F1 technical and sporting regulations, as well as the history of the technical regulations since 1950.
+
+
+== Current rules and regulations ==
+
+
+=== Technical ===
+
+
+==== Chassis ====
+An F1 car can be no more than 200 cm wide and 95 cm tall. Though there is no maximum length, other rules set indirect limits on these dimensions, and nearly every aspect of the car carries size regulations; consequently the various cars tend to be very close to the same size. The car and driver must together weigh at least 800 kg as of 2025.
+The car must only have four wheels mounted externally of the body work with only the front 2 steered and only the back 2 driven. The maximum distance allowed between the front and rear wheels (the wheelbase) is 360 cm.
+The main chassis contains a "safety cell" which includes the cockpit, a structure designed to reduce impact directly in front of the cockpit, and the fuel cell directly behind the cockpit. Additionally, the car must contain roll structures behind and ahead of the driver. The driver must be able to enter and exit the cockpit without any adjustments other than removing the steering wheel.
+There are also mandatory crash test standards. There is a 30 mph (48 km/h) head-on impact into a steel barrier; "average deceleration must not exceed 25g", with a maximum 60g for a minimum 3 milliseconds, with no damage to the chassis beyond the nose section. The same chassis must then sustain a rear impact from a sled travelling at 30 mph (48 km/h), with no damage in front of the rear axle. The roll hoop is not permitted to crush beyond 50 mm (2.0 in), and structural failure is only permitted in the top 100 mm (3.9 in) of the body. Side impacts by a 780 kg (1,720 lb) object at 10 m/s (22 mph) must be decelerated at less than 20g, and absorb no less than 15% and no more than 35% of the total energy; 80 kN (18,000 lbf) can not be exceeded more than 3 milliseconds. The steering wheel must survive the impact of an 8 kg (18 lb) 165 mm (6.5 in)-diameter object at 7 m/s (16 mph) with no deformation of the wheel or damage to the quick-release mechanism.
+In addition, there are "squeeze tests" on the cockpit sides, fuel tank, and nosebox. The cockpit must survive a 25 kN (5,600 lbf) force with no failure; for the fuel tank, 12.5 kN (2,800 lbf) is applied. A maximum 3 mm (0.12 in) deformation is allowed. For the cockpit rim, the figures are 10 kN (2,200 lbf) and 20 mm (0.79 in). The nosebox must withstand 40 kN (9,000 lbf) for 30 seconds without failing.
+Onboard electrical and computer systems, once inspected at the start of the season, may not be changed without prior approval. Electronic starters and launch control are forbidden. The computers must contain a telemetric accident data reporting system.
+Continuously variable transmissions (CVTs) have been banned since 1994, two weeks after very successful tests in the Williams FW15C in 1993 that proved CVTs had the potential to keep other teams at a competitive disadvantage for a long time due to the difficulties of designing sufficiently strong belts for use in CVTs. It was speculated that the use of a CVT alone led to an advantage of several seconds per lap. CVTs have never been used in Formula 1 races. A rule was added in 1994 that stated that gearboxes must have anywhere from 2 to 7 discrete gear ratios, alongside a clause that explicitly bans CVTs. Active suspensions were also banned in 1994 due to safety concerns by the FIA over ever-higher speeds, and other "driver aids" were also banned that same year, including 4-wheel steering, which was tested and found to provide negligible if any reduction in lap times.
+Since 2014, transmissions with 8 gear ratios and 1 reverse gear ratio are required in Formula 1 cars.
+
+
+==== Engine ====
+
+2.4-litre V8 engines were used in the 2013 season. The engine technology was greatly changed from the 2014 season with the introduction of the 1.6-litre turbocharged V6-hybrid engine. The engine minimum weight is 145 kg.
+
+For the 2017 season, the fuel limit per race was increased to 105 kg. For the 2019 season, the limit was again increased to 110 kg. The power outputs of F1 engines have not been disclosed since the 1990s, however, the consensus is that the 1.6 L turbocharged V-6 engines produce 750 to 850 bhp, depending on trims and mappings. Another radical change in 2014 was the introduction of the ERS (Energy Recovery System). This system works similarly to KERS, with drivers getting a full-time boost of about 160 bhp from electric motors used in conjunction with the internal combustion engine (generating around 1,000 bhp in total) instead of a 6-second bank of extra power per lap. The combination of these systems led to the term power unit being used in lieu of engine.
+Devices designed to inject any substance into the cylinders other than air and fuel (petrol) are forbidden, as are variable-length intake and exhaust systems. The crankshaft and camshafts must be made of steel or cast iron. The use of carbon composite materials for the cylinder block, cylinder head and pistons is not allowed. Separate starting devices may be used to start engines in the pits and on the grid. If the engine is fitted with an anti-stall device, this must be set to cut the engine within ten seconds in the event of an accident.
+The engines, now referred to as power units, are divided into 6 components: the internal combustion engine (ICE); turbocharger (TC); Motor Generator Unit-Kinetic (MGU-K), which harvests energy that would normally be wasted under braking; Motor Generator Unit-Heat (MGU-H), which collects energy in the form of heat as it is expelled through the exhaust; Energy Store (ES), which functions as batteries, holding the energy gathered by the Motor Generator Units; and Control Electronics (CE), which includes the Electronic Control Unit and software used to manage the entire power unit. In 2015, each driver was allowed to use up to four of each component during a season that is up to 20 scheduled races in length; a fifth power unit (and its components) could be used without penalty if more than 20 races are scheduled to take place. A ten-place starting grid penalty was applicable for the use of a power unit component used beyond the established allocation, and a pit lane start for the entire unit changes beyond the limit.
+*Note: The density of fuel here varies, but is approximately between 0.7 – 0.77 g/mL. *(Figures above reflect that range.)*
+
+
+==== Refuelling ====
+From 2010, refuelling is no longer permitted during the race and now every car starts with a full fuel load. The 2010 season cars were about 22 cm longer than 2009 cars to accommodate the enlarged fuel tank this necessitated.
+
+
+==== Tyres ====
+
+Formula 1 has contracted a single supplier of tyres since the 2007 season. The supplier (Pirelli since 2011) supplies 6 specifications of slick dry-weather tyres (C1, C2, C3, C4, C5, C6), of which 3 compounds are provided at each race (described at that race as "soft", "medium" and "hard"). Pirelli introduced a softer C6 compound for the 2025 season. From 2011 to 2015, 2 types of dry tyres were provided at each race weekend, known as the Prime and the Option. Teams are supplied with more sets of Prime tyres than Option tyres for use throughout the weekend. The Prime tyre is usually harder and therefore more durable than the Option tyre, while the Option tyre provides more grip and therefore allows faster lap times when the tyres are fresh. At some events the selection is reversed, with the Option tyre being harder than the Prime. The combination of longer lasting and faster tyres adds an element to each car's race strategy. Additionally, 2 wet-weather compounds are provided by the supplier: intermediate and full wet. From 2016 onward, 3 dry tyre compounds are brought to a race weekend. Since 2019, regardless of tyre compound, one tyre is designated as soft, one as medium, and one as hard. One set of the softest tyres is set aside for Q3 and two sets of the middle and the hardest tyres are kept for the race. Drivers select 10 sets of tyres for a race weekend. Each compound is differentiated by a colour-coded band painted around the tyre's sidewall and including the supplier's logo: red for soft, yellow for medium, white for hard, green for intermediate, and blue for full wet.
+Competitors are allowed only a limited number of tyre sets during a race event: 13 dry, 4 intermediate, 3 wet. Each tyre must be marked with a unique identifier for tracking and scrutinising during a race event. During the practice sessions drivers are limited to the use of 3 sets of dry tyres, and certain sets must be returned to the supplier before the second and third sessions. From 2014 to 2021, if qualifying and starting the race on dry tyres, drivers who completed a lap during the third period of qualifying (the top ten) were required to start the race on the tyre set with which they recorded their fastest time during the second period. Any cars that qualified outside the top ten may have started the race on any remaining set of tyres. This rule was removed prior to the 2022 season. Cars must race on any 2 dry compounds during a race unless intermediate or wet tyres have been used by that car in that race.
+Prior to qualifying, wet and intermediate tyres may only be used if the track is judged wet by the race director. Starting the race behind the safety car due to heavy rain requires cars to be fitted with wet tyres until they make a pit stop.
+Heaters may be applied only to the outside of tyres.
+
+
+=== Sporting ===
+
+
+==== Parc fermé ====
+After weighing during each qualifying session, teams are required to take their cars to a place in the paddock, sectioned off by the FIA, known as parc fermé; they may not do work on the cars, other than routine maintenance, until they are released from parc fermé for the race the next morning.
+If a team must do other significant work, body work or suspension adjustments, the car will start from the pit lane.
+
+
+==== Race procedure ====
+
+The pit lane opens forty minutes before the start of a race (t−40:00). Drivers may do as many reconnaissance laps as they wish, driving through the pit lane each time around in order to avoid the grid. Drivers must be in their cars and in place on the grid by time the pit lane closes at t−30:00; otherwise they must start the race from the pits. Meanwhile, teams may work on their cars on the grid.
+At t−10:00 the grid is cleared of everyone except team mechanics, race marshals, and drivers. A team will generally want to keep its tyres off their cars and heated in their tyre-warmers for as long as possible, but they must be attached to the cars by t−3:00.
+Engines must be running by t−1:00; at fifteen seconds to the start all personnel must be clear of the track. Green lights signify the start of the formation lap, also known as the parade lap, during which drivers must remain in the same order (no passing) except if a car ahead has stopped due to a technical problem, or has had an accident. The cars circle the track once, usually weaving from side to side to warm up their tyres, and form up again in their starting positions on the grid. A series of short, controlled burnouts is usually performed as each driver approaches their grid box in order to maximize rear tyre temperature and clean off any debris from the parade lap.
+If, for some reason, a car cannot start the race (engine failure during qualifying or practice, suspension fails, etc.), the car can still join the race, but will take a 10-position penalty at the start. For example, if the car qualifies in 3rd, but has to change an engine at any point during the race weekend prior to the actual race, the car will start from 13th position. For strategy's sake, teams will sometimes opt to start a car affected in this way from the pit lane. This means they start at the tail end of the grid; however, they can not only change an engine, but also start the race with fresh tyres.
+Gearboxes must be used for five consecutive events (counted as P3, the qualifying practice session and the race). A 5-place grid penalty will be incurred if a replacement gearbox is used (Pole position becomes 6th).
+The race is started by ten red lights in two rows of five (i.e. 5 columns of 2). The red lights in each column operate as a pair i.e. both go on and off together. The lights illuminate one pair at a time, left to right, in one-second intervals, and then go out simultaneously after a random interval (i.e. 4–7 seconds). When the lights go out, the race officially begins. Should the start need to be aborted for any reason, all 5 pairs of red lights will come on as normal, but instead of going out, the orange lights will flash. All engines are stopped and the start resumes from the 5-minute point. If a single driver raises their hand to indicate that they can't start, the marshal for that row will wave a yellow flag, then after a few seconds, both the red and orange lights will extinguish and the green lights will come on to indicate another formation lap.(No overtaking in formation laps)
+
+
+==== Scoring ====
+The Drivers' and Constructors' Championships are decided by points, which are awarded according to the place in which a driver classifies at each Grand Prix. To receive points a racer need not finish the race, but at least 90% of the winner's race distance must be completed. Therefore, it is possible for a driver to receive some points even though they retired before the end of the race. In that case the scoring is based on the distance completed in comparison to other drivers. It is also possible for the lower points not to be awarded (as at the 2005 United States Grand Prix) because insufficient drivers completed 90% of the winner's distance. The system was revised in 2003 and later amended for the 2010 season because of two new teams entering the sport. From 2019 to 2024, a point was awarded for fastest lap, but this was discontinued for 2025. The scoring system from 2025 on is:
+
+For scoring systems prior to 2025, refer to the List of Formula One World Championship points scoring systems.
+Drivers finishing lower than tenth place receive no points.
+From 2010 until the end of 2021 championship, if the race had to be abandoned for any reason before 75% of the planned distance (but after a minimum of two completed laps), then the points awarded were halved: 12.5, 9, 7.5, 6, 5, 4, 3, 2, 1, 0.5. The rules regarding the awarding of points were reviewed by FIA, teams and Formula One following criticism after the 2021 Belgian Grand Prix, during which the race was red flagged on lap 3 after two laps behind the safety car, with no laps having been completed under green flag conditions at racing speed, before the race was abandoned prematurely, with the race result—a win for Max Verstappen—being taken after the first lap. More than two laps were considered by the FIA to have been completed by leader because  the leader Verstappen had crossed the control line three times before the race was abandoned.
+Following this, the point allocation for suspended races was changed for the 2022 season. The points awarded follow a gradual scale system as follows:
+
+No points will be awarded unless a minimum of two laps had been completed under green flag conditions.
+If more than two laps are completed, but less than 25% of the scheduled race distance, points will be awarded  to the top 5 on a 6–4–3–2–1 basis.
+If 25%–50% of the scheduled race distance is completed, points will be awarded on a 13–10–8–6–5–4–3–2–1 basis to the top 9.
+If 50%–75% of the scheduled race distance is completed, points will be awarded on a 19–14–12–9–8–6–5–3–2–1 to the top 10.
+If more than 75% of the scheduled race distance is completed, full points will be awarded.
+However, these rules do not apply and full points will be awarded when a race is suspended and then resumed, even if the whole race distance cannot be completed in the 3 hour race window. However, this was changed for 2023 thereby satisfying the original intent of the gradual scale system.
+Points are awarded equally to the driver and their constructor; for example, if a driver for one team comes second, eighteen points are added to their season total; if their teammate finished third in the same race, they add fifteen to their total and the team adds 33 (the sum of the drivers' points) to its total. The championships are awarded to whichever driver and constructor have the most points at the end of the season. In case of a tie, the FIA compares the number of times each driver has finished in each position. The championship goes to whichever had the greater number of wins; if they have the same number of wins, it goes to the driver with the greater number of second places, and so on. For example, if drivers A and B were tied at the end of a season, and B had six wins and 3 second-place finishes, but A had six wins and four second-place finishes (even if they had fewer third places than B, etc.), then A would be champion.
+On 10 December 2013, it was confirmed that drivers and constructors would score double points in the final Grand Prix from 2014 onwards, but this was abandoned in the weeks following the 2014 season.
+
+
+==== Flags ====
+
+Many venues make use of electronic displays to indicate flags to give various messages to drivers. However, race marshals continue to use physical flags as a redundancy mechanism in the event of electronic display failure. Marshals are positioned at numerous points around the track during every race. Flags have different meanings depending on their colour; the colours (with Pantone values as specified by the FIA) signify as follows:
+
+Flags, whose specifications and usage are prescribed by Appendix H of the FIA's International Sporting Code, must measure at least 60 cm by 80 cm, excepting the red and chequered flags, which must measure at least 80 cm by 100 cm.
+
+
+==== Penalties ====
+Penalties may be imposed on drivers for numerous offences, including jumping the start, speeding in the pit lane, causing an avoidable accident, unsportsmanlike conduct, or ignoring flags of any color. Sometimes, penalty points would be issued to the offending driver's superlicense. There are four types of penalty which a driver may incur for violation of on-track rules:
+A time penalty is the most common type of penalty, and can last either five or ten seconds. It may be served during the next pit stop. After the driver stops in their pit box, mechanics must wait for 5 or 10 seconds before touching the car. Touching the car while the penalty is still in effect will result in another being added for serving the penalty incorrectly. If the driver did not serve their penalty in the pit lane, the time penalty will be added to their time at the end of the race.
+A drive-through penalty requires the driver to enter the pit lane, drive through it while obeying its speed limit, and exit without stopping. As a drive-through penalty does not require the driver to stop, it is less costly than a stop-go penalty.
+A ten-second stop-go penalty requires the driver to enter the pit lane, stop at their pit for ten seconds, and exit again. As the stop is designed to punish the driver for an offence, team mechanics are forbidden to work on the offending car at any time while the driver is serving the penalty. Stop-go penalty is the harshest penalty short of disqualification and is given for serious offences such as endangering other drivers. The most recent occurrence of this was at the 2024 Qatar Grand Prix, where Lando Norris was penalized for failing to slow down under double-waved yellow flags, caused by debris on the main straight, costing him around 35 seconds in race time.
+For drive-through and stop-go penalties, a driver has 2 laps from the time their team hears of the penalty to enter the pits; if the driver does not pit within 2 laps, the driver will be black-flagged. The exception to this rule is if the Safety Car is deployed before a driver serves their penalty, in which case the driver is not allowed to serve the penalty until after the Safety Car comes back in. If the driver incurs a penalty within the last 5 laps of the race, the driver need not pit at all; instead, twenty seconds will be added to their total race time in case of a drive-through penalty, and thirty seconds in case of stop-go penalty.
+The most severe penalty in common use is a black flag, which may be imposed for ignoring penalties or for technical irregularities of any sort; it signifies that the driver has been disqualified from the race and their results for that race will not count toward the championship. If the black flag is not considered sufficient for the offence that the driver has committed, the driver may be banned for a number of races after the event. For example, Romain Grosjean's crash at the 2012 Belgian Grand Prix earned him a one-race ban at the next race. In modern Formula One, most disqualifications have occurred due to infringements found during post-race scrutineering; for example, Sebastian Vettel was disqualified from the 2021 Hungarian Grand Prix due to insufficient fuel sample, and Lewis Hamilton and Charles Leclerc were both disqualified during the 2023 United States Grand Prix due to excessive plank wear.
+A grid penalty may be given for the next race, which may increase depending on the severity of a penalty. Grid penalties have also been given due to exceeding the quota of an engine component, but from 2025 gearboxes are exempt. For example, a 5-place grid penalty means if the driver qualified first, they would start the race from sixth position.
+Should a driver accumulate twelve unexpired penalty points at the same time, they will be banned from participating in the following race and would have to be replaced by another driver.
+The most extreme punishment of all (used for seriously endangering the life of another driver or trying to gain an unfair advantage in the championship) is to be excluded from the drivers' world championship that year. Such cases may be taken to judicial court. The only time that this has happened was in 1997, where Michael Schumacher, at the final race, deliberately turned in on Jacques Villeneuve, damaging both cars and taking himself out of the race, though inflicting enough damage to Villeneuve's car to slow him down.
+
+
+==== Pit to car messages ====
+
+There is no restriction on what information can be given to the driver, except during the formation lap.
+Previously, to ensure that drivers drive the car 'alone and unaided' and are not being 'coached' from the pit wall, stricter rules were in place to govern what information could and could not be given to a driver over team radio. For example, it was not allowed for a driver to be given information about driving lines or how to adjust their car to make it faster whilst out on the track. These restrictions were removed at the 2016 German Grand Prix.
+
+
+== History ==
+
+The primary reasons behind rule changes have traditionally been to do with safety and (mostly since 2000) to limit the cost of the sport.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Works cited ==
+
+
+== External links ==
+Current Formula One Sporting Regulations – 2024. Published by the FIA on 31 July 2024.
+Current Formula One Technical Regulations – 2024. Published by the FIA on 17 October 2024.
+Current Formula One Financial Regulations – 2024. Published by the FIA on 31 July 2024.

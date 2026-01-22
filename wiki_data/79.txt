@@ -1,0 +1,4169 @@
+TITLE: Functional data analysis
+
+Functional data analysis (FDA) is a branch of statistics that analyses data providing information about curves, surfaces or anything else varying over a continuum.  In its most general form, under an FDA framework, each sample element of functional data is considered to be a random function. The physical continuum over which these functions are defined is often time, but may also be spatial location, wavelength, probability, etc. Intrinsically, functional data are infinite dimensional. The high intrinsic dimensionality of these data brings challenges for theory as well as computation, where these challenges vary with how the functional data were sampled. However, the high or infinite dimensional structure of the data is a rich source of information and there are many interesting challenges for research and data analysis.
+
+
+== History ==
+Functional data analysis has roots going back to work by Grenander and Karhunen in the 1940s and 1950s. They considered the decomposition of square-integrable continuous time stochastic process into eigencomponents, now known as the Karhunen-Loève decomposition. A rigorous analysis of functional principal components analysis was done in the 1970s by Kleffe, Dauxois and Pousse including results about the asymptotic distribution of the eigenvalues. More recently in the 1990s and 2000s the field has focused more on applications and understanding the effects of dense and sparse observations schemes. The term "Functional Data Analysis" was coined by James O. Ramsay.
+
+
+== Mathematical formalism ==
+Random functions can be viewed as random elements taking values in a Hilbert space, or as a stochastic process.  The former is mathematically convenient, whereas the latter is somewhat more suitable from an applied perspective.  These two approaches coincide if the random functions are continuous and a condition called mean-squared continuity is satisfied.
+
+
+=== Hilbertian random variables ===
+In the Hilbert space viewpoint, one considers an 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+-valued random element 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+, where 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is a separable Hilbert space such as the space of square-integrable functions 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle L^{2}[0,1]}
+  
+.  Under the integrability condition that 
+  
+    
+      
+        
+          E
+        
+        ‖
+        X
+        
+          ‖
+          
+            
+              L
+              
+                2
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          E
+        
+        (
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        
+          |
+        
+        X
+        (
+        t
+        )
+        
+          
+            |
+          
+          
+            2
+          
+        
+        d
+        t
+        )
+        <
+        ∞
+      
+    
+    {\displaystyle \mathbb {E} \|X\|_{L^{2}}^{2}=\mathbb {E} (\int _{0}^{1}|X(t)|^{2}dt)<\infty }
+  
+, one can define the mean of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ as the unique element 
+  
+    
+      
+        μ
+        ∈
+        H
+      
+    
+    {\displaystyle \mu \in H}
+  
+ satisfying
+
+  
+    
+      
+        
+          E
+        
+        ⟨
+        X
+        ,
+        h
+        ⟩
+        =
+        ⟨
+        μ
+        ,
+        h
+        ⟩
+        ,
+        
+        h
+        ∈
+        H
+        .
+      
+    
+    {\displaystyle \mathbb {E} \langle X,h\rangle =\langle \mu ,h\rangle ,\qquad h\in H.}
+  
+
+This formulation is the Pettis integral but the mean can also be defined as Bochner integral 
+  
+    
+      
+        μ
+        =
+        
+          E
+        
+        X
+      
+    
+    {\displaystyle \mu =\mathbb {E} X}
+  
+. Under the integrability condition that 
+  
+    
+      
+        
+          E
+        
+        ‖
+        X
+        
+          ‖
+          
+            
+              L
+              
+                2
+              
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {E} \|X\|_{L^{2}}^{2}}
+  
+ is finite, the covariance operator of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is a linear operator 
+  
+    
+      
+        
+          
+            C
+          
+        
+        :
+        H
+        →
+        H
+      
+    
+    {\displaystyle {\mathcal {C}}:H\to H}
+  
+ that is uniquely defined by the relation
+
+  
+    
+      
+        
+          
+            C
+          
+        
+        h
+        =
+        
+          E
+        
+        [
+        ⟨
+        h
+        ,
+        X
+        −
+        μ
+        ⟩
+        (
+        X
+        −
+        μ
+        )
+        ]
+        ,
+        
+        h
+        ∈
+        H
+        ,
+      
+    
+    {\displaystyle {\mathcal {C}}h=\mathbb {E} [\langle h,X-\mu \rangle (X-\mu )],\qquad h\in H,}
+  
+
+or, in tensor form, 
+  
+    
+      
+        
+          
+            C
+          
+        
+        =
+        
+          E
+        
+        [
+        (
+        X
+        −
+        μ
+        )
+        ⊗
+        (
+        X
+        −
+        μ
+        )
+        ]
+      
+    
+    {\displaystyle {\mathcal {C}}=\mathbb {E} [(X-\mu )\otimes (X-\mu )]}
+  
+.  The spectral theorem allows to decompose 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ as the Karhunen-Loève decomposition
+
+  
+    
+      
+        X
+        =
+        μ
+        +
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            ∞
+          
+        
+        ⟨
+        X
+        ,
+        
+          φ
+          
+            i
+          
+        
+        ⟩
+        
+          φ
+          
+            i
+          
+        
+        ,
+      
+    
+    {\displaystyle X=\mu +\sum _{i=1}^{\infty }\langle X,\varphi _{i}\rangle \varphi _{i},}
+  
+
+where 
+  
+    
+      
+        
+          φ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \varphi _{i}}
+  
+ are eigenvectors of 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}}
+  
+, corresponding to the nonnegative eigenvalues of 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}}
+  
+, in a non-increasing order.  Truncating this infinite series to a finite order underpins functional principal component analysis.
+
+
+=== Stochastic processes ===
+The Hilbertian point of view is mathematically convenient, but abstract; the above considerations do not necessarily even view 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ as a function at all, since common choices of 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ like 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle L^{2}[0,1]}
+  
+ and Sobolev spaces consist of equivalence classes, not functions.  The stochastic process perspective views 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ as a collection of random variables
+
+  
+    
+      
+        {
+        X
+        (
+        t
+        )
+        
+          }
+          
+            t
+            ∈
+            [
+            0
+            ,
+            1
+            ]
+          
+        
+      
+    
+    {\displaystyle \{X(t)\}_{t\in [0,1]}}
+  
+
+indexed by the unit interval (or more generally interval 
+  
+    
+      
+        
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\mathcal {T}}}
+  
+).  The mean and covariance functions are defined in a pointwise manner as
+
+  
+    
+      
+        μ
+        (
+        t
+        )
+        =
+        
+          E
+        
+        X
+        (
+        t
+        )
+        ,
+        
+        Σ
+        (
+        s
+        ,
+        t
+        )
+        =
+        
+          
+            Cov
+          
+        
+        (
+        X
+        (
+        s
+        )
+        ,
+        X
+        (
+        t
+        )
+        )
+        ,
+        
+        s
+        ,
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle \mu (t)=\mathbb {E} X(t),\qquad \Sigma (s,t)={\textrm {Cov}}(X(s),X(t)),\qquad s,t\in [0,1]}
+  
+
+(if 
+  
+    
+      
+        
+          E
+        
+        [
+        X
+        (
+        t
+        
+          )
+          
+            2
+          
+        
+        ]
+        <
+        ∞
+      
+    
+    {\displaystyle \mathbb {E} [X(t)^{2}]<\infty }
+  
+ for all 
+  
+    
+      
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle t\in [0,1]}
+  
+). 
+Under the mean square continuity, 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ and 
+  
+    
+      
+        Σ
+      
+    
+    {\displaystyle \Sigma }
+  
+ are continuous functions and then the covariance function 
+  
+    
+      
+        Σ
+      
+    
+    {\displaystyle \Sigma }
+  
+ defines a covariance operator 
+  
+    
+      
+        
+          
+            C
+          
+        
+        :
+        H
+        →
+        H
+      
+    
+    {\displaystyle {\mathcal {C}}:H\to H}
+  
+ given by 
+
+ 
+The spectral theorem applies to 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}}
+  
+, yielding eigenpairs 
+  
+    
+      
+        (
+        
+          λ
+          
+            j
+          
+        
+        ,
+        
+          φ
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle (\lambda _{j},\varphi _{j})}
+  
+, so that in tensor product notation 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}}
+  
+ writes
+
+  
+    
+      
+        
+          
+            C
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          λ
+          
+            j
+          
+        
+        
+          φ
+          
+            j
+          
+        
+        ⊗
+        
+          φ
+          
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {C}}=\sum _{j=1}^{\infty }\lambda _{j}\varphi _{j}\otimes \varphi _{j}.}
+  
+
+Moreover, since 
+  
+    
+      
+        
+          
+            C
+          
+        
+        f
+      
+    
+    {\displaystyle {\mathcal {C}}f}
+  
+ is continuous for all 
+  
+    
+      
+        f
+        ∈
+        H
+      
+    
+    {\displaystyle f\in H}
+  
+, all the 
+  
+    
+      
+        
+          φ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \varphi _{j}}
+  
+ are continuous.  Mercer's theorem then states that
+
+  
+    
+      
+        
+          sup
+          
+            s
+            ,
+            t
+            ∈
+            [
+            0
+            ,
+            1
+            ]
+          
+        
+        
+          |
+          
+            Σ
+            (
+            s
+            ,
+            t
+            )
+            −
+            
+              ∑
+              
+                j
+                =
+                1
+              
+              
+                K
+              
+            
+            
+              λ
+              
+                j
+              
+            
+            
+              φ
+              
+                j
+              
+            
+            (
+            s
+            )
+            
+              φ
+              
+                j
+              
+            
+            (
+            t
+            )
+          
+          |
+        
+        →
+        0
+        ,
+        
+        K
+        →
+        ∞
+        .
+      
+    
+    {\displaystyle \sup _{s,t\in [0,1]}\left|\Sigma (s,t)-\sum _{j=1}^{K}\lambda _{j}\varphi _{j}(s)\varphi _{j}(t)\right|\to 0,\qquad K\to \infty .}
+  
+
+Finally, under the extra assumption that 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ has continuous sample paths, namely that with probability one, the random function 
+  
+    
+      
+        X
+        :
+        [
+        0
+        ,
+        1
+        ]
+        →
+        
+          R
+        
+      
+    
+    {\displaystyle X:[0,1]\to \mathbb {R} }
+  
+ is continuous, the Karhunen-Loève expansion above holds for 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and the Hilbert space machinery can be subsequently applied.  Continuity of sample paths can be shown using Kolmogorov continuity theorem.
+
+
+== Functional data designs ==
+Functional data are considered as realizations of a stochastic process 
+  
+    
+      
+        X
+        (
+        t
+        )
+        ,
+         
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle X(t),\ t\in [0,1]}
+  
+ that is an 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+ process on a bounded and closed interval 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+ with mean function 
+  
+    
+      
+        μ
+        (
+        t
+        )
+        =
+        
+          E
+        
+        (
+        X
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle \mu (t)=\mathbb {E} (X(t))}
+  
+ and covariance function 
+  
+    
+      
+        Σ
+        (
+        s
+        ,
+        t
+        )
+        =
+        
+          
+            Cov
+          
+        
+        (
+        X
+        (
+        s
+        )
+        ,
+        X
+        (
+        t
+        )
+        )
+      
+    
+    {\displaystyle \Sigma (s,t)={\textrm {Cov}}(X(s),X(t))}
+  
+. The realizations of the process for the i-th subject is 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle X_{i}(\cdot )}
+  
+, and the sample is assumed to consist of 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ independent subjects. The sampling schedule may vary across subjects, denoted as 
+  
+    
+      
+        
+          T
+          
+            i
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          T
+          
+            i
+            
+              N
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle T_{i1},...,T_{iN_{i}}}
+  
+ for the i-th subject. The corresponding i-th observation is denoted as 
+  
+    
+      
+        
+          
+            
+              X
+            
+          
+          
+            i
+          
+        
+        =
+        (
+        
+          X
+          
+            i
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          X
+          
+            i
+            
+              N
+              
+                i
+              
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\textbf {X}}_{i}=(X_{i1},...,X_{iN_{i}})}
+  
+, where 
+  
+    
+      
+        
+          X
+          
+            i
+            j
+          
+        
+        =
+        
+          X
+          
+            i
+          
+        
+        (
+        
+          T
+          
+            i
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle X_{ij}=X_{i}(T_{ij})}
+  
+. In addition, the measurement of 
+  
+    
+      
+        
+          X
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle X_{ij}}
+  
+ is assumed to have random noise 
+  
+    
+      
+        
+          ϵ
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle \epsilon _{ij}}
+  
+ with 
+  
+    
+      
+        
+          E
+        
+        (
+        
+          ϵ
+          
+            i
+            j
+          
+        
+        )
+        =
+        0
+      
+    
+    {\displaystyle \mathbb {E} (\epsilon _{ij})=0}
+  
+ and 
+  
+    
+      
+        
+          
+            Var
+          
+        
+        (
+        
+          ϵ
+          
+            i
+            j
+          
+        
+        )
+        =
+        
+          σ
+          
+            i
+            j
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\textrm {Var}}(\epsilon _{ij})=\sigma _{ij}^{2}}
+  
+, which are independent across 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ and 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+.
+
+
+=== 1. Fully observed functions without noise at arbitrarily dense grid ===
+Measurements 
+  
+    
+      
+        
+          Y
+          
+            i
+            t
+          
+        
+        =
+        
+          X
+          
+            i
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle Y_{it}=X_{i}(t)}
+  
+ available for all 
+  
+    
+      
+        t
+        ∈
+        
+          
+            I
+          
+        
+        ,
+        
+        i
+        =
+        1
+        ,
+        …
+        ,
+        n
+      
+    
+    {\displaystyle t\in {\mathcal {I}},\,i=1,\ldots ,n}
+  
+
+Often unrealistic but mathematically convenient.
+Real life example: Tecator spectral data.
+
+
+=== 2. Densely sampled functions with noisy measurements (dense design) ===
+Measurements 
+  
+    
+      
+        
+          Y
+          
+            i
+            j
+          
+        
+        =
+        
+          X
+          
+            i
+          
+        
+        (
+        
+          T
+          
+            i
+            j
+          
+        
+        )
+        +
+        
+          ε
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle Y_{ij}=X_{i}(T_{ij})+\varepsilon _{ij}}
+  
+, where 
+  
+    
+      
+        
+          T
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle T_{ij}}
+  
+ are recorded on a regular grid,
+
+  
+    
+      
+        
+          T
+          
+            i
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          T
+          
+            i
+            
+              N
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle T_{i1},\ldots ,T_{iN_{i}}}
+  
+, and 
+  
+    
+      
+        
+          N
+          
+            i
+          
+        
+        →
+        ∞
+      
+    
+    {\displaystyle N_{i}\rightarrow \infty }
+  
+ applies to typical functional data.
+Real life example: Berkeley Growth Study Data and Stock data
+
+
+=== 3. Sparsely sampled functions with noisy measurements (longitudinal data) ===
+Measurements 
+  
+    
+      
+        
+          Y
+          
+            i
+            j
+          
+        
+        =
+        
+          X
+          
+            i
+          
+        
+        (
+        
+          T
+          
+            i
+            j
+          
+        
+        )
+        +
+        
+          ε
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle Y_{ij}=X_{i}(T_{ij})+\varepsilon _{ij}}
+  
+, where 
+  
+    
+      
+        
+          T
+          
+            i
+            j
+          
+        
+      
+    
+    {\displaystyle T_{ij}}
+  
+ are random times and their number 
+  
+    
+      
+        
+          N
+          
+            i
+          
+        
+      
+    
+    {\displaystyle N_{i}}
+  
+ per subject is random and finite.
+Real life example: CD4 count data for AIDS patients.
+
+
+== Functional principal component analysis ==
+Functional principal component analysis (FPCA) is the most prevalent tool in FDA, partly because FPCA facilitates dimension reduction of the inherently infinite-dimensional functional data to finite-dimensional random vector of scores. More specifically, dimension reduction is achieved by expanding the underlying observed random trajectories 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X_{i}(t)}
+  
+ in a functional basis consisting of the eigenfunctions of the covariance operator on 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+. Consider the covariance operator 
+  
+    
+      
+        
+          
+            C
+          
+        
+        :
+        
+          L
+          
+            2
+          
+        
+        [
+        0
+        ,
+        1
+        ]
+        →
+        
+          L
+          
+            2
+          
+        
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle {\mathcal {C}}:L^{2}[0,1]\rightarrow L^{2}[0,1]}
+  
+ as in (1), which is a compact operator on Hilbert space.  
+By Mercer's theorem, the kernel function of 
+  
+    
+      
+        
+          
+            C
+          
+        
+      
+    
+    {\displaystyle {\mathcal {C}}}
+  
+, i.e., the covariance function 
+  
+    
+      
+        Σ
+        (
+        ⋅
+        ,
+        ⋅
+        )
+      
+    
+    {\displaystyle \Sigma (\cdot ,\cdot )}
+  
+, has spectral decomposition 
+  
+    
+      
+        Σ
+        (
+        s
+        ,
+        t
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          λ
+          
+            k
+          
+        
+        
+          φ
+          
+            k
+          
+        
+        (
+        s
+        )
+        
+          φ
+          
+            k
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \Sigma (s,t)=\sum _{k=1}^{\infty }\lambda _{k}\varphi _{k}(s)\varphi _{k}(t)}
+  
+, where the series convergence is absolute and uniform, and 
+  
+    
+      
+        
+          λ
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \lambda _{k}}
+  
+ are real-valued nonnegative eigenvalues in descending order with the corresponding orthonormal eigenfunctions 
+  
+    
+      
+        
+          φ
+          
+            k
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle \varphi _{k}(t)}
+  
+ . By the Karhunen–Loève theorem, the FPCA expansion of an underlying random trajectory is 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+        (
+        t
+        )
+        =
+        μ
+        (
+        t
+        )
+        +
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          A
+          
+            i
+            k
+          
+        
+        
+          φ
+          
+            k
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X_{i}(t)=\mu (t)+\sum _{k=1}^{\infty }A_{ik}\varphi _{k}(t)}
+  
+, where 
+  
+    
+      
+        
+          A
+          
+            i
+            k
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        (
+        t
+        )
+        −
+        μ
+        (
+        t
+        )
+        )
+        
+          φ
+          
+            k
+          
+        
+        (
+        t
+        )
+        d
+        t
+      
+    
+    {\displaystyle A_{ik}=\int _{0}^{1}(X_{i}(t)-\mu (t))\varphi _{k}(t)dt}
+  
+ are the functional principal components (FPCs), sometimes referred to as scores. 
+The Karhunen–Loève expansion facilitates dimension reduction in the sense that the partial sum converges uniformly, i.e., 
+  
+    
+      
+        
+          lim
+          
+            K
+            →
+            ∞
+          
+        
+        
+          sup
+          
+            t
+            ∈
+            [
+            0
+            ,
+            1
+            ]
+          
+        
+        
+          E
+        
+        [
+        
+          X
+          
+            i
+          
+        
+        (
+        t
+        )
+        −
+        μ
+        (
+        t
+        )
+        −
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            K
+          
+        
+        
+          A
+          
+            i
+            k
+          
+        
+        
+          φ
+          
+            k
+          
+        
+        (
+        t
+        )
+        
+          ]
+          
+            2
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle \lim _{K\rightarrow \infty }\sup _{t\in [0,1]}\mathbb {E} [X_{i}(t)-\mu (t)-\sum _{k=1}^{K}A_{ik}\varphi _{k}(t)]^{2}\rightarrow 0}
+  
+ 
+and thus the partial sum with a large enough 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+ yields a good approximation to the infinite sum. Thereby, the information in 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle X_{i}}
+  
+ is reduced from infinite dimensional to a 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+  
+-dimensional vector 
+  
+    
+      
+        
+          A
+          
+            i
+          
+        
+        =
+        (
+        
+          A
+          
+            i
+            1
+          
+        
+        ,
+        .
+        .
+        .
+        ,
+        
+          A
+          
+            i
+            K
+          
+        
+        )
+      
+    
+    {\displaystyle A_{i}=(A_{i1},...,A_{iK})}
+  
+ with the approximated process： 
+
+Other popular bases include spline, Fourier series and wavelet bases. Important applications of FPCA include the modes of variation and functional principal component regression.
+
+
+== Functional linear regression models ==
+Functional linear models can be viewed as an extension of the traditional multivariate linear models that associates vector responses with vector covariates. The traditional linear model with scalar response 
+  
+    
+      
+        Y
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle Y\in \mathbb {R} }
+  
+ and vector covariate 
+  
+    
+      
+        X
+        ∈
+        
+          
+            R
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle X\in \mathbb {R} ^{p}}
+  
+ can be expressed as 
+
+ 
+where 
+  
+    
+      
+        ⟨
+        ⋅
+        ,
+        ⋅
+        ⟩
+      
+    
+    {\displaystyle \langle \cdot ,\cdot \rangle }
+  
+ denotes the inner product in Euclidean space, 
+  
+    
+      
+        
+          β
+          
+            0
+          
+        
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle \beta _{0}\in \mathbb {R} }
+  
+ and 
+  
+    
+      
+        β
+        ∈
+        
+          
+            R
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \beta \in \mathbb {R} ^{p}}
+  
+ denote the regression coefficients, and 
+  
+    
+      
+        ε
+      
+    
+    {\displaystyle \varepsilon }
+  
+ is a zero mean finite variance random error (noise). Functional linear models can be divided into two types based on the responses.
+
+
+=== Functional regression models with scalar response ===
+Replacing the vector covariate 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and the coefficient vector 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ in model (3) by a centered functional covariate 
+  
+    
+      
+        
+          X
+          
+            c
+          
+        
+        (
+        t
+        )
+        =
+        X
+        (
+        t
+        )
+        −
+        μ
+        (
+        t
+        )
+      
+    
+    {\displaystyle X^{c}(t)=X(t)-\mu (t)}
+  
+ and coefficient function 
+  
+    
+      
+        β
+        =
+        β
+        (
+        t
+        )
+      
+    
+    {\displaystyle \beta =\beta (t)}
+  
+ for 
+  
+    
+      
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle t\in [0,1]}
+  
+ and replacing the inner product in Euclidean space by that in Hilbert space 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+      
+    
+    {\displaystyle L^{2}}
+  
+, one arrives at the functional linear model
+
+The simple functional linear model (4) can be extended to multiple functional covariates, 
+  
+    
+      
+        {
+        
+          X
+          
+            j
+          
+        
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \{X_{j}\}_{j=1}^{p}}
+  
+, also including additional vector covariates 
+  
+    
+      
+        Z
+        =
+        (
+        
+          Z
+          
+            1
+          
+        
+        ,
+        ⋯
+        ,
+        
+          Z
+          
+            q
+          
+        
+        )
+      
+    
+    {\displaystyle Z=(Z_{1},\cdots ,Z_{q})}
+  
+, where 
+  
+    
+      
+        
+          Z
+          
+            1
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle Z_{1}=1}
+  
+, by
+
+where 
+  
+    
+      
+        θ
+        ∈
+        
+          
+            R
+            
+              q
+            
+          
+        
+      
+    
+    {\displaystyle \theta \in \mathbb {R^{q}} }
+  
+ is regression coefficient for 
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  
+, the domain of 
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+      
+    
+    {\displaystyle X_{j}}
+  
+ is 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+, 
+  
+    
+      
+        
+          X
+          
+            j
+          
+          
+            c
+          
+        
+      
+    
+    {\displaystyle X_{j}^{c}}
+  
+ is the centered functional covariate given by 
+  
+    
+      
+        
+          X
+          
+            j
+          
+          
+            c
+          
+        
+        (
+        t
+        )
+        =
+        
+          X
+          
+            j
+          
+        
+        (
+        t
+        )
+        −
+        
+          μ
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X_{j}^{c}(t)=X_{j}(t)-\mu _{j}(t)}
+  
+, and 
+  
+    
+      
+        
+          β
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \beta _{j}}
+  
+ is regression coefficient function for 
+  
+    
+      
+        
+          X
+          
+            j
+          
+          
+            c
+          
+        
+      
+    
+    {\displaystyle X_{j}^{c}}
+  
+, for 
+  
+    
+      
+        j
+        =
+        1
+        ,
+        …
+        ,
+        p
+      
+    
+    {\displaystyle j=1,\ldots ,p}
+  
+. Models (4) and (5) have been studied extensively.
+
+
+=== Functional regression models with functional response ===
+Consider a functional response 
+  
+    
+      
+        Y
+        (
+        s
+        )
+      
+    
+    {\displaystyle Y(s)}
+  
+ on 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+ and multiple functional covariates 
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X_{j}(t)}
+  
+, 
+  
+    
+      
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle t\in [0,1]}
+  
+, 
+  
+    
+      
+        j
+        =
+        1
+        ,
+        …
+        ,
+        p
+      
+    
+    {\displaystyle j=1,\ldots ,p}
+  
+. Two major models have been considered in this setup. One of these two models, generally referred to as functional linear model (FLM), can be written as:
+
+where 
+  
+    
+      
+        
+          α
+          
+            0
+          
+        
+        (
+        s
+        )
+      
+    
+    {\displaystyle \alpha _{0}(s)}
+  
+ is the functional intercept, for 
+  
+    
+      
+        j
+        =
+        1
+        ,
+        …
+        ,
+        p
+      
+    
+    {\displaystyle j=1,\ldots ,p}
+  
+ , 
+  
+    
+      
+        
+          X
+          
+            j
+          
+          
+            c
+          
+        
+        (
+        t
+        )
+        =
+        
+          X
+          
+            j
+          
+        
+        (
+        t
+        )
+        −
+        
+          μ
+          
+            j
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X_{j}^{c}(t)=X_{j}(t)-\mu _{j}(t)}
+  
+ is a centered functional covariate on 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+, 
+  
+    
+      
+        
+          α
+          
+            j
+          
+        
+        (
+        s
+        ,
+        t
+        )
+      
+    
+    {\displaystyle \alpha _{j}(s,t)}
+  
+ is the corresponding functional slopes with same domain, respectively, and 
+  
+    
+      
+        ε
+        (
+        s
+        )
+      
+    
+    {\displaystyle \varepsilon (s)}
+  
+ is usually a random process with mean zero and finite variance. In this case, at any given time 
+  
+    
+      
+        s
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle s\in [0,1]}
+  
+, the value of 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+, i.e., 
+  
+    
+      
+        Y
+        (
+        s
+        )
+      
+    
+    {\displaystyle Y(s)}
+  
+, depends on the entire trajectories of 
+  
+    
+      
+        {
+        
+          X
+          
+            j
+          
+        
+        (
+        t
+        )
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \{X_{j}(t)\}_{j=1}^{p}}
+  
+. Model (6) has been studied extensively.
+
+
+==== Function-on-scalar regression ====
+In particular, taking 
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle X_{j}(\cdot )}
+  
+ as a constant function yields a special case of model (6)
+  
+    
+      
+        Y
+        (
+        s
+        )
+        =
+        
+          α
+          
+            0
+          
+        
+        (
+        s
+        )
+        +
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            p
+          
+        
+        
+          X
+          
+            j
+          
+        
+        
+          α
+          
+            j
+          
+        
+        (
+        s
+        )
+        +
+        ε
+        (
+        s
+        )
+        ,
+         
+        
+          for
+        
+         
+        s
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+        ,
+      
+    
+    {\displaystyle Y(s)=\alpha _{0}(s)+\sum _{j=1}^{p}X_{j}\alpha _{j}(s)+\varepsilon (s),\ {\text{for}}\ s\in [0,1],}
+  
+which is a functional linear model with functional responses and scalar covariates.
+
+
+==== Concurrent regression models ====
+This model is given by
+
+where 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            p
+          
+        
+      
+    
+    {\displaystyle X_{1},\ldots ,X_{p}}
+  
+ are functional covariates on 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+, 
+  
+    
+      
+        
+          β
+          
+            0
+          
+        
+        ,
+        
+          β
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          β
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \beta _{0},\beta _{1},\ldots ,\beta _{p}}
+  
+ are the coefficient functions defined on the same interval and 
+  
+    
+      
+        ε
+        (
+        s
+        )
+      
+    
+    {\displaystyle \varepsilon (s)}
+  
+ is usually assumed to be a random process with mean zero and finite variance. This model assumes that the value of 
+  
+    
+      
+        Y
+        (
+        s
+        )
+      
+    
+    {\displaystyle Y(s)}
+  
+ depends on the current value of 
+  
+    
+      
+        {
+        
+          X
+          
+            j
+          
+        
+        (
+        s
+        )
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \{X_{j}(s)\}_{j=1}^{p}}
+  
+ only and not the history 
+  
+    
+      
+        {
+        
+          X
+          
+            j
+          
+        
+        (
+        t
+        )
+        :
+        t
+        ≤
+        s
+        
+          }
+          
+            j
+            =
+            1
+          
+          
+            p
+          
+        
+      
+    
+    {\displaystyle \{X_{j}(t):t\leq s\}_{j=1}^{p}}
+  
+ or future value. Hence, it is a "concurrent regression model", which is also referred as "varying-coefficient" model. Further, various estimation methods have been proposed.
+
+
+== Functional nonlinear regression models ==
+Direct nonlinear extensions of the classical functional linear regression models (FLMs) still involve a linear predictor, but combine it with a nonlinear link function, analogous to the idea of generalized linear model from the conventional linear model. Developments towards fully nonparametric regression models for functional data encounter problems such as curse of dimensionality. In order to bypass the "curse" and the metric selection problem, we are motivated to consider nonlinear functional regression models, which are subject to some structural constraints but do not overly infringe flexibility. One desires models that retain polynomial rates of convergence, while being more flexible than, say, functional linear models. Such models are particularly useful when diagnostics for the functional linear model indicate lack of fit, which is often encountered in real life situations.  In particular, functional polynomial models, functional single and multiple index models and functional additive models are three special cases of functional nonlinear regression models.
+
+
+=== Functional polynomial regression models ===
+Functional polynomial regression models may be viewed as a natural extension of the Functional Linear Models (FLMs) with scalar responses, analogous to extending linear regression model  to polynomial regression model. For a scalar response 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ and a functional covariate 
+  
+    
+      
+        X
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle X(\cdot )}
+  
+ with domain 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+ and the corresponding centered predictor processes 
+  
+    
+      
+        
+          X
+          
+            c
+          
+        
+      
+    
+    {\displaystyle X^{c}}
+  
+, the simplest and the most prominent member in the family of functional polynomial regression models is the quadratic functional regression given as follows,
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        α
+        +
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        β
+        (
+        t
+        )
+        
+          X
+          
+            c
+          
+        
+        (
+        t
+        )
+        
+        d
+        t
+        +
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        γ
+        (
+        s
+        ,
+        t
+        )
+        
+          X
+          
+            c
+          
+        
+        (
+        s
+        )
+        
+          X
+          
+            c
+          
+        
+        (
+        t
+        )
+        
+        d
+        s
+        
+        d
+        t
+      
+    
+    {\displaystyle \mathbb {E} (Y|X)=\alpha +\int _{0}^{1}\beta (t)X^{c}(t)\,dt+\int _{0}^{1}\int _{0}^{1}\gamma (s,t)X^{c}(s)X^{c}(t)\,ds\,dt}
+  
+where 
+  
+    
+      
+        
+          X
+          
+            c
+          
+        
+        (
+        ⋅
+        )
+        =
+        X
+        (
+        ⋅
+        )
+        −
+        
+          E
+        
+        (
+        X
+        (
+        ⋅
+        )
+        )
+      
+    
+    {\displaystyle X^{c}(\cdot )=X(\cdot )-\mathbb {E} (X(\cdot ))}
+  
+ is the centered functional covariate, 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ is a scalar coefficient, 
+  
+    
+      
+        β
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle \beta (\cdot )}
+  
+ and 
+  
+    
+      
+        γ
+        (
+        ⋅
+        ,
+        ⋅
+        )
+      
+    
+    {\displaystyle \gamma (\cdot ,\cdot )}
+  
+ are coefficient functions with domains 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+ and 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+        ×
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]\times [0,1]}
+  
+, respectively. In addition to the parameter function β that the above functional quadratic regression model shares with the FLM, it also features a parameter surface γ. By analogy to FLMs with scalar responses, estimation of functional polynomial models can be obtained through expanding both the centered covariate 
+  
+    
+      
+        
+          X
+          
+            c
+          
+        
+      
+    
+    {\displaystyle X^{c}}
+  
+ and the coefficient functions 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ and 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  
+ in an orthonormal basis.
+
+
+=== Functional single and multiple index models ===
+A functional multiple index model is given as below, with symbols having their usual meanings as formerly described,
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        g
+        
+          (
+          
+            
+              ∫
+              
+                0
+              
+              
+                1
+              
+            
+            
+              X
+              
+                c
+              
+            
+            (
+            t
+            )
+            
+              β
+              
+                1
+              
+            
+            (
+            t
+            )
+            
+            d
+            t
+            ,
+            …
+            ,
+            
+              ∫
+              
+                0
+              
+              
+                1
+              
+            
+            
+              X
+              
+                c
+              
+            
+            (
+            t
+            )
+            
+              β
+              
+                p
+              
+            
+            (
+            t
+            )
+            
+            d
+            t
+          
+          )
+        
+      
+    
+    {\displaystyle \mathbb {E} (Y|X)=g\left(\int _{0}^{1}X^{c}(t)\beta _{1}(t)\,dt,\ldots ,\int _{0}^{1}X^{c}(t)\beta _{p}(t)\,dt\right)}
+  
+Here g represents an (unknown) general smooth function defined on a p-dimensional domain. The case  
+  
+    
+      
+        p
+        =
+        1
+      
+    
+    {\displaystyle p=1}
+  
+ yields a functional single index model while multiple index models correspond to the case  
+  
+    
+      
+        p
+        >
+        1
+      
+    
+    {\displaystyle p>1}
+  
+. However, for 
+  
+    
+      
+        p
+        >
+        1
+      
+    
+    {\displaystyle p>1}
+  
+, this model is problematic due to curse of dimensionality. With 
+  
+    
+      
+        p
+        >
+        1
+      
+    
+    {\displaystyle p>1}
+  
+ and relatively small sample sizes, the estimator given by this model often has large variance.
+
+
+=== Functional additive models (FAMs) ===
+For a given orthonormal basis 
+  
+    
+      
+        {
+        
+          ϕ
+          
+            k
+          
+        
+        
+          }
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+      
+    
+    {\displaystyle \{\phi _{k}\}_{k=1}^{\infty }}
+  
+ on 
+  
+    
+      
+        
+          L
+          
+            2
+          
+        
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle L^{2}[0,1]}
+  
+, we can expand 
+  
+    
+      
+        
+          X
+          
+            c
+          
+        
+        (
+        t
+        )
+        =
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          x
+          
+            k
+          
+        
+        
+          ϕ
+          
+            k
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle X^{c}(t)=\sum _{k=1}^{\infty }x_{k}\phi _{k}(t)}
+  
+ on the domain 
+  
+    
+      
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle [0,1]}
+  
+.
+A functional linear model with scalar responses (see (3)) can thus be written as follows,
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        
+          E
+        
+        (
+        Y
+        )
+        +
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          β
+          
+            k
+          
+        
+        
+          x
+          
+            k
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbb {E} (Y|X)=\mathbb {E} (Y)+\sum _{k=1}^{\infty }\beta _{k}x_{k}.}
+  
+One form of FAMs is obtained by replacing the linear function of 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+      
+    
+    {\displaystyle x_{k}}
+  
+ in the above expression ( i.e., 
+  
+    
+      
+        
+          β
+          
+            k
+          
+        
+        
+          x
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \beta _{k}x_{k}}
+  
+) by a general smooth function 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+      
+    
+    {\displaystyle f_{k}}
+  
+, analogous to the extension of multiple linear regression models to additive models and is expressed as,
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        
+          E
+        
+        (
+        Y
+        )
+        +
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          f
+          
+            k
+          
+        
+        (
+        
+          x
+          
+            k
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \mathbb {E} (Y|X)=\mathbb {E} (Y)+\sum _{k=1}^{\infty }f_{k}(x_{k}),}
+  
+where 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+      
+    
+    {\displaystyle f_{k}}
+  
+ satisfies 
+  
+    
+      
+        
+          E
+        
+        (
+        
+          f
+          
+            k
+          
+        
+        (
+        
+          x
+          
+            k
+          
+        
+        )
+        )
+        =
+        0
+      
+    
+    {\displaystyle \mathbb {E} (f_{k}(x_{k}))=0}
+  
+ for 
+  
+    
+      
+        k
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle k\in \mathbb {N} }
+  
+. This constraint on the general smooth functions 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+      
+    
+    {\displaystyle f_{k}}
+  
+ ensures identifiability in the sense that the estimates of these additive component functions do not interfere with that of the intercept term 
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        )
+      
+    
+    {\displaystyle \mathbb {E} (Y)}
+  
+. Another form of FAM is the continuously additive model, expressed as,
+  
+    
+      
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        
+          E
+        
+        (
+        Y
+        )
+        +
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        g
+        (
+        t
+        ,
+        X
+        (
+        t
+        )
+        )
+        d
+        t
+      
+    
+    {\displaystyle \mathbb {E} (Y|X)=\mathbb {E} (Y)+\int _{0}^{1}g(t,X(t))dt}
+  
+for a bivariate smooth additive surface 
+  
+    
+      
+        g
+        :
+        [
+        0
+        ,
+        1
+        ]
+        ×
+        
+          R
+        
+        ⟶
+        
+          R
+        
+      
+    
+    {\displaystyle g:[0,1]\times \mathbb {R} \longrightarrow \mathbb {R} }
+  
+ which is required to satisfy 
+  
+    
+      
+        
+          E
+        
+        [
+        g
+        (
+        t
+        ,
+        X
+        (
+        t
+        )
+        )
+        ]
+        =
+        0
+      
+    
+    {\displaystyle \mathbb {E} [g(t,X(t))]=0}
+  
+ for all 
+  
+    
+      
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle t\in [0,1]}
+  
+, in order to ensure identifiability.
+
+
+=== Generalized functional linear model ===
+An obvious and direct extension of FLMs with scalar responses (see (3)) is to add a link function leading to a generalized functional linear model (GFLM) in analogy to the generalized linear model (GLM). The three components of the GFLM are:
+
+Linear predictor 
+  
+    
+      
+        η
+        =
+        
+          β
+          
+            0
+          
+        
+        +
+        
+          ∫
+          
+            0
+          
+          
+            1
+          
+        
+        
+          X
+          
+            c
+          
+        
+        (
+        t
+        )
+        β
+        (
+        t
+        )
+        
+        d
+        t
+      
+    
+    {\displaystyle \eta =\beta _{0}+\int _{0}^{1}X^{c}(t)\beta (t)\,dt}
+  
+;  [systematic component]
+Variance function 
+  
+    
+      
+        
+          Var
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+        =
+        V
+        (
+        μ
+        )
+      
+    
+    {\displaystyle {\text{Var}}(Y|X)=V(\mu )}
+  
+, where 
+  
+    
+      
+        μ
+        =
+        
+          E
+        
+        (
+        Y
+        
+          |
+        
+        X
+        )
+      
+    
+    {\displaystyle \mu =\mathbb {E} (Y|X)}
+  
+ is the conditional mean;  [random component]
+Link function 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  
+ connecting the conditional mean 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ and the linear predictor 
+  
+    
+      
+        η
+      
+    
+    {\displaystyle \eta }
+  
+ through 
+  
+    
+      
+        μ
+        =
+        g
+        (
+        η
+        )
+      
+    
+    {\displaystyle \mu =g(\eta )}
+  
+.  [systematic component]
+
+
+== Clustering and classification of functional data ==
+For vector-valued multivariate data, k-means partitioning methods and hierarchical clustering are two main approaches. These classical clustering concepts for vector-valued multivariate data have been extended to functional data. For clustering of functional data, k-means clustering methods are more popular than hierarchical clustering methods. For k-means clustering on functional data, mean functions are usually regarded as the cluster centers. Covariance structures have also been taken into consideration. Besides k-means type clustering, functional clustering based on mixture models is also widely used in clustering vector-valued multivariate data and has been extended to functional data clustering. Furthermore, Bayesian hierarchical clustering also plays an important role in the development of model-based functional clustering. 
+Functional classification assigns a group membership to a new data object either based on functional regression or functional discriminant analysis. Functional data classification methods based on functional regression models use class levels as responses and the observed functional data and other covariates as predictors. For regression based functional classification models, functional generalized linear models or more specifically, functional binary regression, such as functional logistic regression for binary responses, are commonly used classification approaches. More generally, the generalized functional linear regression model based on the FPCA approach is used. Functional Linear Discriminant Analysis (FLDA) has also been considered as a classification method for functional data. Functional data classification involving density ratios has also been proposed. A study of the asymptotic behavior of the proposed classifiers in the large sample limit shows that under certain conditions the misclassification rate converges to zero, a phenomenon that has been referred to as "perfect classification".
+
+
+== Time warping ==
+
+
+=== Motivations ===
+
+In addition to amplitude variation, time variation may also be assumed to present in functional data. Time variation occurs when the subject-specific timing of certain events of interest varies among subjects. One classical example is the Berkeley Growth Study Data, where the amplitude variation is the growth rate and the time variation explains the difference in children's biological age at which the pubertal and the pre-pubertal growth spurt occurred. In the presence of time variation, the cross-sectional mean function may not be an efficient estimate as peaks and troughs are located randomly and thus meaningful signals may be distorted or hidden.
+Time warping, also known as curve registration, curve alignment or time synchronization, aims to identify and separate amplitude variation and time variation. If both time and amplitude variation are present, then the observed functional data 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+      
+    
+    {\displaystyle Y_{i}}
+  
+ can be modeled as 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+        (
+        t
+        )
+        =
+        
+          X
+          
+            i
+          
+        
+        [
+        
+          h
+          
+            i
+          
+          
+            −
+            1
+          
+        
+        (
+        t
+        )
+        ]
+        ,
+        t
+        ∈
+        [
+        0
+        ,
+        1
+        ]
+      
+    
+    {\displaystyle Y_{i}(t)=X_{i}[h_{i}^{-1}(t)],t\in [0,1]}
+  
+, where 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+        
+          
+            ∼
+            
+              i
+              i
+              d
+            
+          
+        
+        X
+      
+    
+    {\displaystyle X_{i}{\overset {iid}{\sim }}X}
+  
+ is a latent amplitude function and 
+  
+    
+      
+        
+          h
+          
+            i
+          
+        
+        
+          
+            ∼
+            
+              i
+              i
+              d
+            
+          
+        
+        h
+      
+    
+    {\displaystyle h_{i}{\overset {iid}{\sim }}h}
+  
+ is a latent time warping function that corresponds to a cumulative distribution function. The time warping functions 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+  
+ are assumed to be invertible and to satisfy 
+  
+    
+      
+        
+          E
+        
+        (
+        
+          h
+          
+            −
+            1
+          
+        
+        (
+        t
+        )
+        )
+        =
+        t
+      
+    
+    {\displaystyle \mathbb {E} (h^{-1}(t))=t}
+  
+.
+The simplest case of a family of warping functions to specify phase variation is linear transformation, that is 
+  
+    
+      
+        h
+        (
+        t
+        )
+        =
+        δ
+        +
+        γ
+        t
+      
+    
+    {\displaystyle h(t)=\delta +\gamma t}
+  
+, which warps the time of an underlying template function by subjected-specific shift and scale. More general class of warping functions includes diffeomorphisms of the domain to itself, that is, loosely speaking, a class of invertible functions that maps the compact domain to itself such that both the function and its inverse are smooth. The set of linear transformation is contained in the set of diffeomorphisms. One challenge in time warping is identifiability of amplitude and phase variation. Specific assumptions are required to break this non-identifiability.
+
+
+=== Methods ===
+Earlier approaches include dynamic time warping (DTW) used for applications such as speech recognition. Another traditional method for time warping is landmark registration, which aligns special features such as peak locations to an average location. Other relevant warping methods include pairwise warping, registration using  
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\mathcal {L}}^{2}}
+  
+ distance and elastic warping.
+
+
+==== Dynamic time warping ====
+The template function is determined through an iteration process, starting from cross-sectional mean, performing registration and recalculating the cross-sectional mean for the warped curves, expecting convergence after a few iterations. DTW minimizes a cost function through dynamic programming. Problems of non-smooth differentiable warps or greedy computation in DTW can be resolved by adding a regularization term to the cost function.
+
+
+==== Landmark registration ====
+Landmark registration (or feature alignment) assumes well-expressed features are present in all sample curves and uses the location of such features as a gold-standard. Special features such as peak or trough locations in functions or derivatives are aligned to their average locations on the template function. Then the warping function is introduced through a smooth transformation from the average location to the subject-specific locations. A problem of landmark registration is that the features may be missing or hard to identify due to the noise in the data.
+
+
+== Extensions ==
+So far we considered scalar valued stochastic process, 
+  
+    
+      
+        {
+        X
+        (
+        t
+        )
+        
+          }
+          
+            t
+            ∈
+            
+              
+                T
+              
+            
+          
+        
+      
+    
+    {\displaystyle \{X(t)\}_{t\in {\mathcal {T}}}}
+  
+, defined on one dimensional time domain.
+
+
+=== Multidimensional domain of ===
+  
+    
+      
+        X
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle X(\cdot )}
+  
+
+The domain of 
+  
+    
+      
+        X
+        (
+        ⋅
+        )
+      
+    
+    {\displaystyle X(\cdot )}
+  
+ can be in 
+  
+    
+      
+        
+          R
+          
+            p
+          
+        
+      
+    
+    {\displaystyle R^{p}}
+  
+, for example the data could be a sample of random surfaces.
+
+
+=== Multivariate stochastic process ===
+The range set of the stochastic process may be extended from 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+  
+ to 
+  
+    
+      
+        
+          R
+          
+            p
+          
+        
+      
+    
+    {\displaystyle R^{p}}
+  
+ and further to nonlinear manifolds, Hilbert spaces and eventually to metric spaces.
+
+
+== Python packages ==
+There are Python packages to work with functional data, and its representation, perform exploratory analysis, or preprocessing, and among other tasks such as inference, classification, regression or clustering of functional data.
+
+scikit-fda
+
+
+== R packages ==
+Some packages can handle functional data under both dense and longitudinal designs.
+
+fda
+refund
+fdapace
+FDboost
+classiFunc
+fda.usc
+dtw
+fdasrvf
+
+
+== See also ==
+Functional principal component analysis
+Karhunen–Loève theorem
+Modes of variation
+Functional regression
+Generalized functional linear model
+Stochastic processes
+Lp space
+Variance function
+
+
+== Further reading ==
+Ramsay, J. O. and Silverman, B.W. (2005) Functional data analysis, 2nd ed., New York: Springer, ISBN 0-387-40080-X
+Horvath, L. and Kokoszka, P. (2012) Inference for Functional Data with Applications, New York: Springer,  ISBN 978-1-4614-3654-6
+Hsing, T. and Eubank, R. (2015) Theoretical Foundations of Functional Data Analysis, with an Introduction to Linear Operators, Wiley series in probability and statistics, John Wiley & Sons, Ltd, ISBN 978-0-470-01691-6
+Morris, J. (2015) Functional Regression, Annual Review of Statistics and Its Application, Vol. 2, 321 - 359, https://doi.org/10.1146/annurev-statistics-010814-020413
+Wang et al. (2016) Functional Data Analysis, Annual Review of Statistics and Its Application, Vol. 3, 257-295, https://doi.org/10.1146/annurev-statistics-041715-033624
+Wu, Y., Huang, C. & Srivastava, A. (2024) Shape-based functional data analysis, TEST, Vol. 33, 1–47, https://doi.org/10.1007/s11749-023-00876-9
+Category:Regression analysis
+
+
+== References ==
